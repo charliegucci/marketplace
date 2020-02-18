@@ -1,0 +1,7 @@
+home
+
+<%= @users %>
+<%= @user_count %>
+<%# if signed out: "Sign In" and "Register" %>
+<%# if signed in: "Sign Out" %>
+<%= link_to "Sign Out", destroy_user_session_path, method: :delete %>

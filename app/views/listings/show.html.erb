@@ -1,0 +1,6 @@
+<% listing = @listing%>
+<%= listing.breed.name %>
+  <%= listing.breeder_prefix %>
+  <%= listing.description %>
+  <%= link_to "Edit", edit_listing_path(id: listing.id) %>
+  <%= link_to "Delete", listing_path(listing), method: :delete %>

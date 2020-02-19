@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  breeder_prefix: MyString
+  breed: one
+  description: MyText
+
+two:
+  breeder_prefix: MyString
+  breed: two
+  description: MyText

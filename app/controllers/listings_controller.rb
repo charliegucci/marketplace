@@ -1,10 +1,12 @@
 class ListingsController < ApplicationController
   def index
     @listings = Listing.all
+    # @breeds = Breed.all
   end
 
   def new
     @listing = Listing.new
+    # @breeds = Breed.all.map{ |breed| [breed.name, breed.id]}
   end
 
   def create
@@ -23,6 +25,7 @@ class ListingsController < ApplicationController
 
   def edit
     @listing = Listing.find_by(id: params[:id])
+    
   end
 
 def show

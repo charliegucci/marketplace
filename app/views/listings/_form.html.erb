@@ -1,7 +1,7 @@
 <%= form_with(model: listing, local: true) do |form| %>
   <div class="field">
     <%#= form.label :breed %>
-    <%#= form.text_field :breed %>
+    <%#= form.select :name, @breeds, required: true %>
   </div>
 <div class="field">
     <%= form.label :breeder_prefix %>

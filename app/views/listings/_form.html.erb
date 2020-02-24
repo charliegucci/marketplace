@@ -1,7 +1,8 @@
 <%= form_with(model: listing, local: true) do |form| %>
   <div class="field">
-    <%#= form.label :breed %>
-    <%#= form.select :name, @breeds, required: true %>
+    <%= form.label :breed %>
+    <%- opts = options_from_collection_for_select(Breed.order(:name), :id, :name, listing.breed_id) %>
+    <%= form.select(:breed_id, opts, required: true) %>
   </div>
 <div class="field">
     <%= form.label :breeder_prefix %>

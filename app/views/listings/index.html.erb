@@ -2,9 +2,14 @@ listings#index
 <div>
 <% @listings.each do |listing| %>
   <%= listing.breed.name %>
+  <br/>
   <%= listing.breeder_prefix %>
+  <br/>
   <%= listing.description %>
+  <br/>
+  <br/>
   <%= link_to "Edit", edit_listing_path(id: listing.id) %>
+  |
   <%= link_to "Delete", listing_path(listing), method: :delete %>
   <br/>
 <% end %>

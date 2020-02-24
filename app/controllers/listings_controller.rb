@@ -1,6 +1,6 @@
 class ListingsController < ApplicationController
   def index
-    @listings = Listing.all
+    @listings = Listing.where(user: current_user)
   end
 
   def new
@@ -8,15 +8,16 @@ class ListingsController < ApplicationController
   end
 
   def create
-    @listing = Listing.new(listing_params)
-    # this should be properly filled from the form
-    @listing.breed = Breed.first unless @listing.breed
+    @listing = Listing.new(listing_params.merge(user: current_user))
 
     respond_to do |format|
       if @listing.save
         format.html { redirect_to @listing, notice: 'Listing was successfully created.' }
       else
-        format.html { render :new }
+        format.html do
+          flash[:alert] = "Listing was not created due to the following: #{@listing.errors.full_messages.join(', ')}"
+          render :new
+        end
       end
     end
   end

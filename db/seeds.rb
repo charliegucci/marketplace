@@ -5,6 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Listing.destroy_all
+User.destroy_all
 Breed.destroy_all
 
 Breed.create!([
@@ -173,5 +175,18 @@ Breed.create!([
 {name:"Wirehaired Pointing Griffon"},
 {name:"Yorkshire Terrier"},
 ])
+
+puts "Creating Sample User"
+user = User.create(
+  # role: "seller",
+  email: 't@g.com',
+  password: 'asdfasdf',
+  password_confirmation: 'asdfasdf',
+  address: 'Matalino St., Queensland',
+  location: 'Queensland'
+)
+
+puts "Creating Sample Listing"
+Listing.create(breed: Breed.first, user: user)
 
 puts "Seed Completed"

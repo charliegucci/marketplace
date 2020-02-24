@@ -178,7 +178,7 @@ Breed.create!([
 
 puts "Creating Sample User"
 user = User.create(
-  # role: "seller",
+  role: "seller",
   email: 't@g.com',
   password: 'asdfasdf',
   password_confirmation: 'asdfasdf',

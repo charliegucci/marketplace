@@ -4,7 +4,6 @@ class ListingPolicy < ApplicationPolicy
   end
 
   def show?
-    binding.pry
     record.user == user
   end
 

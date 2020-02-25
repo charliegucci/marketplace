@@ -1,5 +1,17 @@
-<h1>New User</h1>
-
-<%= render 'form', listing: @listing %>
-
-<%= link_to 'Back', listings_path %>
+<div class="section">
+  <br/>
+  <div class="container">
+  <br/>
+    <div class="card">
+      <div class="card-content">
+        <div class="content is-small is-narrow">
+          <center><h1>Add New Listing</h1></center>
+          <%= render 'form', listing: @listing %>
+        </div>
+      </div>    
+    </div>  
+  </div>
+</div>
+<div class="container">  
+  <%= link_to 'Back', listings_path %>
+</div>  

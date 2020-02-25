@@ -1,18 +1,19 @@
-<%= form_with(model: listing, local: true) do |form| %>
+<br/>
+  <%= form_with(model: listing, local: true) do |form| %>
+    <div class="field">
+      <%- opts = options_from_collection_for_select(Breed.order(:name), :id, :name, listing.breed_id) %>
+      <%= form.select_with_label(:breed_id, opts, required: true) %>
+    </div>
   <div class="field">
-    <%= form.label :breed %>
-    <%- opts = options_from_collection_for_select(Breed.order(:name), :id, :name, listing.breed_id) %>
-    <%= form.select(:breed_id, opts, required: true) %>
-  </div>
-<div class="field">
-    <%= form.label :breeder_prefix %>
-    <%= form.text_field :breeder_prefix %>
-  </div>
-  <div class="field">
-    <%= form.label :description %>
-    <%= form.text_field :description %>
-  </div>
-  <div class="actions">
-    <%= form.submit %>
-  </div>
-<% end %>
+      <%= form.text_field_with_label :breeder_prefix %>
+    </div>
+    <div class="field">
+      <h3><%= form.label :description, "Description" %></h3>
+      <%= form.text_area :description, :id => "message_area", :cols => 55, :rows => 10  %>
+    </div>
+    <br/>
+    <div class="actions">
+      <%= form.submit %>
+    </div>
+  <% end %>
+

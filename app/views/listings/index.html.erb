@@ -26,10 +26,8 @@
             <span class="icon is-small">
             <i class="fas fa-times"></i>
             </span>
-            <span><%= link_to "Delete",listing_path(listing), method: :delete %></span>
+            <span><%= link_to "Delete",listing_path(listing),data: { confirm: 'Are you sure?' }, method: :delete %></span>
         </button></center>
-          
-          
         </div>
       </div>
     <% end %>

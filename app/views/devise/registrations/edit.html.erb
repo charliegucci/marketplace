@@ -17,13 +17,27 @@
   </div>
 
   <div class="field">
-    <%= f.label :location %><br />
-    <%= f.text_field :location, autofocus: true %>
+    <%= f.label :street_number_name,'Street No. & Street Name' %><br />
+    <%= f.text_field :street_number_name, autofocus: true %>
   </div>
 
-  <div class="">
-    <%= f.label :address %><br />
-    <%= f.text_area :address, autofocus: true %>
+  <div class="field">
+    <%= f.label :suburb %><br />
+    <%= f.text_field :suburb, autofocus: true %>
+  </div>
+  <div class="field">
+    <%= f.label :state %>
+    <%- opts = options_from_collection_for_select(State.order(:name), :id, :name, current_user.state_id) %>
+    <%= f.select(:state_id, opts, required: true) %>
+  </div>
+
+<div class="field">
+    <%= f.label :postcode %><br />
+    <%= f.text_field :postcode, maxlength:4, placeholder:'e.g. 4000', autofocus: true %>
+  </div>
+  <div class="field">
+    <%= f.label :breeder_supply_number, 'Breeder Supply Number' %><br />
+    <%= f.text_field :breeder_supply_number, maxlength:10, placeholder:'e.g. 1234567890', autofocus: true %>
   </div>
 
   <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>

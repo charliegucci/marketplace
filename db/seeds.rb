@@ -5,21 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-State.destroy_all
+
 Listing.destroy_all
 User.destroy_all
 Breed.destroy_all
 
-State.create!([
-  {name:"Australian Capital Territory"},
-  {name:"New South Wales"},
-  {name:"Northern Territory"},
-  {name:"Queensland"},
-  {name:"South Australia"},
-  {name:"Tasmania"},
-  {name:"Victoria"},
-  {name:"Western Australia"},
-  ])
 Breed.create!([
 {name:"Affenpinscher"},
 {name:"Afghan Hound"},

@@ -12,6 +12,11 @@
       <%= form.text_area :description, :id => "message_area", :cols => 55, :rows => 10  %>
     </div>
     <br/>
+    <p>
+       <%= form.label :picture %>
+       <%= form.file_field :picture, accept:'image/png,image/gif,image/jpeg,image/jpg' %>
+    </p>
+
     <div class="actions">
       <%= form.submit %>
     </div>

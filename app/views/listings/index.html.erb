@@ -5,39 +5,48 @@
       <div class="card">
         <div class="card-image">
             <figure class="image is-3by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                <% if listing.picture.attached? %>
+                  <%= image_tag listing.picture if listing.picture.attached? %>
+                <% else %>
+                  <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                <% end %>                
             </figure>
         </div>
         <div class="card-header-title is-centered">
           <p class="title is-5"><%= link_to listing.breed.name, listing_path(id: listing.id) %></p>
         </div>
+        <div class="card-content">
           <p class="subtitle is-6"><%= listing.breeder_prefix %></p>
-        <div class="content">
-          <p class="subtitle is-7"> <%= listing.description %> </p>
-          <br/>
-          <br/>
-        <center><button class="button is-success is-small">
-            <span class="icon is-small">
-            <i class="far fa-edit"></i>
-            </span>
-            <span><%= link_to "Edit", edit_listing_path(id: listing.id) %></span>
-        </button>
-        <button class="button is-danger is-small is-outlined ">
-            <span class="icon is-small">
-            <i class="fas fa-times"></i>
-            </span>
-            <span><%= link_to "Delete",listing_path(listing),data: { confirm: 'Are you sure?' }, method: :delete %></span>
-        </button></center>
+          <div class="content">
+            <p class="subtitle is-7"> <%= listing.description %> </p>
+            <br/>
+            <br/>
+            <center>
+              <button class="button is-success is-small">
+                <span class="icon is-small">
+                  <i class="far fa-edit"></i>
+                </span>
+                <span><%= link_to "Edit", edit_listing_path(id: listing.id) %></span>
+              </button>
+              <button class="button is-danger is-small is-outlined">
+                  <span class="icon is-small">
+                  <i class="fas fa-times"></i>
+                  </span>
+                  <span><%= link_to "Delete",listing_path(listing),data: { confirm: 'Are you sure?' }, method: :delete %></span>
+              </button>
+            </center>
+          </div>
         </div>
       </div>
     <% end %>
   </div>  
 </section>
 <br/>
-<button class="button is-success is-small">
-            <span class="icon is-small">
-            <i class="fas fa-bone"></i>
-            </span>
-            <span><%= link_to "Post new Listing", new_listing_path %></span>
-        </button>
-
+<section class="section">
+    <button class="button is-success is-small">
+      <span class="icon is-small">
+        <i class="fas fa-bone"></i>
+      </span>
+      <span><%= link_to "Post new Listing", new_listing_path %></span>
+    </button>  
+<section>

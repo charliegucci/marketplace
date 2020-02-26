@@ -62,6 +62,6 @@ class ListingsController < ApplicationController
   protected
 
   def listing_params
-    params.require(:listing).permit(:description, :breed_id, :breeder_prefix)
+    params.require(:listing).permit(:description, :breed_id, :breeder_prefix, :picture)
   end
 end

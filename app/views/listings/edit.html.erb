@@ -1,6 +1,18 @@
-<h1>Editing Listing</h1>
-
-<%= render 'form', listing: @listing %>
-
-<%= link_to 'Show', @listing %> |
-<%= link_to 'Back', listing_path %>
+<div class="section">
+  <br/>
+  <div class="container">
+  <br/>
+    <div class="card">
+      <div class="card-content">
+        <div class="content is-small is-narrow">
+          <h1>Editing Listing</h1>
+            <%= render 'form', listing: @listing %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>        
+<div class="container">          
+  <%= link_to 'Show', @listing %> |
+  <%= link_to 'Back', :back %>
+</div>

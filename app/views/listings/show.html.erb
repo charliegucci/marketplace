@@ -1,12 +1,24 @@
-<% listing = @listing%>
-<%= listing.breed.name %>
-<br/>
-<%= listing.breeder_prefix %>
-<br/>
-<%= listing.description %>
-<br/>
-<%= link_to "Edit", edit_listing_path(id: listing.id) %>
-<%= link_to "Delete", listing_path(listing), method: :delete %>
-<br/>
-<br/>
-<%= link_to "Back to your Listings", listings_path %>
+<div class="section">
+  <br/>
+  <div class="container">
+  <br/>
+    <div class="card">
+      <div class="card-content">
+        <div class="content">
+            <% listing = @listing%>
+            <%= listing.breed.name %>
+            <br/>
+            <%= listing.breeder_prefix %>
+            <br/>
+            <%= listing.description %>
+            <br/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">            
+  <span><%= link_to "Edit", edit_listing_path(id: listing.id) %> |</span>
+  <span><%= link_to "Delete", listing_path(listing),data: { confirm: 'Are you sure?' }, method: :delete %> |</span>
+  <span><%= link_to "Back ", listings_path %></span>
+</div>  

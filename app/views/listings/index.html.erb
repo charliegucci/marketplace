@@ -9,7 +9,7 @@
             </figure>
         </div>
         <div class="card-header-title is-centered">
-          <p class="title is-5"><%= listing.breed.name %></p>
+          <p class="title is-5"><%= link_to listing.breed.name, listing_path(id: listing.id) %></p>
         </div>
           <p class="subtitle is-6"><%= listing.breeder_prefix %></p>
         <div class="content">
@@ -26,10 +26,8 @@
             <span class="icon is-small">
             <i class="fas fa-times"></i>
             </span>
-            <span><%= link_to "Delete",listing_path(listing), method: :delete %></span>
+            <span><%= link_to "Delete",listing_path(listing),data: { confirm: 'Are you sure?' }, method: :delete %></span>
         </button></center>
-          
-          
         </div>
       </div>
     <% end %>

@@ -72,8 +72,6 @@ GEM
     bootsnap (1.4.5)
       msgpack (~> 1.0)
     builder (3.2.4)
-    bulma-rails (0.8.0)
-      sassc (~> 2.0)
     byebug (11.1.1)
     capybara (3.31.0)
       addressable
@@ -283,7 +281,6 @@ PLATFORMS
 DEPENDENCIES
   aws-sdk-s3 (~> 1.60)
   bootsnap (>= 1.1.0)
-  bulma-rails (~> 0.8.0)
   byebug
   capybara (>= 2.15)
   chromedriver-helper

@@ -23,7 +23,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 # Integrates Bulma with the rails asset pipeline.
-gem 'bulma-rails', '~> 0.8.0'
+# gem 'bulma-rails', '~> 0.8.0'
 # Authentication
 gem 'devise', '~> 4.7', '>= 4.7.1'
 # Authorization
@@ -76,3 +76,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "aws-sdk-s3", "~> 1.60"
+

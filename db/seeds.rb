@@ -184,6 +184,7 @@ user = User.create(
   password_confirmation: 'asdfasdf',
   street_number_name: '1 Matalino St.,',
   suburb: 'Park Ridge',
+  state: 'Queensland',
   postcode: '4125',
   breeder_supply_number: '0123456789',
   )

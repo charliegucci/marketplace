@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_25_035445) do
+ActiveRecord::Schema.define(version: 2020_02_26_065440) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -52,13 +52,11 @@ ActiveRecord::Schema.define(version: 2020_02_25_035445) do
     t.string "role", default: "guest"
     t.integer "postcode"
     t.integer "breeder_supply_number"
-    t.bigint "state_id"
+    t.string "state"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
-    t.index ["state_id"], name: "index_users_on_state_id"
   end
 
   add_foreign_key "listings", "breeds"
   add_foreign_key "listings", "users"
-  add_foreign_key "users", "states"
 end

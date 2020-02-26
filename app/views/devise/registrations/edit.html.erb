@@ -23,11 +23,9 @@
               <%= f.text_field :suburb, autofocus: true %>
             </div>
             <div class="field">
-              <%= f.label :state_id %><br />
-              <%= select_tag(:state_id, 
-              raw('<option value="1">Australian Capital Territory</option><option value="2">New South Wales</option><option value="3">Northern Territory</option>
-              <option value="4">Queensland</option><option value="5">South Australia</option><option value="6">Tasmania</option>
-              <option value="7">Victoria</option><option value="8">Western Australia</option>'))%>
+              <%= f.label :state %><br />
+              <% opts = ['Australian Capital Territory', 'New South Wales', 'Queensland', 'South Australia', 'Tasmania', 'Victoria', 'Western Australia']%>
+              <%= f.select(:state, opts)%>
             </div>
             <div class="field">
               <%= f.label :postcode %><br />
@@ -75,6 +73,6 @@
       <h3>Delete account</h3>
       <p><%= button_to "Delete", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
     </div>
-  </div> 
-</div> 
+  </div>
+</div>
 <%= link_to "Back", :back %>

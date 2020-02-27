@@ -11,22 +11,30 @@
   <div class="container">
   <%= image_tag @user.breeder_id_picture if @user.breeder_id_picture.attached? %>
   <br/>
+  <br/>
     <div class="card">
       <div class="card-content">
         <div class="content">
-            <%= @user.name %>
-            <br/>
-            <%= @user.email %>
-            <br/>
-            <%= @user.breeder_supply_number %>
+            <p>Name: <%= @user.name %></p>
+            <p>Email: <%= @user.email %></p>
+            <p>Breeder Supply Number: <%= @user.breeder_supply_number %></p>
             <br/>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div class="container">            
-  <span class='button'>
-    <%= link_to "Got It!", root_path %>
-  </span>
+<div class="container">
+  <div class="field is-grouped is-grouped-centered">
+  <p class="control">
+    <a >
+      <%= link_to "Submit", root_path, class: "button is-primary" %>
+    </a>
+  </p>
+  <p class="control">
+    <a >
+      <%= link_to "Back", :back, class:"button is-light" %>
+    </a>
+  </p>
+</div>            
 </div>  

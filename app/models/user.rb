@@ -5,7 +5,11 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   has_many :listings
-  
+
+  has_one_attached :breeder_id_picture
+
+  # Read: https://guides.rubyonrails.org/active_record_validations.html
+  # validates :application_status valid values ['not_applied', 'applied', 'approved', 'rejected', 'completed']
 
   def guest?
     role == "guest"

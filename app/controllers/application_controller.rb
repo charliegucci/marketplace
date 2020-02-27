@@ -13,7 +13,10 @@ class ApplicationController < ActionController::Base
   end
 
   def whitelisted_controllers
-    [HomeController]
+    [
+      HomeController,
+      Seller::RegistrationsController
+    ]
   end
 
   def configure_permitted_parameters

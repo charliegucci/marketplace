@@ -5,5 +5,10 @@ Rails.application.routes.draw do
 
   resources :listings
 
+  namespace :seller do
+    resources :registrations
+  end
+
+  get 'blank', to: 'home#blank'
   root to: "home#index"
 end

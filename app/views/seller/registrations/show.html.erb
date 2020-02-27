@@ -1,0 +1,32 @@
+<% render '/shared/navbar' %>
+
+<div class="section">
+  <div class="container">
+   <p>
+     Your application has now been submitted and is now under review.
+     We'll be reviewing it in 3 working days and if there's no update by then, you can follow up at support@manspalhouse.com.
+   </p>
+  </div>
+  <br/>
+  <div class="container">
+  <%= image_tag @user.breeder_id_picture if @user.breeder_id_picture.attached? %>
+  <br/>
+    <div class="card">
+      <div class="card-content">
+        <div class="content">
+            <%= @user.name %>
+            <br/>
+            <%= @user.email %>
+            <br/>
+            <%= @user.breeder_supply_number %>
+            <br/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">            
+  <span class='button'>
+    <%= link_to "Got It!", root_path %>
+  </span>
+</div>  

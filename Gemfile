@@ -28,7 +28,6 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.7', '>= 4.7.1'
 # Authorization
 gem 'pundit', '~> 2.1'
-
 # Rails Admin Dashboard
 gem 'rails_admin', '~> 2.0', '>= 2.0.1'
 # Payment gateway

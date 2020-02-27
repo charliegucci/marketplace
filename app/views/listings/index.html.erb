@@ -24,8 +24,7 @@
             <footer class="card-footer">
                 <p class="card-footer-item"><span><%= link_to "Edit  ", edit_listing_path(id: listing.id) %> 
                 <a class="icon is-small "> <i class="far fa-edit"> </i></a></span></p>
-                <p class="card-footer-item"><span><%= link_to "Delete ",listing_path(listing),data: { confirm: 'Are you sure?' }, 
-                method: :delete %><a class="icon is-small "><i class="fas fa-times"> </i></a></span></p>
+                <p class="card-footer-item"><span><%= link_to "Delete ",listing_path(listing),data: { confirm: 'Are you sure?' },method: :delete %><a class="icon is-small "><i class="fas fa-times"> </i></a></span></p>
             </footer>
         </div>
       </div>
@@ -40,4 +39,4 @@
       </span>
       <span><%= link_to "Post new Listing", new_listing_path %></span>
     </button>  
-<section>
+</section>

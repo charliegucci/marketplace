@@ -9,21 +9,26 @@
   </div>
   <br/>
   <div class="container">
-  <%= image_tag @user.breeder_id_picture if @user.breeder_id_picture.attached? %>
+  <%if @user.breeder_id_picture.attached? %>
+  <%= image_tag @user.breeder_id_picture %>
+  <%else%>
+  <%=flash[:alert] = "No membership ID attached" %>
+  <div class="notification is-warning">
+  <span><%= image_tag('/assets/dog.png')%></span><span>Oops you forgot to attached your Breeder Id. 
+  Please go back and attach required membership ID.</span>
+  </div>
+  <%end%>
   <br/>
   <br/>
-    <div class="card">
-      <div class="card-content">
-        <div class="content">
+        <div class="notification is-success">
             <p>Name: <%= @user.name %></p>
             <p>Email: <%= @user.email %></p>
             <p>Breeder Supply Number: <%= @user.breeder_supply_number %></p>
             <br/>
         </div>
-      </div>
-    </div>
-  </div>
 </div>
+<br/>
+<br/>
 <div class="container">
   <div class="field is-grouped is-grouped-centered">
   <p class="control">

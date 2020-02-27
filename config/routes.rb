@@ -5,5 +5,6 @@ Rails.application.routes.draw do
 
   resources :listings
 
+  get 'blank', to: 'home#blank'
   root to: "home#index"
 end

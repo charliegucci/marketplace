@@ -3,4 +3,7 @@ class HomeController < ApplicationController
     @users = User.all
     @user_count = User.count
   end
+
+  def blank
+  end
 end

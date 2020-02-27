@@ -4,7 +4,7 @@
     <% @listings.each do |listing| %>
       <div class="card">
         <div class="card-image">
-            <figure class="image is-256x256">
+            <figure class="image is-3by3">
                 <% if listing.picture.attached? %>
                   <%= image_tag listing.picture if listing.picture.attached? %>
                 <% else %>
@@ -21,12 +21,21 @@
             <p class="subtitle is-7"> <%= listing.description %> </p>
           </div>
             <br/>
-            <footer class="card-footer">
-                <p class="card-footer-item"><span><%= link_to "Edit  ", edit_listing_path(id: listing.id) %> 
-                <a class="icon is-small "> <i class="far fa-edit"> </i></a></span></p>
-                <p class="card-footer-item"><span><%= link_to "Delete ",listing_path(listing),data: { confirm: 'Are you sure?' },method: :delete %><a class="icon is-small "><i class="fas fa-times"> </i></a></span></p>
-            </footer>
-        </div>
+            <br/>
+            <center>
+              <button class="button is-success is-small">
+                <span class="icon is-small">
+                  <i class="far fa-edit"></i>
+                </span>
+                <span><%= link_to "Edit", edit_listing_path(id: listing.id) %></span>
+              </button>
+              <button class="button is-danger is-small is-outlined">
+                  <span class="icon is-small">
+                  <i class="fas fa-times"></i>
+                  </span>
+                  <span><%= link_to "Delete",listing_path(listing),data: { confirm: 'Are you sure?' }, method: :delete %></span>
+              </button>
+            </center>
       </div>
     <% end %>
   </div>  

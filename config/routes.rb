@@ -11,5 +11,4 @@ Rails.application.routes.draw do
 
   get 'blank', to: 'home#blank'
   root to: "home#index"
-  
-end
+  end

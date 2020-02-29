@@ -42,8 +42,20 @@
   </div>
 <br/>
 <br/>
+<%= form_tag(root_path, method: :get) do%>
+<div class="container">
+  <%= text_field_tag(:search, params[:search],class: "input is-primary input is-small" )%>
+  <%= submit_tag ('Search...')%>
+  <%end%>
+</div>
+<h2>Available Listings:</h2>
+<p><% @listings.each do |listing|%></p>
+<ul>
+  <li><%= link_to listing.breed.name, listing_path(listing)%></li>
+</ul>
+<%end%>
   <!-- Hero content: will be in the middle -->
-  <div class="hero-body">
+  <!--div class="hero-body">
     <div class="container has-text-centered">
       <h1 class="title">
         Looking for your next canine companion?
@@ -52,16 +64,16 @@
         Find little puppies for big hearts.
       </h2>
     </div>
-  </div>
+  </!--div>
   <div class='container'>
-  <div class="field has-addons">
+  <div-- class="field has-addons">
       <div class="control">
       <input class="input" type="text" placeholder="e.g. pug">
       </div>
       <div class="control">
         <span><%=link_to 'Search', listings_path, class:'button is-info'%></span>
       </div>
-  </div>
+  </div-->
   </div>
   <div id=container>
   <div class="dog-head">

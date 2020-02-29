@@ -12,7 +12,7 @@
   <%if @user.breeder_id_picture.attached? %>
   <%= image_tag @user.breeder_id_picture %>
   <%else%>
-  <%=flash[:alert] = "No membership ID attached" %>
+  <center><h2 class="title is-5">Warning!<h2></center>
   <div class="notification is-warning">
   <span><%= image_tag('/assets/dog.png')%></span><span>Oops you forgot to attached your Breeder Id. 
   Please go back and attach required membership ID.</span>

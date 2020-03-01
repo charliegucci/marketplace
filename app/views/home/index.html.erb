@@ -1,3 +1,4 @@
+
 <section class="hero is-primary is-fullheight">
   <!-- Hero head: will stick at the top -->
 <br/>
@@ -5,7 +6,7 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar-brand">
-          <%= link_to "MansPalHauz", root_path%><i class="fas fa-paw"></i>
+          <%= link_to "MansPalHouse", root_path%><i class="fas fa-paw"></i> 
           <span class="navbar-burger burger" data-target="navbarMenuHeroA">
             <span></span>
             <span></span>
@@ -14,11 +15,18 @@
         </div>
         <div id="navbarMenuHeroA" class="navbar-menu">
           <div class="navbar-end">
-            <% if user_signed_in?%>
-            <span class="navbar-item "><%=link_to  current_user.email, edit_user_registration_path %> </span>
-            <span class="navbar-item">
-              <%= link_to "Sign Out", destroy_user_session_path, method: :delete %></span>
-            </span>
+          <div class="navbar-item">
+          <% if user_signed_in? && current_user.guest? %>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <div class="button is-secondary">
+                <%= link_to "Apply as Seller", new_seller_registration_path %>
+              </div>
+          <% end %>
+          </div>
+        </div>
+            <%if user_signed_in?%>
+            <span class="navbar-item "><%=link_to  current_user.email, edit_user_registration_path%> </span>
+            <span class="navbar-item"><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></span>
             <%else%>
             <span class="navbar-item">
                 <span><%= link_to "Sign In", new_user_session_path %></span> 
@@ -34,8 +42,20 @@
   </div>
 <br/>
 <br/>
+<%= form_tag(root_path, method: :get) do%>
+<div class="container">
+  <%= text_field_tag(:search, params[:search],class: "input is-primary input is-small" )%>
+  <%= submit_tag ('Search...')%>
+  <%end%>
+</div>
+<h2>Available Listings:</h2>
+<p><% @listings.each do |listing|%></p>
+<ul>
+  <li><%= link_to listing.breed.name, listing_path(listing)%></li>
+</ul>
+<%end%>
   <!-- Hero content: will be in the middle -->
-  <div class="hero-body">
+  <!--div class="hero-body">
     <div class="container has-text-centered">
       <h1 class="title">
         Looking for your next canine companion?
@@ -44,22 +64,21 @@
         Find little puppies for big hearts.
       </h2>
     </div>
-  </div>
+  </!--div>
   <div class='container'>
-  <div class="field has-addons">
+  <div-- class="field has-addons">
       <div class="control">
       <input class="input" type="text" placeholder="e.g. pug">
       </div>
       <div class="control">
         <span><%=link_to 'Search', listings_path, class:'button is-info'%></span>
       </div>
-  </div>
+  </div-->
   </div>
   <div id=container>
   <div class="dog-head">
     <img src="http://www.clker.com/cliparts/j/3/Z/Y/D/5/dog-head-md.png">
   </div>
-
   <div class="dog-body">
 
   </div>

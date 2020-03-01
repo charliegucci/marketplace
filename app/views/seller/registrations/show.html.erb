@@ -9,24 +9,37 @@
   </div>
   <br/>
   <div class="container">
-  <%= image_tag @user.breeder_id_picture if @user.breeder_id_picture.attached? %>
+  <%if @user.breeder_id_picture.attached? %>
+  <%= image_tag @user.breeder_id_picture %>
+  <%else%>
+  <center><h2 class="title is-5">Warning!<h2></center>
+  <div class="notification is-warning">
+  <span><%= image_tag('/assets/dog.png')%></span><span>Oops you forgot to attached your Breeder Id. 
+  Please go back and attach required membership ID.</span>
+  </div>
+  <%end%>
   <br/>
-    <div class="card">
-      <div class="card-content">
-        <div class="content">
-            <%= @user.name %>
-            <br/>
-            <%= @user.email %>
-            <br/>
-            <%= @user.breeder_supply_number %>
+  <br/>
+        <div class="notification is-success">
+            <p>Name: <%= @user.name %></p>
+            <p>Email: <%= @user.email %></p>
+            <p>Breeder Supply Number: <%= @user.breeder_supply_number %></p>
             <br/>
         </div>
-      </div>
-    </div>
-  </div>
 </div>
-<div class="container">            
-  <span class='button'>
-    <%= link_to "Got It!", root_path %>
-  </span>
+<br/>
+<br/>
+<div class="container">
+  <div class="field is-grouped is-grouped-centered">
+  <p class="control">
+    <a >
+      <%= link_to "Submit", root_path, class: "button is-primary" %>
+    </a>
+  </p>
+  <p class="control">
+    <a >
+      <%= link_to "Back", :back, class:"button is-light" %>
+    </a>
+  </p>
+</div>            
 </div>  

@@ -1,25 +1,25 @@
 <div class="section">
-  <br/>
+  <br />
   <div class="container">
-  <%= image_tag @listing.picture if @listing.picture.attached? %>
-  <br/>
+    <%= image_tag @listing.picture if @listing.picture.attached? %>
+    <br />
     <div class="card">
       <div class="card-content">
         <div class="content">
-            <% listing = @listing%>
-            <%= listing.breed.name %>
-            <br/>
-            <%= listing.breeder_prefix %>
-            <br/>
-            <%= listing.description %>
-            <br/>
+          <% listing = @listing%>
+          <%= listing.breed.name %>
+          <br />
+          <%= listing.breeder_prefix %>
+          <br />
+          <%= listing.description %>
+          <br />
         </div>
       </div>
     </div>
   </div>
 </div>
-<div class="container">            
+<div class="container">
   <span><%= link_to "Edit", edit_listing_path(id: listing.id) %> |</span>
   <span><%= link_to "Delete", listing_path(listing),data: { confirm: 'Are you sure?' }, method: :delete %> |</span>
   <span><%= link_to "Back ", root_path %></span>
-</div>  
+</div>

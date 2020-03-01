@@ -1,57 +1,58 @@
-<%= render '/shared/navbar' %>
-
 <center><section class="section">
-  
-  In order to apply as a seller, you would need to submit to us the following:
-  <br/>
-  * Name
-  <br/>
-  * Breeder Supplier Number
-  <br/>
-  * Photo/scan of your Breeder ID that matches your name and breeder prefix id
-  <br/>
-  * The email associated with this user (and where we'll send updates to)
-</p>
-</section></center>
+
+    In order to apply as a seller, you would need to submit to us the following:
+    <br />
+    * Name
+    <br />
+    * Breeder Supplier Number
+    <br />
+    * Photo/scan of your Breeder ID that matches your name and breeder prefix id
+    <br />
+    * The email associated with this user (and where we'll send updates to)
+    </p>
+  </section>
+  </center>
   <div class=container>
-      <div class="card">
-        <div class="card-content">
-          <div class="content is-small is-narrow">
-            <center><h2>Apply as Seller</h2></center>
-            <%= form_for(@user, url: seller_registrations_path, html: { method: :post }) do |f| %>
+    <div class="card">
+      <div class="card-content">
+        <div class="content is-small is-narrow">
+          <center>
+            <h2>Apply as Seller</h2>
+          </center>
+          <%= form_for(@user, url: seller_registrations_path, html: { method: :post }) do |f| %>
 
-            <div class="field">
-              <%= f.label :name %><br />
-              <%= f.text_field :name, autofocus: true %>
-            </div>
-
-            <div class="field">
-              <%= f.label :breeder_supply_number, 'Breeder Supply Number' %><br />
-              <%= f.text_field :breeder_supply_number, maxlength:10, placeholder:'e.g. 1234567890', autofocus: true %>
-            </div>
-
-            <div class="field">
-              <%= f.label :breeder_id_picture %><br />
-              <%= f.file_field :breeder_id_picture, accept:'image/png,image/gif,image/jpeg,image/jpg' %>
-            </div>
-
-            <div class="field">
-              <%= f.label :email %><br />
-              <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
-            </div>
+          <div class="field">
+            <%= f.label :name %><br />
+            <%= f.text_field :name, autofocus: true %>
           </div>
-          <div class="actions">
-            <%= f.submit "Apply as Seller",class: "button is-primary is-grouped-centered" %>
+
+          <div class="field">
+            <%= f.label :breeder_supply_number, 'Breeder Supply Number' %><br />
+            <%= f.text_field :breeder_supply_number, maxlength:10, placeholder:'e.g. 1234567890', autofocus: true %>
           </div>
+
+          <div class="field">
+            <%= f.label :breeder_id_picture %><br />
+            <%= f.file_field :breeder_id_picture, accept:'image/png,image/gif,image/jpeg,image/jpg' %>
+          </div>
+
+          <div class="field">
+            <%= f.label :email %><br />
+            <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+          </div>
+        </div>
+        <div class="actions">
+          <%= f.submit "Apply as Seller",class: "button is-primary is-grouped-centered" %>
+        </div>
       </div>
-    <% end %>
-  </div>
-</div>
-<br/>
-    <div class="container">
-    <center><h2 class="title is-4">Sample ID</h2></center>
-    <br/>
-    <%= image_tag("id.png")%>
+      <% end %>
     </div>
-  
-
+  </div>
+  <br />
+  <div class="container">
+    <center>
+      <h2 class="title is-4">Sample ID</h2>
+    </center>
+    <br />
+    <%= image_tag("id.png")%>
+  </div>

@@ -5,6 +5,10 @@ class Seller::RegistrationsController < ApplicationController
     @user = current_user
   end
 
+  def edit
+    @user = current_user
+  end
+
   def create
     @user = current_user
     @user.update_attributes(user_params.merge(application_status: 'pending'))

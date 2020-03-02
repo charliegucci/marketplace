@@ -11,15 +11,15 @@
   <br />
   <div class="container">
     <%if @user.breeder_id_picture.attached? %>
-    <%= image_tag @user.breeder_id_picture %>
+      <%= image_tag @user.breeder_id_picture %>
     <%else%>
-    <center>
-      <h2 class="title is-5">Warning!<h2>
-    </center>
-    <div class="notification is-warning">
-      <span><%= image_tag('dog.png')%></span><span>Oops you forgot to attached your Breeder Id.
-        Please go back and attach required membership ID.</span>
-    </div>
+      <center>
+        <h2 class="title is-5">Warning!<h2>
+      </center>
+      <div class="notification is-warning">
+        <span><%= image_tag('dog.png')%></span><span>Oops you forgot to attached your Breeder Id.
+          Please go back and attach required membership ID.</span>
+      </div>
     <%end%>
     <br />
     <br />
@@ -36,12 +36,12 @@
     <div class="field is-grouped is-grouped-centered">
       <p class="control">
         <a>
-          <%= link_to "Submit", root_path, class: "button is-primary" %>
+          <%= link_to "Back to Home", root_path, class: "button is-primary" %>
         </a>
       </p>
       <p class="control">
         <a>
-          <%= link_to "Back", :back, class:"button is-light" %>
+          <%= link_to "Back to Registration Form", :back, class:"button is-light" %>
         </a>
       </p>
     </div>

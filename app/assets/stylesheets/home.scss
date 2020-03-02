@@ -2,23 +2,11 @@ body {
   background: #fefefe;
 }
 
-/* Card start*/
 .card {
-  overflow: hidden
+  height: max-content;
+  border-radius: 15px;
 }
 
-.card.large {
-  height: 600px;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: initial;
-  border-radius: 5px;
-}
-
-.avatar {
-  border-radius: 50%;
-}
-
-/* Card end */
 .media-content {
   overflow: hidden;
 }

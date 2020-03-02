@@ -1,12 +1,7 @@
 <%# Search Bar %>
 <br />
 <div>
-  <div id="flow">
     <%= form_tag(root_path, method: :get) do%>
-    <span class="flow-1"></span>
-    <span class="flow-2"></span>
-    <span class="flow-3"></span>
-  </div>
   <div class="section">
     <div class="box">
       <div class="field has-addons">
@@ -17,8 +12,8 @@
           <%= submit_tag ('Search...'), class:"button is-info"%>
         </div>
       </div>
-    </div>
     <%end%>
+    </div>
     <% @listings.each do |listing|%>
     <p><%= link_to listing.breed.name, listing_path(listing), class:"tag is-info"%><span class="icon has-text-success">
         <i class="fas fa-check-square"></i>
@@ -26,3 +21,5 @@
     <%end%>
   </div>
 </div>
+
+<%= render '/shared/tiles'%>

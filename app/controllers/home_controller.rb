@@ -4,11 +4,10 @@ class HomeController < ApplicationController
     @user_count = User.count
     # @share = request.url (share feature link)
     @listings = Listing.search(params[:search])
-    @listing = Listing.all 
   end
 
   def blank
-    
+
   end
 
 end

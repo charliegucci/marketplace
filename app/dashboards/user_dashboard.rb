@@ -20,11 +20,11 @@ class UserDashboard < Administrate::BaseDashboard
     name: Field::String,
     suburb: Field::String,
     street_number_name: Field::String,
-    role: Field::String,
+    role: Field::Select.with_options(collection: User::ROLE),
     postcode: Field::Number,
     breeder_supply_number: Field::Number,
     state: Field::String,
-    application_status: Field::String,
+    application_status: Field::Select.with_options(collection: User::APPLICATION_STATUS),
   }.freeze
 
   # COLLECTION_ATTRIBUTES
@@ -34,6 +34,7 @@ class UserDashboard < Administrate::BaseDashboard
   # Feel free to add, remove, or rearrange items.
   COLLECTION_ATTRIBUTES = %i[
   listings
+  application_status
   id
   ].freeze
 

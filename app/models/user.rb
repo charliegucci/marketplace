@@ -8,6 +8,11 @@ class User < ApplicationRecord
 
   has_one_attached :breeder_id_picture
 
+  validates :role, inclusion: {
+    in: %w(guest seller admin),
+    message: "%{value} is not a valid role"
+  }
+
   validates :application_status, inclusion: {
     in: %w(not_applied applied approved rejected completed),
     message: "%{value} is not a valid application status"

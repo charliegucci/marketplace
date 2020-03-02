@@ -12,6 +12,23 @@ class UserTest < ActiveSupport::TestCase
     assert valid_user.valid?
   end
 
+  test 'user roles' do
+    user =  valid_user
+    assert user.valid?
+
+    user.role = 'gibberish'
+    assert_not user.valid?
+
+    user.role = 'guest'
+    assert user.valid?
+
+    user.role = 'seller'
+    assert user.valid?
+
+    user.role = 'admin'
+    assert user.valid?
+  end
+
   test "user with valid/invalid application_status" do
     user =  valid_user
     assert user.valid?

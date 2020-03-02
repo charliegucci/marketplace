@@ -14,12 +14,28 @@
       </div>
     <%end%>
     </div>
+    <%# end Seacrch Bar %>
+    
+<div class="columns">
+  <div class="column">
+  </div>
+  <div class="column">
+  <div class="container">
+  <h2>Available Listings:</h2>
+  <br/>
     <% @listings.each do |listing|%>
-    <p><%= link_to listing.breed.name, listing_path(listing), class:"tag is-info"%><span class="icon has-text-success">
-        <i class="fas fa-check-square"></i>
-    </p>
+    <p><%= link_to listing.breed.name, listing_path(listing), class:"tag is-info"%></p>
     <%end%>
+    </div>
+  </div>
+  <div class="column">
   </div>
 </div>
+
+
+
+
+    
+  
 
 <%= render '/shared/tiles'%>

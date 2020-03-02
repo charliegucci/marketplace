@@ -1,4 +1,6 @@
-<section class="section">
+<br/>
+<br/>
+<div class=container>
   <div class="listing-container">
     <% @listings.each do |listing| %>
       <div class="card">
@@ -31,13 +33,13 @@
       </div>
     <% end %>
   </div>  
-</section>
+</div>
 <br/>
-<section class="section">
+<div class='container'>
     <button class="button is-success is-small">
       <span class="icon is-small">
         <i class="fas fa-bone"></i>
       </span>
       <span><%= link_to "Post new Listing", new_listing_path %></span>
     </button>  
-<section>
+</div>

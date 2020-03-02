@@ -39,7 +39,7 @@ class UserTest < ActiveSupport::TestCase
     user.application_status = 'not_applied'
     assert user.valid?
 
-    user.application_status = 'applied'
+    user.application_status = 'pending'
     assert user.valid?
 
     user.application_status = 'approved'

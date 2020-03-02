@@ -14,7 +14,7 @@ class User < ApplicationRecord
   }
 
   validates :application_status, inclusion: {
-    in: %w(not_applied applied approved rejected completed),
+    in: %w(not_applied pending approved rejected completed),
     message: "%{value} is not a valid application status"
   }
 

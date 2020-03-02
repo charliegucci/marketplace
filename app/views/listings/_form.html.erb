@@ -9,12 +9,13 @@
     </div>
     <div class="field">
       <h3><%= form.label :description, "Description" %></h3>
-      <%= form.text_area :description, :id => "message_area", :cols => 55, :rows => 10  %>
+      <%= form.text_area :description, :id => "message_area", class: "textarea"  %>
     </div>
     <br/>
     <p>
        <%= form.label :picture %>
-       <%= form.file_field :picture, accept:'image/png,image/gif,image/jpeg,image/jpg' %>
+       <%= form.file_field :picture, accept:'image/png,image/gif,image/jpeg,image/jpg', class:'file-label file-cta file has-name' %>
+       <br/><span class='file-icon'><i class="fas fa-upload"></i></span>
     </p>
 
     <div class="actions">

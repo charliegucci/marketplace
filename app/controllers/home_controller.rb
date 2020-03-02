@@ -7,6 +7,7 @@ class HomeController < ApplicationController
   end
 
   def blank
+
   end
 
 end

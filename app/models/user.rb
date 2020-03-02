@@ -8,8 +8,10 @@ class User < ApplicationRecord
 
   has_one_attached :breeder_id_picture
 
-  # Read: https://guides.rubyonrails.org/active_record_validations.html
-  # validates :application_status valid values ['not_applied', 'applied', 'approved', 'rejected', 'completed']
+  validates :application_status, inclusion: {
+    in: %w(not_applied applied approved rejected completed),
+    message: "%{value} is not a valid application status"
+  }
 
   def guest?
     role == "guest"

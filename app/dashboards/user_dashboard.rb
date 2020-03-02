@@ -9,8 +9,6 @@ class UserDashboard < Administrate::BaseDashboard
   # on pages throughout the dashboard.
   ATTRIBUTE_TYPES = {
     listings: Field::HasMany,
-    breeder_id_picture_attachment: Field::HasOne,
-    breeder_id_picture_blob: Field::HasOne,
     id: Field::Number,
     email: Field::String,
     encrypted_password: Field::String,
@@ -36,8 +34,6 @@ class UserDashboard < Administrate::BaseDashboard
   # Feel free to add, remove, or rearrange items.
   COLLECTION_ATTRIBUTES = %i[
   listings
-  breeder_id_picture_attachment
-  breeder_id_picture_blob
   id
   ].freeze
 
@@ -45,8 +41,6 @@ class UserDashboard < Administrate::BaseDashboard
   # an array of attributes that will be displayed on the model's show page.
   SHOW_PAGE_ATTRIBUTES = %i[
   listings
-  breeder_id_picture_attachment
-  breeder_id_picture_blob
   id
   email
   encrypted_password
@@ -70,8 +64,6 @@ class UserDashboard < Administrate::BaseDashboard
   # on the model's form (`new` and `edit`) pages.
   FORM_ATTRIBUTES = %i[
   listings
-  breeder_id_picture_attachment
-  breeder_id_picture_blob
   email
   encrypted_password
   reset_password_token

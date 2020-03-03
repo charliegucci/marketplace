@@ -44,10 +44,14 @@ class User < ApplicationRecord
   end
 
   def guest?
-    role == "guest"
+    role == 'guest'
   end
 
   def seller?
-    role == "seller"
+    role == 'seller'
+  end
+
+  def admin?
+    role == 'admin'
   end
 end

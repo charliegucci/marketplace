@@ -6,6 +6,8 @@
 # you're free to overwrite the RESTful controller actions.
 module Admin
   class ApplicationController < Administrate::ApplicationController
+    include Pundit
+
     before_action :authenticate_admin
 
     def authenticate_admin
@@ -17,5 +19,11 @@ module Admin
     # def records_per_page
     #   params[:per_page] || 20
     # end
+
+    # Authorization without Pundit
+    # Source: http://administrate-prototype.herokuapp.com/authorization
+    def show_action?(action, resource)
+      authorize :admin_dashboard, "#{action}?".to_sym
+    end
   end
 end

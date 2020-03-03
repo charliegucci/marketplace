@@ -20,9 +20,9 @@ class ApplicationController < ActionController::Base
   end
 
   def configure_permitted_parameters
-    devise_parameter_sanitizer.permit(:sign_up, keys: [:name, :street_number_name, :suburb, :state])
+    devise_parameter_sanitizer.permit(:sign_up, keys: [:name, :street_number_name, :suburb, :state, :avatar])
     devise_parameter_sanitizer.permit(:account_update, keys: [:name, :street_number_name, :suburb,
-       :postcode, :breeder_supply_number, :state])
+       :postcode, :breeder_supply_number, :state, :avatar])
   end
 end
 

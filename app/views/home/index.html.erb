@@ -1,9 +1,9 @@
 <%= render '/shared/hero'%>
-<br/>
+<br />
 <div class="container" style='text-align: center; padding: 3rem;'>
-<h2 class="subtitle is-5 is-spaced ">Planning on getting a <strong>puppy</strong>?</h2> 
-<h2 class="subtitle is-5 is-spaced ">If you have already settled on a breed, 
-the next big decision is where you should get your <strong>puppy</strong> from. </h2>
+  <h2 class="subtitle is-5 is-spaced ">Planning on getting a <strong>puppy</strong>?</h2>
+  <h2 class="subtitle is-5 is-spaced ">If you have already settled on a breed,
+    the next big decision is where you should get your <strong>puppy</strong> from. </h2>
 </div>
 <%# Search Bar %>
 <br />
@@ -25,19 +25,19 @@ the next big decision is where you should get your <strong>puppy</strong> from. 
 </div>
 <%# end Seacrch Bar %>
 <%= render '/shared/card'%>
-<br/>
+<br />
 <section class="section">
- <div class='container'>
-<h1 class="title">Available</h1>
-<h2 class="subtitle">Listings</h2>
-</div>
-<br/>
+  <div class='container'>
+    <h1 class="title">Available</h1>
+    <h2 class="subtitle">Listings</h2>
+  </div>
+  <br />
   <div class=container-home>
-    <% @listings.each do |listing|%>
+    <% @listings.order(updated_at: :desc).each do |listing|%>
     <div class="card">
-    <div class="card-content" style='font-size: small; '>
-    <%= time_ago_in_words(listing.created_at) %><span> ago</span>
-    </div>
+      <div class="card-content" style='font-size: small; '>
+        <%= time_ago_in_words(listing.updated_at) %><span> ago</span>
+      </div>
       <div class="card-image">
         <figure class="image is-4by3">
           <% if listing.picture.attached? %>
@@ -53,7 +53,11 @@ the next big decision is where you should get your <strong>puppy</strong> from. 
         <div class="media">
           <div class="media-left">
             <figure class="image is-48x48">
+              <% if listing.user.avatar.attached?%>
+              <%= image_tag listing.user.avatar %>
+              <% else %>
               <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+              <%end%>
             </figure>
           </div>
           <div class="media-content">

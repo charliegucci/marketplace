@@ -35,6 +35,9 @@ the next big decision is where you should get your <strong>puppy</strong> from. 
   <div class=container-home>
     <% @listings.each do |listing|%>
     <div class="card">
+    <div class="card-content" style='font-size: small; '>
+    <%= time_ago_in_words(listing.created_at) %><span> ago</span>
+    </div>
       <div class="card-image">
         <figure class="image is-4by3">
           <% if listing.picture.attached? %>

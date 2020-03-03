@@ -48,7 +48,7 @@ class User < ApplicationRecord
   end
 
   def seller?
-    role == 'seller'
+    (role == 'seller') || admin?
   end
 
   def admin?

@@ -14,14 +14,12 @@
           <br />
           <p><strong>Description: </strong> <%= listing.description %></p>
           <br />
+          <p class='buttons'><%= link_to 'Price: Contact Seller', root_path, 
+            class:'button is-small is-rounded is-info'%></p>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div class="container">
-  <span><%= link_to "Edit", edit_listing_path(id: listing.id) %> |</span>
-  <span><%= link_to "Delete", listing_path(listing),data: { confirm: 'Are you sure?' }, method: :delete %> |</span>
-  <span><%= link_to "Back ", root_path %></span>
-</div>
+<%= link_to 'Back', :back%>
 </section>

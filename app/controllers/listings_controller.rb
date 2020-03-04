@@ -2,6 +2,7 @@ class ListingsController < ApplicationController
   def index
     @listings = Listing.where(user: current_user)
     authorize(@listings)
+    @user = current_user
   end
 
   def new

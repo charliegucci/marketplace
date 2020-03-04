@@ -41,7 +41,7 @@
       <div class="card-image">
         <figure class="image is-4by3">
           <% if listing.picture.attached? %>
-          <%= link_to listing_path(listing.id) do %>
+          <%= link_to list_path(listing.id) do %>
           <%= image_tag listing.picture%>
           <%end%>
           <% else %>
@@ -61,14 +61,15 @@
             </figure>
           </div>
           <div class="media-content">
-            <p class="title is-4"><%= link_to listing.breed.name, listing_path(id: listing.id)%></p>
-            <p class="title is-4"><%= listing.breeder_prefix%></p>
-            <p class="subtitle is-6"><%= listing.user.name%></p>
-            <p class="subtitle is-6">Price: Contact Seller</p>
+            <p class="title is-4">Breed: <%= link_to listing.breed.name, list_path(id: listing.id)%></p>
+            <p class="title is-4">Kennel: <%= listing.breeder_prefix%></p>
+            <p class="subtitle is-6">Breeder: <%= listing.user.name%></p>
+            <p class="subtitle is-6 buttons"><%= link_to 'Price: Contact Seller', root_path, 
+            class:'button is-small is-rounded is-info'%></p>
           </div>
         </div>
-        <div class="content">
-          <%= listing.description%>...
+        <div class="content"><p class="subtitle is-6">Description: 
+          <%= listing.description%>...</p>
         </div>
       </div>
     </div>

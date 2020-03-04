@@ -6,8 +6,8 @@ class HomeController < ApplicationController
     @listings = Listing.search(params[:search])
   end
 
-  def blank
-
+  def show
+    @listing = Listing.find_by(id: params[:id])
   end
 
 end

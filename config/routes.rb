@@ -9,6 +9,6 @@ Rails.application.routes.draw do
     resources :registrations
   end
 
-  get 'blank', to: 'home#blank'
+  get '/show/:id', to: 'home#show', as:'list'
   root to: "home#index"
   end

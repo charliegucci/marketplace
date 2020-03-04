@@ -27,6 +27,19 @@
 
 }
 
-section {
+.listing-form-margin,
+.devise-form {
     margin: 0 30%;
+}
+
+.container-home {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 2.5rem;
+
+}
+
+.message {
+    width: 23%;
+
 }

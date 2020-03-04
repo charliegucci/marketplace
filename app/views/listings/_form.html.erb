@@ -1,25 +1,26 @@
-<br/>
-  <%= form_with(model: listing, local: true) do |form| %>
-    <div class="field">
-      <%- opts = options_from_collection_for_select(Breed.order(:name), :id, :name, listing.breed_id) %>
-      <%= form.select_with_label(:breed_id, opts, required: true) %>
-    </div>
-  <div class="field">
-      <%= form.text_field_with_label :breeder_prefix %>
-    </div>
-    <div class="field">
-      <h3><%= form.label :description, "Description" %></h3>
-      <%= form.text_area :description, :id => "message_area", class: "textarea"  %>
-    </div>
-    <br/>
-    <p>
-       <%= form.label :picture %>
-       <%= form.file_field :picture, accept:'image/png,image/gif,image/jpeg,image/jpg', class:'file-label file-cta file has-name' %>
-       <br/><span class='file-icon'><i class="fas fa-upload"></i></span>
-    </p>
-
-    <div class="actions">
-      <%= form.submit %>
-    </div>
+<br />
+<%= form_with(model: listing, local: true) do |form| %>
+<div class="field">
+  <%- opts = options_from_collection_for_select(Breed.order(:name), :id, :name, listing.breed_id) %>
+  <%= form.select_with_label(:breed_id, opts, required: true) %>
+</div>
+<div class="field">
+  <%= form.text_field_with_label :breeder_prefix %>
+</div>
+<div class="field">
+  <h3><%= form.label :description, "Description" %></h3>
+  <%= form.text_area :description, :id => "message_area", class: "textarea"  %>
+</div>
+<br />
+<div class="field">
+  <%if @listing.picture.attached? %>
+  <%= image_tag @listing.picture %>
   <% end %>
-
+  <%= form.label :picture %>
+  <%= form.file_field :picture, accept:'image/png,image/gif,image/jpeg,image/jpg', class:'file-label file-cta file has-name' %>
+  <br /><span class='file-icon'><i class="fas fa-upload"></i></span>
+</div>
+<div class="actions">
+  <%= form.submit %>
+</div>
+<% end %>

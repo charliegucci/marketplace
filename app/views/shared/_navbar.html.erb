@@ -1,5 +1,5 @@
 <!-- START NAV -->
-<nav class="navbar">
+<nav class="navbar is-light is spaced">
   <div class="container">
     <div class="navbar-brand">
       <button class="button is-white is-medium">
@@ -15,10 +15,12 @@
     <div id="navbarMenu" class="navbar-menu">
       <div class="navbar-end">
         <span class="navbar-item">
-          <%= link_to 'Home', root_path%>
+          <%= link_to 'Home', root_path%><span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
         </span>
         <% if user_signed_in? && current_user.guest? %>
-        <span class="navbar-item button is-primary is-light is-medium is-outlined">
+        <span class="navbar-item button is-info is-light is-medium is-outlined">
           <%= link_to "Apply as Seller", new_seller_registration_path %>
           <% end %>
         </span>
@@ -27,7 +29,7 @@
         </span>
         <div class="navbar-item has-dropdown is-hoverable">
           <span class="navbar-link">
-            Account
+            Account<span><i class="fas fa-user-circle"></i></span>
           </span>
           <div class="navbar-dropdown">
             <div class="navbar-item">
@@ -46,10 +48,10 @@
       </div>
       <%else%>
       <span class="navbar-item">
-        <%= link_to "Sign In", new_user_session_path %>
+        <%= link_to "Sign In", new_user_session_path %><span><i class="fas fa-sign-in-alt"></i></span>
       </span>
       <span class="navbar-item">
-        <%=link_to "Register", new_user_registration_path%>
+        <%=link_to "Register", new_user_registration_path%><span><i class="fas fa-user-plus"></i></span>
       </span>
       <%end%>
     </div>

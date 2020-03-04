@@ -8,6 +8,14 @@ class ApplicationController < ActionController::Base
 
   protected
 
+  def after_sign_in_path_for(resource)
+    if current_user.role == "seller"
+        listings_path
+    else 
+      root_path
+    end    
+  end
+
   def public_controller?
     devise_controller? || whitelisted_controllers.include?(self.class)
   end
@@ -20,9 +28,9 @@ class ApplicationController < ActionController::Base
   end
 
   def configure_permitted_parameters
-    devise_parameter_sanitizer.permit(:sign_up, keys: [:name, :street_number_name, :suburb, :state])
+    devise_parameter_sanitizer.permit(:sign_up, keys: [:name, :street_number_name, :suburb, :state, :avatar])
     devise_parameter_sanitizer.permit(:account_update, keys: [:name, :street_number_name, :suburb,
-       :postcode, :breeder_supply_number, :state])
+      :postcode, :breeder_supply_number, :state, :avatar])
   end
 end
 

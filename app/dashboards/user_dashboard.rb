@@ -69,8 +69,6 @@ class UserDashboard < Administrate::BaseDashboard
   FORM_ATTRIBUTES = %i[
   listings
   email
-  password
-  password_confirmation
   name
   suburb
   street_number_name

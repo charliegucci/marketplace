@@ -1,0 +1,10 @@
+<p>Hi <%= @user.name %>,</p>
+<p>
+  Unfortunately, your application as a seller on manspalhouse.com has been rejected. 
+</p>
+<p>
+  To update your application:<br/>
+  1. Sign in to MansPalHouse here: <%= link_to "MansPalHouse Sign In", new_user_session_url %><br/>
+  2. Update your seller info at: <%= link_to "MansPalHouse - Apply as a Seller", new_seller_registration_url %><br/>
+</p>
+<p>Have a great day!</p>

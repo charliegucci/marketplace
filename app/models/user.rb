@@ -37,11 +37,20 @@ class User < ApplicationRecord
     application_status == 'approved'
   end
 
+  def rejected?
+    application_status == 'rejected'
+  end
+
   after_save :after_approve_steps, if: Proc.new { |user| !user.seller? && user.approved? }
+  after_save :after_reject_steps, if: Proc.new { |user| user.guest? && user.rejected? }
 
   def after_approve_steps
     ensure_seller_role
     send_approval_email
+  end
+
+  def after_reject_steps
+    send_rejection_email
   end
 
   def send_approval_email
@@ -50,6 +59,10 @@ class User < ApplicationRecord
 
   def ensure_seller_role
     update_attributes(role: 'seller')
+  end
+
+  def send_rejection_email
+    UserMailer.with(user: self).seller_rejection_email.deliver_now
   end
 
   def guest?

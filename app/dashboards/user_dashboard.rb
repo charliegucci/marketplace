@@ -11,6 +11,8 @@ class UserDashboard < Administrate::BaseDashboard
     listings: Field::HasMany,
     id: Field::Number,
     email: Field::String,
+    password: Field::Password,
+    password_confirmation: Field::Password,
     encrypted_password: Field::String,
     reset_password_token: Field::String,
     reset_password_sent_at: Field::DateTime,
@@ -23,6 +25,7 @@ class UserDashboard < Administrate::BaseDashboard
     role: Field::Select.with_options(collection: User::ROLE),
     postcode: Field::Number,
     breeder_supply_number: Field::Number,
+    breeder_id_picture: Field::ActiveStorage,
     state: Field::String,
     application_status: Field::Select.with_options(collection: User::APPLICATION_STATUS),
   }.freeze
@@ -47,10 +50,6 @@ class UserDashboard < Administrate::BaseDashboard
   listings
   id
   email
-  encrypted_password
-  reset_password_token
-  reset_password_sent_at
-  remember_created_at
   created_at
   updated_at
   name
@@ -59,6 +58,7 @@ class UserDashboard < Administrate::BaseDashboard
   role
   postcode
   breeder_supply_number
+  breeder_id_picture
   state
   application_status
   ].freeze
@@ -69,16 +69,15 @@ class UserDashboard < Administrate::BaseDashboard
   FORM_ATTRIBUTES = %i[
   listings
   email
-  encrypted_password
-  reset_password_token
-  reset_password_sent_at
-  remember_created_at
+  password
+  password_confirmation
   name
   suburb
   street_number_name
   role
   postcode
   breeder_supply_number
+  breeder_id_picture
   state
   application_status
   ].freeze

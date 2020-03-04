@@ -14,3 +14,10 @@ body {
 .title.no-padding {
   margin-bottom: 0 !important;
 }
+
+.hero-body {
+  background-image: image-url('dog12.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}

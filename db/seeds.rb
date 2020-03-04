@@ -198,7 +198,7 @@ user = User.create(
   suburb: 'Park Ridge',
   state: 'Queensland',
   postcode: '4125',
-  breeder_supply_number: '9999999999',
+  breeder_supply_number: '12345',
 )
 
 puts "Creating Sample Listing"

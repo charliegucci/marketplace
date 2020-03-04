@@ -30,7 +30,10 @@ gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'pundit', '~> 2.1'
 
 # Rails Admin Dashboard
-gem 'rails_admin', '~> 2.0', '>= 2.0.1'
+gem 'administrate', '~> 0.12.0'
+# Get ActiveStorage attachments to work with administrate gem
+gem 'administrate-field-active_storage', '0.1.8'
+
 # Payment gateway
 gem 'stripe', '~> 5.15'
 # Pagination
@@ -41,7 +44,9 @@ gem 'pagy', '~> 3.7', '>= 3.7.3'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
+# implicitly required by administrate-field-active_storage
+# to properly display attachments in the /admin dashboard
+gem 'mini_magick', '~> 4.8'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

@@ -187,7 +187,20 @@ user = User.create(
   state: 'Queensland',
   postcode: '4125',
   breeder_supply_number: '0123456789',
-  )
+)
+
+user = User.create(
+  role: "admin",
+  email: 'admin@g.com',
+  password: 'asdfasdf',
+  password_confirmation: 'asdfasdf',
+  street_number_name: '10 Mas Matalino St.,',
+  suburb: 'Park Ridge',
+  state: 'Queensland',
+  postcode: '4125',
+  breeder_supply_number: '9999999999',
+)
+
 puts "Creating Sample Listing"
 Listing.create(breed: Breed.first, user: user)
 

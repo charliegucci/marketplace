@@ -18,4 +18,7 @@ Rails.application.routes.draw do
 
   get '/show/:id', to: 'home#show', as:'list'
   root to: "home#index"
+  get "/membership/new", to: "membership#new", as: "new_membership"
+  get "/membership", to: "membership#index", as: "membership"
+  get "/membership/complete", to: "membership#complete", as: "complete_membership"
   end

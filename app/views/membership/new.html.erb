@@ -1,0 +1,54 @@
+<div class='container' style='text-align: center;'>
+  <div class='card' style='margin: 5rem 0;'>
+    <h2 class='title is-2'>Checkout</h2>
+    <table class='table'>
+      <thead>
+        <tr>
+          <th>Details</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Subscription for MansPalhouse
+          </td>
+          <td>
+            $50.00 AUD
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td>Payment Method
+          </td>
+          <td>
+            <div class="control">
+              <label class="radio">
+                <input type="radio" name="foobar" checked>
+                Credit Card
+              </label>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class='container'>
+<button id="pay-now" class="field has-addons control" style='margin: 2rem 0;'>Pay now  <a><i class="fab fa-stripe"></a></i></button>
+</div>
+
+<script src="https://js.stripe.com/v3/"></script>
+<script>
+ document
+   .querySelector("[id='pay-now']")
+   .addEventListener("click", () => {
+     const stripe = Stripe(
+       "<%= Rails.application.credentials.dig(:stripe, :public_key) %>"
+     );
+
+     stripe.redirectToCheckout({
+       sessionId: "<%= @session.id %>"
+     });
+   });
+</script>

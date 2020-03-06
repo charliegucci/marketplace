@@ -11,7 +11,7 @@ class ApplicationController < ActionController::Base
   def after_sign_in_path_for(resource)
     if current_user.seller? && current_user.approved?
         membership_path
-    elsif current_user.seller?
+    elsif current_user.seller? && current_user.completed?
         listings_path
     else 
       root_path

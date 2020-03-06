@@ -21,4 +21,5 @@ Rails.application.routes.draw do
   get "/membership/new", to: "membership#new", as: "new_membership"
   get "/membership", to: "membership#index", as: "membership"
   get "/membership/complete", to: "membership#complete", as: "complete_membership"
+  post "/membership/webhook", to: "membership#webhook"
   end

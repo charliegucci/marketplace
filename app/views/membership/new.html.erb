@@ -1,3 +1,12 @@
+<div class='container'>
+  <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+    <ul>
+      <li><a href="<%=root_path%>">Home</a></li>
+      <li><a href="<%=membership_path%>">Membership</a></li>
+      <li class="is-active"><a href="#" aria-current="page">Checkout</a></li>
+    </ul>
+  </nav>
+</div>
 <div class='container' style='text-align: center; width:50%; padding: 3rem ;'>
   <div class='card' style='margin: 5rem 0;'>
     <h2 class='title is-2'>Checkout</h2>
@@ -33,9 +42,9 @@
       </tbody>
     </table>
   </div>
-<button id="pay-now" class="field has-addons control" style='margin: 2rem 0;'>Pay now  <a><i class="fab fa-stripe"></a></i></button>
+  <button id="pay-now" class="field has-addons control" style='margin: 2rem 0;'>Pay now <a><i
+        class="fab fa-stripe"></a></i></button>
 </div>
-
 
 <script src="https://js.stripe.com/v3/"></script>
 <script>

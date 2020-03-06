@@ -1,47 +1,56 @@
+<div class='container'>
+  <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+    <ul>
+      <li><a href="<%=root_path%>">Home</a></li>
+      <li class="is-active"><a href="#" aria-current="page">Membership</a></li>
+    </ul>
+  </nav>
+</div>
 <section class='section'>
   <div class='container' style='text-align:center;'>
-  <h1><strong>Congratulation!</strong> Your one step away to become a member</h1><br/>
-  <p>Becoming a part of <strong>MansPalHouse</strong> has these following options:</p><br/>
-  <br/><h2 class='title is-2'>for $50.00</h2>
-  <div class='container' style='display:flex; justify-content:space-between; bottom-padding: 2rem;'>
-  <article class="message is-info">
-  <div class="message-header">
-    <p>Breeders Listing</p>
-    </div>
-  <div class="message-body">
-   <p>Unlimited number of Breed</p>
-    <p>Listings</p>
-  </div>
-</article>
+    <h1><strong>Congratulation!</strong> Your one step away to become a member</h1><br />
+    <p>Becoming a part of <strong>MansPalHouse</strong> has these following options:</p><br />
+    <br />
+    <h2 class='title is-2'>for $50.00</h2>
+    <div class='container' style='display:flex; justify-content:space-between; bottom-padding: 2rem;'>
+      <article class="message is-info">
+        <div class="message-header">
+          <p>Breeders Listing</p>
+        </div>
+        <div class="message-body">
+          <p>Unlimited number of Breed</p>
+          <p>Listings</p>
+        </div>
+      </article>
 
-<article class="message is-info">
-  <div class="message-header">
-    <p>Puppy (Litter) Notices</p>
-    </div>
-  <div class="message-body">
-  <p> Listing for Puppies</p>
-    </div>
-</article>
+      <article class="message is-info">
+        <div class="message-header">
+          <p>Puppy (Litter) Notices</p>
+        </div>
+        <div class="message-body">
+          <p> Listing for Puppies</p>
+        </div>
+      </article>
 
-<article class="message is-info">
-  <div class="message-header">
-    <p>Older Dog  Listing</p>
+      <article class="message is-info">
+        <div class="message-header">
+          <p>Older Dog Listing</p>
+        </div>
+        <div class="message-body">
+          <p>Advertise</p>
+          <p>Matured Dogs for Sale</p>
+        </div>
+      </article>
+      <article class="message is-info">
+        <div class="message-header">
+          <p>Stud Services</p>
+        </div>
+        <div class="message-body">
+          <p>Stud Dogs</p>
+          <p>Listings</p>
+        </div>
+      </article>
     </div>
-  <div class="message-body">
-   <p>Advertise</p>
-   <p>Matured Dogs for Sale</p>
   </div>
-</article>
-<article class="message is-info">
-  <div class="message-header">
-    <p>Stud Services</p>
-    </div>
-  <div class="message-body">
-   <p>Stud Dogs</p>
-   <p>Listings</p>
-  </div>
-</article>
-  </div>
-  </div>
-<p style='margin: 2.5rem 0;'><%= link_to 'Proceed to Payment', new_membership_path, class:'button is-primary'%></p>
+  <p style='margin: 2.5rem 0;'><%= link_to 'Proceed to Payment', new_membership_path, class:'button is-primary'%></p>
 </section>

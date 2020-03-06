@@ -1,9 +1,9 @@
-<br/>
+<br />
 <div class='container'>
-<h1 class="title">Hello <%= @user.name%></h1>
-<h2 class="subtitle">Here are all your Listings</h2>
+  <h1 class="title">Hello <%= @user.name%></h1>
+  <h2 class="subtitle">Here are all your Listings</h2>
 </div>
-<br/>
+<br />
 <div class=container>
   <div class=container-home>
     <% @listings.order(updated_at: :desc).each do |listing|%>
@@ -47,15 +47,13 @@
     <%end%>
   </div>
 </div>
-<br/>
+<br />
 <div class='container'>
-    <button class="button is-success is-small">
-      <span class="icon is-small">
-        <i class="fas fa-bone"></i>
-      </span>
-      <span><%= link_to "Post new Listing", new_listing_path %></span>
-    </button>  
+  <button class="button is-success is-small">
+    <span class="icon is-small">
+      <i class="fas fa-bone"></i>
+    </span>
+    <span><%= link_to "Post new Listing", new_listing_path %></span>
+  </button>
+  <%== pagy_bulma_combo_nav_js(@pagy) %>
 </div>
-
-
-                

@@ -2,7 +2,7 @@ class ListingsController < ApplicationController
   before_action :authenticate_user!
 
   def index
-    @listings = Listing.where(user: current_user)
+    @pagy, @listings = pagy(Listing.where(user: current_user))
     authorize(@listings)
     @user = current_user
   end

@@ -8,43 +8,39 @@
   </nav>
 </div>
 <div class='container' style='text-align: center; width:50%; padding: 3rem ;'>
-  <div class='card' style='margin: 5rem 0;'>
+  <div class='card' style='padding: 5rem 0;'>
     <h2 class='title is-2'>Checkout</h2>
-    <table class='table'>
-      <thead>
-        <tr>
-          <th>Details</th>
-          <th>Price</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            Subscription for MansPalhouse
-          </td>
-          <td>
-            $50.00 AUD
-          </td>
-        </tr>
-        <br />
-        <tr>
-          <td>Payment Method
-          </td>
-          <td>
-            <div class="control">
-              <label class="radio">
-                <input type="radio" name="foobar" checked>
-                Credit Card
-              </label>
-            </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <button id="pay-now" class="field has-addons control" style='margin: 2rem 0;'>Pay now <a><i
-        class="fab fa-stripe"></a></i></button>
+    <div class="columns">
+      <div class="column">
+        <strong>Details</strong>
+      </div>
+      <div class="column">
+        <strong>Price</strong>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        Subscription for MansPalhouse
+      </div>
+      <div class="column">
+        $50.00 AUD
+      </div>
+    </div>
+    <br />
+    <div class="columns">
+      <div class="column">
+        Payment Method
+      </div>
+      <div class="column">
+        <label class="radio">
+            <input type="radio" name="foobar" checked>
+            Credit Card
+          </label>
+        </div>
+    </div>
 </div>
+<button id="pay-now" class="field has-addons control" style='margin: 2rem 0;'>Pay now <a><i
+        class="fab fa-stripe"></a></i></button>
 
 <script src="https://js.stripe.com/v3/"></script>
 <script>

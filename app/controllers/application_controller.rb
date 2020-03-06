@@ -14,7 +14,7 @@ class ApplicationController < ActionController::Base
     elsif current_user.seller?
         listings_path
     else 
-      listing_path
+      root_path
     end    
   end
 

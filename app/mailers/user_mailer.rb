@@ -9,7 +9,6 @@ class UserMailer < ApplicationMailer
     mail(to: @user.email, subject: 'Your MansPalHouse application has been rejected')
   end
   def contact_seller_email
-    p params
     @user = params[:user]
     @recipient = params[:recipient]
     @listing = params[:listing]

@@ -27,6 +27,7 @@ class User < ApplicationRecord
   #
   # Once a user has been approved, and has paid his membership fee,
   # his application_status is considered `completed`
+  
   APPLICATION_STATUS = %w(not_applied pending approved rejected completed)
   validates :application_status, inclusion: {
     in: APPLICATION_STATUS,
@@ -41,6 +42,10 @@ class User < ApplicationRecord
     application_status == 'rejected'
   end
 
+  def completed?
+    application_status == 'completed'
+  end
+  
   after_save :after_approve_steps, if: Proc.new { |user| !user.seller? && user.approved? }
   after_save :after_reject_steps, if: Proc.new { |user| user.guest? && user.rejected? }
 
@@ -65,6 +70,14 @@ class User < ApplicationRecord
     UserMailer.with(user: self).seller_rejection_email.deliver_now
   end
 
+  def contact_seller_email
+    @recipient = listing.user
+    @breed = listing.breed
+    UserMailer.with(user: current_user, listing: listing, recipient: @recipient, breed: breed, email_body: params[:email_body]
+    ).contact_seller_email.deliver_now
+    
+  end
+
   def guest?
     role == 'guest'
   end
@@ -77,3 +90,4 @@ class User < ApplicationRecord
     role == 'admin'
   end
 end
+

@@ -20,6 +20,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  background-position-y: -12rem;
 }
 
 #wrapper {
@@ -39,4 +40,34 @@ body {
     color: #ffffff;
     letter-spacing: 1px;
   }
+}
+
+#banner-message {
+  background: #fefefe;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.2s;
+  margin: 0 auto;
+  width: 500px;
+}
+
+#breed_data {
+  background: #fefefe;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 14px;
+  text-align: left;
+  transition: all 0.2s;
+  margin: 0 auto;
+  width: 500px;
+  letter-spacing: 1.5px;
+
+}
+
+#breed_image {
+  background: #fefefe;
+  margin: 0 auto;
+  width: 460px;
 }

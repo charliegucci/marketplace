@@ -8,7 +8,7 @@
 <%# Search Bar %>
 <br />
 <div class="container" style=" width: 50%;">
-  <%= form_tag(root_path, method: :get) do%>
+  <%= form_tag("#{root_path+'#main'}", method: :get) do%>
   <div class="section">
     <div class="box">
       <div class="field has-addons">
@@ -26,7 +26,9 @@
 <%# end Seacrch Bar %>
 <%= render '/shared/card'%>
 <br />
-<div class='container' style='display:flex; justify-content:space-between; padding: 2.5rem;'>
+<%= render '/shared/dog_api'%>
+<br/>
+<div id="main" class='container' style='display:flex; justify-content:space-between; padding: 2.5rem;'>
 <span><%=image_tag('logo4.png')%></span><span><%=image_tag('logo1.png')%></span><span><%=image_tag('logo2.png')%></span><span><%=image_tag('logo3.png')%></span></div>
 <section class="section">
   <div class='container'>
@@ -79,3 +81,5 @@
   </div>
 </section>
   <%== pagy_bulma_combo_nav_js(@pagy) %>
+
+  

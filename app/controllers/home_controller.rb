@@ -1,9 +1,13 @@
 class HomeController < ApplicationController
+  before_action :authenticate_user!, only: [:contact_seller]
+  def new
+  end
+
   def index
     @users = User.all
     @user_count = User.count
     # @share = request.url (share feature link)
-   @pagy, @listings = pagy(Listing.search(params[:search]))
+    @pagy, @listings = pagy(Listing.search(params[:search]))
   end
 
   def show

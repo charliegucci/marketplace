@@ -10,6 +10,12 @@ class HomeController < ApplicationController
     @listing = Listing.find_by(id: params[:id])
   end
 
+  def contact_seller
+    @user = current_user
+    @user.contact_seller_email(params[:id])
+    flash[:notice] = "Successfully Email the Seller. The Seller will be contacting you directly."
+    redirect_to root_path
+  end
 end
 
 

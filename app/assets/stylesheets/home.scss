@@ -21,3 +21,22 @@ body {
   background-size: cover;
   height: 100vh;
 }
+
+#wrapper {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background: rgba(135, 216, 211, 0.85);
+
+  .alert,
+  .notice {
+    padding: 2.5rem 0;
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1px;
+  }
+}

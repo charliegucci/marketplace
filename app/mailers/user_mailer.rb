@@ -15,4 +15,8 @@ class UserMailer < ApplicationMailer
     @breed = params[:breed]
     mail(to: @user.email, subject: "[ENQUIRY] #{@listing.breeder_prefix} - #{@breed.name}")
   end
+  def send_confirm_payment_email
+    @user = params[:user]
+    mail(to: @user.email, subject: '[SUCCESSFUL] Your Payment was approved')
+  end
 end

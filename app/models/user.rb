@@ -48,6 +48,7 @@ class User < ApplicationRecord
   
   after_save :after_approve_steps, if: Proc.new { |user| !user.seller? && user.approved? }
   after_save :after_reject_steps, if: Proc.new { |user| user.guest? && user.rejected? }
+  after_save :after_complete_steps, if: Proc.new { |user| user.seller? && user.completed? }
 
   def after_approve_steps
     ensure_seller_role
@@ -58,6 +59,14 @@ class User < ApplicationRecord
     send_rejection_email
   end
 
+  def after_complete_steps
+    send_confirm_payment_email
+  end
+
+  def send_confirm_payment_email
+    UserMailer.with(user: self).send_confirm_payment_email.deliver_now
+  end
+
   def send_approval_email
     UserMailer.with(user: self).seller_approval_email.deliver_now
   end
@@ -65,16 +74,16 @@ class User < ApplicationRecord
   def ensure_seller_role
     update_attributes(role: 'seller')
   end
-
+  
   def send_rejection_email
     UserMailer.with(user: self).seller_rejection_email.deliver_now
   end
 
-  def contact_seller_email
-    @recipient = listing.user
-    @breed = listing.breed
-    UserMailer.with(user: current_user, listing: listing, recipient: @recipient, breed: breed, email_body: params[:email_body]
-    ).contact_seller_email.deliver_now
+  def contact_seller_email(listing_id)
+    listing = Listing.find(listing_id)
+    recipient = listing.user
+    breed = listing.breed
+    UserMailer.with(user: self, listing: listing, recipient: recipient, breed: breed).contact_seller_email.deliver_now
     
   end
 

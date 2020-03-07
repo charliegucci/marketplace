@@ -1,0 +1,12 @@
+<h1>Good day!, <%= @user.name %></h1>
+<p>
+  Your Payment for the membership on manspalhouse.com. was successful.
+  <br/>
+  You can now create listings to sell your dogs! 
+</p>
+<p>
+  To start selling:<br/>
+  1. Sign in to MansPalHouse here: <%= link_to "MansPalHouse Sign In", new_user_session_url %><br/>
+  2. Create a new listing at: <%= link_to "MansPalHouse - Post New Listing", new_listing_url %><br/>
+</p>
+<p>Thanks for joining and have a great day!</p>

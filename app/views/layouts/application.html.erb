@@ -14,10 +14,15 @@
 </head>
 
 <body>
-  <div class='container'>
+<%if notice%>
+  <div id='wrapper'>
     <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
   </div>
+  <%elsif alert%>
+<div id='wrapper'>
+  <p class="alert"><%= alert %></p>
+  </div>
+ <%end%> 
   <%= render '/shared/navbar'%>
   <%= yield %>
 </body>

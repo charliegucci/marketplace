@@ -35,9 +35,14 @@
             <div class="navbar-item">
               <span class="navbar-item"><%= link_to 'Profile',edit_user_registration_path %></span>
             </div>
-            <% if current_user.role == 'seller'%>
+            <% if current_user.role == 'seller' || 'admin'%>
             <div class="navbar-item">
               <span class="navbar-item"><%= link_to 'Listings',listings_path %></span>
+            </div>
+            <%end%>
+            <% if current_user.role == 'admin'%>
+            <div class="navbar-item">
+              <span class="navbar-item"><%= link_to 'Admin Dashboard',admin_users_path %></span>
             </div>
             <%end%>
             <hr class="navbar-divider">

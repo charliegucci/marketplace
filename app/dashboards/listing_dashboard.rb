@@ -1,6 +1,7 @@
 require "administrate/base_dashboard"
 
 class ListingDashboard < Administrate::BaseDashboard
+
   # ATTRIBUTE_TYPES
   # a hash that describes the type of each of the model's fields.
   #
@@ -10,8 +11,7 @@ class ListingDashboard < Administrate::BaseDashboard
   ATTRIBUTE_TYPES = {
     breed: Field::BelongsTo,
     user: Field::BelongsTo,
-    picture_attachment: Field::HasOne,
-    picture_blob: Field::HasOne,
+    picture: Field::ActiveStorage,
     id: Field::Number,
     breeder_prefix: Field::String,
     description: Field::Text,
@@ -27,8 +27,7 @@ class ListingDashboard < Administrate::BaseDashboard
   COLLECTION_ATTRIBUTES = %i[
   breed
   user
-  picture_attachment
-  picture_blob
+  
   ].freeze
 
   # SHOW_PAGE_ATTRIBUTES
@@ -36,8 +35,7 @@ class ListingDashboard < Administrate::BaseDashboard
   SHOW_PAGE_ATTRIBUTES = %i[
   breed
   user
-  picture_attachment
-  picture_blob
+  picture
   id
   breeder_prefix
   description
@@ -51,8 +49,7 @@ class ListingDashboard < Administrate::BaseDashboard
   FORM_ATTRIBUTES = %i[
   breed
   user
-  picture_attachment
-  picture_blob
+  picture
   breeder_prefix
   description
   ].freeze

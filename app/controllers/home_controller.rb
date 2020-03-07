@@ -3,7 +3,7 @@ class HomeController < ApplicationController
     @users = User.all
     @user_count = User.count
     # @share = request.url (share feature link)
-    @listings = Listing.search(params[:search])
+   @pagy, @listings = pagy(Listing.search(params[:search]))
   end
 
   def show

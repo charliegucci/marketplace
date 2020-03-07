@@ -1,18 +1,27 @@
-<br/>
+<div class='container'>
+  <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+    <ul>
+      <li><a href="<%=root_path%>">Home</a></li>
+      <li><a href="<%=new_seller_registration_path%>">Seller Registration</a></li>
+      <li class="is-active"><a href="#" aria-current="page">Submit</a></li>
+    </ul>
+  </nav>
+</div>
+<br />
 <section class="listing-form-margin">
-<div class="section">
-  <div class="container">
-    <p>
-      Your application has now been submitted and is now under review.
-      We'll be reviewing it in 3 working days and if there's no update by then, you can follow up at
-      support@manspalhouse.com.
-    </p>
-  </div>
-  <br />
-  <div class="container">
-    <%if @user.breeder_id_picture.attached? %>
+  <div class="section">
+    <div class="container">
+      <p>
+        Your application has now been submitted and is now under review.
+        We'll be reviewing it in 3 working days and if there's no update by then, you can follow up at
+        support@manspalhouse.com.
+      </p>
+    </div>
+    <br />
+    <div class="container">
+      <%if @user.breeder_id_picture.attached? %>
       <%= image_tag @user.breeder_id_picture %>
-    <%else%>
+      <%else%>
       <center>
         <h2 class="title is-5">Warning!<h2>
       </center>
@@ -20,30 +29,30 @@
         <span><%= image_tag('dog.png')%></span><span>Oops you forgot to attached your Breeder Id.
           Please go back and attach required membership ID.</span>
       </div>
-    <%end%>
-    <br />
-    <br />
-    <div class="notification is-success">
-      <p>Name: <%= @user.name %></p>
-      <p>Email: <%= @user.email %></p>
-      <p>Breeder Supply Number: <%= @user.breeder_supply_number %></p>
+      <%end%>
       <br />
+      <br />
+      <div class="notification is-success">
+        <p>Name: <%= @user.name %></p>
+        <p>Email: <%= @user.email %></p>
+        <p>Breeder Supply Number: <%= @user.breeder_supply_number %></p>
+        <br />
+      </div>
     </div>
-  </div>
-  <br />
-  <br />
-  <div class="container">
-    <div class="field is-grouped is-grouped-centered">
-      <p class="control">
-        <a>
-          <%= link_to "Back to Home", root_path, class: "button is-primary" %>
-        </a>
-      </p>
-      <p class="control">
-        <a>
-          <%= link_to "Back to Registration Form", :back, class:"button is-light" %>
-        </a>
-      </p>
+    <br />
+    <br />
+    <div class="container">
+      <div class="field is-grouped is-grouped-centered">
+        <p class="control">
+          <a>
+            <%= link_to "Back to Home", root_path, class: "button is-primary" %>
+          </a>
+        </p>
+        <p class="control">
+          <a>
+            <%= link_to "Back to Registration Form", :back, class:"button is-light" %>
+          </a>
+        </p>
+      </div>
     </div>
-  </div>
-  </section>
+</section>

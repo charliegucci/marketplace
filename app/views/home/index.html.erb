@@ -7,7 +7,7 @@
 </div>
 <%# Search Bar %>
 <br />
-<div class="container" style=" width: 50%">
+<div class="container" style=" width: 50%;">
   <%= form_tag(root_path, method: :get) do%>
   <div class="section">
     <div class="box">
@@ -26,6 +26,8 @@
 <%# end Seacrch Bar %>
 <%= render '/shared/card'%>
 <br />
+<div class='container' style='display:flex; justify-content:space-between; padding: 2.5rem;'>
+<span><%=image_tag('logo4.png')%></span><span><%=image_tag('logo1.png')%></span><span><%=image_tag('logo2.png')%></span><span><%=image_tag('logo3.png')%></span></div>
 <section class="section">
   <div class='container'>
     <h1 class="title">Available</h1>
@@ -76,3 +78,4 @@
     <%end%>
   </div>
 </section>
+  <%== pagy_bulma_combo_nav_js(@pagy) %>

@@ -1,3 +1,11 @@
+ <div class='container'>
+<nav class="breadcrumb is-small" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="<%=root_path%>">Home</a></li>
+    <li class="is-active"><a href="#" aria-current="page">Forgot Password</a></li>
+  </ul>
+</nav>
+</div>
  <div class="container" style='padding: 11rem 2rem 10rem;'>
    <div class="devise-form">
      <h2>Forgot your password?</h2>
@@ -11,8 +19,7 @@
        <%= f.submit "Send me reset password instructions" %>
      </div>
      <% end %>
-     <br/>
+     <br />
      <%= render "devise/shared/links" %>
    </div>
  </div>
- 

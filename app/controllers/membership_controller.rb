@@ -7,8 +7,8 @@ class MembershipController < ApplicationController
     @session = Stripe::Checkout::Session.create(
       payment_method_types: ['card'],
       line_items: [{
-        name: @user.name,
-        description:'Membership Payment',
+        name:"Payee: #{@user.name}",
+        description:'MansPalHouse Membership Payment',
         amount: 5000,
         currency:'aud',
         quantity: 1,
@@ -31,8 +31,7 @@ class MembershipController < ApplicationController
     user.save
     
   end
- 
- def index
+  def index
   end
 
   def complete

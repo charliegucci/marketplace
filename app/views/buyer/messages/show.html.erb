@@ -1,0 +1,28 @@
+<div class="section">
+  <br/>
+  <div class="container">
+  <br/>
+    <div class="card">
+      <div class="card-content">
+        <div class="content is-small is-narrow">
+          <center><h1>Message sent to <%= @message.seller_email %></h1></center>
+          <center><%= image_tag @message.listing_picture %></center>
+
+          <h3>Your Name</h3>
+          <%= @message.buyer_name %>
+          <br/>
+
+          <h3>Your Email</h3>
+          <%= @message.buyer_email %>
+          <br/>
+
+          <h3>Your Message</h3>
+          <%= @message.body %>
+        </div>
+      </div>    
+    </div>  
+  </div>
+</div>
+<div class="container">  
+  <%= link_to 'Back to Home', root_path %>
+</div>  

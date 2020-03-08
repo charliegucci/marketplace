@@ -26,7 +26,9 @@ class ApplicationController < ActionController::Base
   def whitelisted_controllers
     [
       HomeController,
-      Seller::RegistrationsController, MembershipController
+      Seller::RegistrationsController,
+      MembershipController,
+      Buyer::MessagesController,
     ]
   end
 

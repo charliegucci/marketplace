@@ -9,11 +9,8 @@ class UserMailerPreview < ActionMailer::Preview
   end
 
   def contact_seller_email
-    @listing = Listing.last
-    @recipient = @listing.user
-    @breed = @listing.breed
-    UserMailer.with(user: User.last, listing: @listing, recipient: @recipient, breed: @breed).contact_seller_email.deliver_now
-    
+    @message = Buyer::Message.last
+    UserMailer.with(message_id: @message.id).contact_seller_email.deliver_now
   end
 end
 

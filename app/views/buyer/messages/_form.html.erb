@@ -1,0 +1,25 @@
+<br />
+<%= form_with(model: message, local: true) do |form| %>
+  <center>
+    <%if message.try(:listing).try(:picture).try(:attached?) %>
+      <%= image_tag @listing.picture %>
+    <% end %>
+  </center>
+  <div class="field">
+    <h3><%= form.label :buyer_name, "Your Name" %></h3>
+    <%= form.text_field :buyer_name %>
+  </div>
+  <div class="field">
+    <h3><%= form.label :buyer_email, "Your Email" %></h3>
+    <%= form.text_field :buyer_email %>
+  </div>
+  <div class="field">
+    <h3><%= form.label :body, "Your Message" %></h3>
+    <%= form.text_area :body, :id => "message_area", class: "textarea"  %>
+  </div>
+  <%= form.hidden_field(:listing_id) %>
+  <br />
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

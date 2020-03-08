@@ -1,0 +1,17 @@
+<div class="section">
+  <br/>
+  <div class="container">
+  <br/>
+    <div class="card">
+      <div class="card-content">
+        <div class="content is-small is-narrow">
+          <center><h1>Send a Message to <%= @listing.user.email %></h1></center>
+          <%= render 'form', message: @message %>
+        </div>
+      </div>    
+    </div>  
+  </div>
+</div>
+<div class="container">  
+  <%= link_to 'Back', :back %>
+</div>  

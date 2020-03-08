@@ -68,7 +68,7 @@
             <p class="title is-4">Breed: <%= link_to listing.breed.name, list_path(id: listing.id)%></p>
             <p class="title is-4">Kennel: <%= listing.breeder_prefix%></p>
             <p class="subtitle is-6">Breeder: <%= listing.user.name%></p>
-            <p class="subtitle is-6 buttons"><%= link_to 'Price: Contact Seller', contact_seller_path(listing.id), 
+            <p class="subtitle is-6 buttons"><%= link_to 'Price: Contact Seller', new_buyer_message_path(listing_id: listing.id),
             class:'button is-small is-rounded is-info'%></p>
           </div>
         </div>

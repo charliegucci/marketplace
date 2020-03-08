@@ -15,6 +15,10 @@ Rails.application.routes.draw do
   namespace :seller do
     resources :registrations
   end
+
+  namespace :buyer do
+    resources :messages
+  end
   
   get '/show/:id', to: 'home#show', as:'list'
   root to: "home#index"
@@ -22,5 +26,4 @@ Rails.application.routes.draw do
   get "/membership", to: "membership#index", as: "membership"
   get "/membership/complete", to: "membership#complete", as: "complete_membership"
   post "/membership/webhook", to: "membership#webhook"
-  get "/contact/seller/:id", to: "home#contact_seller", as: "contact_seller"
-  end
+end

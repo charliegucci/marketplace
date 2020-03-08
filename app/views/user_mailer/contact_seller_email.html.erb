@@ -1,5 +1,9 @@
-<p>Hi <%= @recipient.name %>,</p>
+<p>Hi <%= @listing.breeder_name %>,</p>
 
-<p>I would like to know more about the advertisement<p>
+<p><%= @message.body %></p>
 
-<p> You can reach me thru <%=@recipient.email%>.
+<p>You can reach me by replying to this message.</p>
+
+<p>Kind Regards,</p>
+
+<p><%= @message.buyer_name %></p>

@@ -14,7 +14,7 @@
           <br />
           <p><strong>Description: </strong> <%= listing.description %></p>
           <br />
-          <p class='buttons'><%= link_to 'Price: Contact Seller', contact_seller_path(listing.id), 
+          <p class='buttons'><%= link_to 'Price: Contact Seller', new_buyer_message_path(listing_id: listing.id),
             class:'button is-small is-rounded is-info'%></p>
         </div>
       </div>

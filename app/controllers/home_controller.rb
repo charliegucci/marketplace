@@ -3,11 +3,16 @@ class HomeController < ApplicationController
   def new
   end
 
+  def landing_page
+
+  end
+
   def index
     @users = User.all
     @user_count = User.count
     # @share = request.url (share feature link)
     @pagy, @listings = pagy(Listing.search(params[:search]))
+    authorize(@listings)
   end
 
   def show

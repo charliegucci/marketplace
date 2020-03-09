@@ -35,7 +35,7 @@
             <div class="navbar-item">
               <span class="navbar-item"><%= link_to 'Profile',edit_user_registration_path %></span>
             </div>
-            <% if current_user.seller? && current_user.completed?%>
+            <% if current_user.seller? && current_user.completed? || current_user.admin?%>
             <div class="navbar-item">
               <span class="navbar-item"><%= link_to 'Listings',listings_path %></span>
             </div>

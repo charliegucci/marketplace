@@ -26,11 +26,8 @@ Url : https://github.com/charliegucci/marketplace <br/>
 - [High-level components](#high-level-components)
 - [Third party services](#third-party-services)
 - [Active record associations](#active-record-associations)
-- [Database relations / Database schema](#database-relations-database-schema)
+- [Database relations and Database schema](#database-relations-and-database-schema)
 - [Ways task were allocated and tracked](#ways-task-were-allocated-and-tracked)
-- [Slide deck](#slide-deck)
-  - [Outline of the problem](#slide-deck)
-  - [Walkthrough](#walkthrough)
 
 ## Description of the Project
 
@@ -39,13 +36,14 @@ This project is a two way marketplace app for dog lovers where dog breeders can 
 ### Problem definition and purpose
 
 The application was created for the sole purpose of promoting the pure bred pedigree dog so you won't find any crossbred in this website. In the table below is a comparison between a pure bred pedigree dog vs cross breeds.<br/>
-| Canine | Pure Bred Pedigree Dog | Cross Breeds |
+| Dog | Pure Bred Pedigree Dog | Cross Breeds |
 | :------- | :------------------------: | :-------------- |
 | |Both parents are of the same breed.| A Dog resulting from the deliberate mating of two unrelated breed types.|
 || The breed is recognised by the Australian National Kennel Council (ANKC) or one of its Affiliates.| A Dog resulting from an accidental or intentional mating of two different breed types.|
 || The dog's breeders are registered to breed puppies.| A Dog resulting from the mating of one pedigree or pure bred parent and one cross bred or designer bred dog.|
 || The parents of any puppies are registered with the ANKC or one of its affiliates to be bred from | A Cross Breed dog has not been bred by a registered breeder|
-|| It has a pedigree showing at least 3 generations of parentage |A Cross Breed dog is not pure bred or pedigree. <br/>
+|| It has a pedigree showing at least 3 generations of parentage |A Cross Breed dog is not pure bred or pedigree.| <br/>
+
 Disadvantages of Cross breeds are the following: <br>
 
 - difficulty in predicting temperament<br/>
@@ -78,3 +76,32 @@ In this app, we aim to:<br/>
 ### Screenshots
 
 ### Target audience
+
+This application aims to target those dog lovers who wants peace of mind when planning to add a pet in their family and also for Breeders who wants to showcase and promote pure breed dogs. <br/>
+
+### Tech Stack
+
+The following were used to develop my application:
+
+- Ruby on Rails
+- Bulma
+- Heroku
+- Stripe
+- Amazon Web Service (S3)
+- Gmail SMTP server
+- Github
+- Postgresql
+
+## Wireframes
+
+## ERD
+
+## High-level components
+
+## Third party services
+
+## Active record associations
+
+## Database relations and Database schema
+
+## Ways task were allocated and tracked

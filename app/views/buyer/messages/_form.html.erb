@@ -1,4 +1,5 @@
 <br />
+<div class='container'>
 <%= form_with(model: message, local: true) do |form| %>
   <center>
     <%if message.try(:listing).try(:picture).try(:attached?) %>
@@ -23,3 +24,4 @@
     <%= form.submit %>
   </div>
 <% end %>
+</div>

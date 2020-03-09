@@ -1,24 +1,31 @@
+<div class='container'>
+  <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+    <ul>
+      <li><a href="<%=root_path%>">Home</a></li>
+      <li class="is-active"><a href="#" aria-current="page">Submit</a></li>
+    </ul>
+  </nav>
+</div>
+<br />
 <div class="section">
   <br/>
-  <div class="container">
+  <div class="container" style='width: 50%;'>
   <br/>
     <div class="card">
       <div class="card-content">
         <div class="content is-small is-narrow">
           <center><h1>Message sent to <%= @message.seller_email %></h1></center>
-          <center><%= image_tag @message.listing_picture %></center>
-
-          <h3>Your Name</h3>
-          <%= @message.buyer_name %>
-          <br/>
-
-          <h3>Your Email</h3>
-          <%= @message.buyer_email %>
-          <br/>
-
-          <h3>Your Message</h3>
-          <%= @message.body %>
-        </div>
+          <center><%= image_tag @message.listing_picture %></center><br/>
+<div class="control">
+        <strong>Your Name:</strong><input class="input" type="text" value= <%= @message.buyer_name %>  readonly>
+      </div><br/>
+      <div class="control">
+        <strong>Your Email:</strong><input class="input" type="text" value= <%= @message.buyer_email %>  readonly>
+      </div><br/>
+      <div class="control">
+        <strong>Your Message:</strong><input class="input" type="text" value= <%= @message.body %>  readonly>
+      </div><br/>
+          </div>
       </div>    
     </div>  
   </div>

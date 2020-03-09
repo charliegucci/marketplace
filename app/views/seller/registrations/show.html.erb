@@ -32,12 +32,17 @@
       <%end%>
       <br />
       <br />
-      <div class="notification is-success">
-        <p>Name: <%= @user.name %></p>
-        <p>Email: <%= @user.email %></p>
-        <p>Breeder Supply Number: <%= @user.breeder_supply_number %></p>
-        <br />
+      <div class="box">
+      <div class="control">
+        <strong>Name:</strong><input class="input" type="text" value= <%= @user.name %>  readonly>
+      </div><br/>
+      <div class="control">
+        <strong>Email:</strong><input class="input" type="text" value=<%= @user.email %>  readonly>
+      </div><br/>
+      <div class="control">
+        <strong>Breed Supply Number:</strong><input class="input" type="text" value= <%= @user.breeder_supply_number %> readonly>
       </div>
+        </div>
     </div>
     <br />
     <br />

@@ -16,6 +16,9 @@ class User < ApplicationRecord
     message: "%{value} is not a valid role"
   }
 
+  scope :sellers, -> { where(role: 'seller') }
+  scope :guests, -> { where(role: 'guest') }
+
   # Each user can 'Apply as Seller'
   # By default, a user has `not_applied`
   #

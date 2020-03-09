@@ -6,6 +6,25 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+def sample_avatar_file
+  open FFaker::Avatar.image
+end
+
+def attach_avatar_to_user(user)
+  initials = (0...2).map { ('a'..'z').to_a[rand(26)] }.join.upcase
+  user.avatar.attach(io: sample_avatar_file, filename: "#{user.name}-#{rand(1000000)}")
+end
+
+# Gets file from url
+def sample_dog_image_file
+  response = Faraday.get "https://dog.ceo/api/breeds/image/random"
+  json = JSON.parse(response.body)
+  image_url = json["message"]
+
+  open(image_url)
+end
+
+Buyer::Message.destroy_all
 Listing.destroy_all
 User.destroy_all
 Breed.destroy_all
@@ -180,6 +199,7 @@ puts "Creating Sample User"
 user = User.create(
   role: "seller",
   email: 't@g.com',
+  name: FFaker::Name.name,
   password: 'asdfasdf',
   password_confirmation: 'asdfasdf',
   street_number_name: '1 Matalino St.,',
@@ -188,10 +208,12 @@ user = User.create(
   postcode: '4125',
   breeder_supply_number: '0123456789',
 )
+attach_avatar_to_user(user)
 
-user = User.create(
+admin = User.create(
   role: "admin",
   email: 'admin@g.com',
+  name: FFaker::Name.name,
   password: 'asdfasdf',
   password_confirmation: 'asdfasdf',
   street_number_name: '10 Mas Matalino St.,',
@@ -200,9 +222,27 @@ user = User.create(
   postcode: '4125',
   breeder_supply_number: '12345',
 )
+attach_avatar_to_user(admin)
 
 puts "Creating Sample Listing"
-Listing.create(breed: Breed.first, user: user)
+Listing.create(breed: Breed.first, user: user, description: 'This is my dog', breeder_prefix: 'Mang Kiko')
 
 puts "Seed Completed"
 
+if ENV['SEED_DOGS']
+  puts "Populating with Sample Listings..."
+
+  seed_dogs_count = 5
+  seed_dogs_count.times do |n|
+    puts "Creating listing # #{n + 1}..."
+    breed = Breed.order('RANDOM()').first
+    listing_user = User.order('RANDOM()').first
+    description = FFaker::HipsterIpsum.words(100).join(" ")
+    breeder_prefix = FFaker::Company.name
+
+    image_file = sample_dog_image_file
+
+    listing = Listing.create(breed: breed, description: description, user: listing_user, breeder_prefix: breeder_prefix)
+    listing.picture.attach(io: image_file, filename: "#{breed.name}-#{rand(1000000)}")
+  end
+end

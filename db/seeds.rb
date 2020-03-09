@@ -232,7 +232,7 @@ puts "Seed Completed"
 if ENV['SEED_DOGS']
   puts "Populating with Sample Listings..."
 
-  seed_dogs_count = 5
+  seed_dogs_count = 50
   seed_dogs_count.times do |n|
     puts "Creating listing # #{n + 1}..."
     breed = Breed.order('RANDOM()').first

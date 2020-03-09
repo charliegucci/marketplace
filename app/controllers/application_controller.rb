@@ -13,7 +13,7 @@ class ApplicationController < ActionController::Base
     if current_user.seller? && current_user.approved?
         membership_path
     elsif current_user.seller? && current_user.completed?
-        listings_path
+        home_path
     else 
       root_path
     end    

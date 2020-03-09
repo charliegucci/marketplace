@@ -1,6 +1,6 @@
 class ListingPolicy < ApplicationPolicy
   def index?
-    user.seller? && user.completed?
+    user.seller? && user.completed? || user.admin?
   end
 
   def show?

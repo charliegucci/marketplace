@@ -73,7 +73,7 @@
           </div>
         </div>
         <div class="content"><p class="subtitle is-6">Description: 
-          <%= listing.description%>...</p>
+          <%= listing.description.to_s.truncate_words(40, omission: '... (continued)') %></p>
         </div>
       </div>
     </div>

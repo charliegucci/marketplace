@@ -21,6 +21,7 @@ Url : https://github.com/charliegucci/marketplace <br/>
   - [Screenshots](#screenshots)
   - [Target audience](#target-audience)
   - [Tech stack](#tech-stack)
+- [User Stories](#user-stories)
 - [Wireframes](#wireframes)
 - [ERD](#erd)
 - [High-level components](#high-level-components)
@@ -92,6 +93,22 @@ The following were used to develop my application:
 - Github
 - Postgresql
 
+## User Stories
+
+The user stories I have created involves three key consumer roles: admin, buyer and seller. Admin refers to someone maintaining, monitoring and approving the application usage. Seller refers to a consumer that uses the application to advertise dogs online and buyer refers to someone who purchases the dogs listed by the seller.<br/>
+
+#### As a Seller I want to be able to:
+
+- make an account so my information can be associated with my actions.
+- alter my account so in case any future changes that will occur.
+- remove my account so they will be no copy of information stored in the website.
+- create a new listing so I can add dogs information for possible buyers to view.
+- upload a picture of my dog listing so that buyer can visualize what im posting.
+- edit my existing listings so I can change information if necessary.
+- delete my existing listing so I can remove it once sold or if its no longer for sale.
+- view every listings that i have so I can easily see in a glance all my advertisements.
+-
+
 ## Wireframes
 
 ### Desktop Version
@@ -113,6 +130,29 @@ The following were used to develop my application:
 ## High-level components
 
 ## Third party services
+
+The following third-party services were utilized in the development of this application:<br/>
+| Third-Party Services | Description |
+| :------- | :-------------- |
+| Heroku | is a container-based cloud Platform as a Service (PaaS). Developers use Heroku to deploy, manage, and scale modern apps. Our platform is elegant, flexible, and easy to use, offering developers the simplest path to getting their apps to market. We used it to host the application for testing and deployment of our app. https://www.heroku.com/ |
+| Github | is a Git repository hosting service, but it adds many of its own features. While Git is a command line tool, GitHub provides a Web-based graphical interface. It also provides access control and several collaboration features, such as a wikis and basic task management tools for every project. We used it for version control and project managment. https://github.com/
+| AWS S3 | is a scalable, high-speed, web-based cloud storage service designed for online backup and archiving of data and applications on Amazon Web Services. Amazon S3 was designed with a minimal feature set and created to make web-scale computing easier for developers. We used it for file uploading. https://aws.amazon.com/s3/|
+| Stripe | is a technology company that builds economic infrastructure for the internet. Businesses of every size—from new startups to public companies—use our software to accept payments and manage their businesses online. We used it to handle the payment. https://stripe.com/au |
+| Gmail SMTP | a protocol for sending e-mail messages between servers. Most e-mail systems that send mail over the Internet use SMTP to send messages from one server to another. We used its setting for the Rails Active Mailer to be able to send emails. https://google.com|
+| Fontawesome | Allows Font-Awesome web fonts and stylesheets to be used in the marketplace. https://fontawesome.com/|
+<br/>
+The following Ruby on Rails gems were also implemented in the application:
+
+| Ruby Gems    | Description                                                                                                                                                                                                                                                                                                                          |
+| :----------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Devise       | is a flexible authentication solution for Rails based on Warden. We used it for authentication. https://github.com/heartcombo/devise                                                                                                                                                                                                 |
+| Pundit       | provides a set of helpers which guide you in leveraging regular Ruby classes and object oriented design patterns to build a simple, robust and scalable authorization system. We used it for the apps authorization. https://github.com/varvet/pundit                                                                                |
+| Administrate | is a library for Rails apps that automatically generates admin dashboards. Its admin dashboards give non-technical users clean interfaces that allow them to create, edit, search, and delete records for any model in the application. We used it to create the apps admin dashboard. https://administrate-prototype.herokuapp.com/ |
+| Pagy         | is the ultimate pagination gem that outperforms the others in each and every benchmark and comparison. We used it to create the apps pagination. https://github.com/ddnexus/pagy                                                                                                                                                     |
+| Bulma        | is a free, open source CSS framework based on Flexbox and used by more than 200,000 developers. We used it to style the HTML layout. https://bulma.io/                                                                                                                                                                               |
+| Pry          | An IRB alternative and runtime developer console. We used this as an debugging tool. https://rubygems.org/gems/pry                                                                                                                                                                                                                   |
+| Faraday      | is an HTTP client library that provides a common interface over many adapters (such as Net::HTTP) and embraces the concept of Rack middleware when processing the request/response cycle. We used this to fetch images from Dog Api. https://lostisland.github.io/faraday/                                                           |
+| Ffaker       | We used this to generate random data in seeding the database. https://github.com/ffaker/ffaker                                                                                                                                                                                                                                       |
 
 ## Active record associations
 

@@ -94,7 +94,21 @@ The following were used to develop my application:
 
 ## Wireframes
 
+### Desktop Version
+
+![sitemap](docs/wireframe_desktop.png) <br/>
+
+### Tablet Version
+
+![sitemap](docs/wireframe_desktop.png) <br/>
+
+### Mobile Version
+
+![sitemap](docs/wireframe_mobile.png) <br/>
+
 ## ERD
+
+![sitemap](docs/erd.png) <br/>
 
 ## High-level components
 

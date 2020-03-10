@@ -60,6 +60,7 @@ group :development, :test do
   gem 'pry'
   gem 'faraday'
   gem 'ffaker'
+  
 end
 
 group :development do

@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   namespace :buyer do
     resources :messages
   end
-  root to: "home#landing_page"
+  root to: "home#landing"
  get '/home', to: 'home#index', as: 'home' 
   get '/show/:id', to: 'home#show', as:'list'
   get "/membership/new", to: "membership#new", as: "new_membership"

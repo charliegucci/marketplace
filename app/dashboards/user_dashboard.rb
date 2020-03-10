@@ -27,6 +27,7 @@ class UserDashboard < Administrate::BaseDashboard
     breeder_supply_number: Field::Number,
     breeder_id_picture: Field::ActiveStorage,
     state: Field::String,
+    stripe_payment_id: Field::String,
     application_status: Field::Select.with_options(collection: User::APPLICATION_STATUS),
   }.freeze
 
@@ -60,6 +61,7 @@ class UserDashboard < Administrate::BaseDashboard
   breeder_supply_number
   breeder_id_picture
   state
+  stripe_payment_id
   application_status
   ].freeze
 

@@ -6,8 +6,18 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+# 3rd-party APIs offering sample images can sometimes return 500 errors.
+# If this happens, this method opens the url one more time.
+def open_with_retry(url)
+  open(url)
+rescue OpenURI::HTTPError => e
+  puts 'Retrying...'
+  sleep(1)
+  open_with_retry(url)
+end
+
 def sample_avatar_file
-  open FFaker::Avatar.image
+  open_with_retry FFaker::Avatar.image
 end
 
 def attach_avatar_to_user(user)
@@ -21,7 +31,7 @@ def sample_dog_image_file
   json = JSON.parse(response.body)
   image_url = json["message"]
 
-  open(image_url)
+  open_with_retry(image_url)
 end
 
 Buyer::Message.destroy_all
@@ -210,6 +220,20 @@ user = User.create(
 )
 attach_avatar_to_user(user)
 
+guest = User.create(
+  role: "guest",
+  email: 'guest@g.com',
+  name: FFaker::Name.name,
+  password: 'asdfasdf',
+  password_confirmation: 'asdfasdf',
+  street_number_name: '11 Mas Matalino St.,',
+  suburb: 'Park Ridge',
+  state: 'Queensland',
+  postcode: '4125',
+  breeder_supply_number: '12345',
+)
+attach_avatar_to_user(guest)
+
 admin = User.create(
   role: "admin",
   email: 'admin@g.com',
@@ -236,7 +260,7 @@ if ENV['SEED_DOGS']
   seed_dogs_count.times do |n|
     puts "Creating listing # #{n + 1}..."
     breed = Breed.order('RANDOM()').first
-    listing_user = User.order('RANDOM()').first
+    listing_user = User.sellers.order('RANDOM()').first
     description = FFaker::HipsterIpsum.words(100).join(" ")
     breeder_prefix = FFaker::Company.name
 

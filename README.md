@@ -108,7 +108,7 @@ The following were used to develop my application:
 
 ## ERD
 
-![sitemap](docs/erd.png) <br/>
+![sitemap](docs/ERD.png) <br/>
 
 ## High-level components
 

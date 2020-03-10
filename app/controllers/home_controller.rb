@@ -1,18 +1,17 @@
 class HomeController < ApplicationController
   before_action :authenticate_user!, only: [:contact_seller]
-    def new
-    end
 
-    def landing
-      
-    end
+  def new
+  end
+
+  def landing
+  end
 
   def index
     @users = User.all
     @user_count = User.count
     # @share = request.url (share feature link)
     @pagy, @listings = pagy(Listing.search(params[:search]))
-    
   end
 
   def show
@@ -26,7 +25,3 @@ class HomeController < ApplicationController
     redirect_to root_path
   end
 end
-
-
-
-

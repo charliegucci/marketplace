@@ -4,6 +4,9 @@ Rails.application.routes.draw do
     resources :users
     resources :breeds
     resources :listings
+    namespace :buyer do
+      resources :messages
+    end
     
     root to: "users#index"
   end

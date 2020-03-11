@@ -1,4 +1,4 @@
-User_1:
+seller_user:
   id: 31
   email: t@g.com
   encrypted_password: "$2a$11$iitQGrJH5DJrTG3jP6p7aeCo/24oo6E1CY7ENok3IR6uNaQK4fyS6"
@@ -20,7 +20,7 @@ User_1:
   state: Queensland
   application_status: not_applied
 
-User_2:
+guest_user:
   id: 32
   email: guest@g.com
   encrypted_password: "$2a$11$hGyMUbTeSdO40tkoUsF//ermxi5cWpLhnaTb6m.LGfe8dICysGt4."
@@ -42,7 +42,7 @@ User_2:
   state: Queensland
   application_status: not_applied
 
-User_3:
+admin_user:
   id: 33
   email: admin@g.com
   encrypted_password: "$2a$11$X20GIc2e4y2D1pHcYZtroOALN0J39dV8t1.34a/IoNFhFHRdllZM2"

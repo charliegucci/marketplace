@@ -27,7 +27,8 @@ class ListingDashboard < Administrate::BaseDashboard
   COLLECTION_ATTRIBUTES = %i[
   breed
   user
-  
+  id
+  picture
   ].freeze
 
   # SHOW_PAGE_ATTRIBUTES

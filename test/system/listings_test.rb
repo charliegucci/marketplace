@@ -15,7 +15,14 @@ class ListingsTest < ApplicationSystemTestCase
       click_on "Search"
     end
 
+    # I can see the page for Available Listings
     assert_text "Available"
     assert_text "Listings"
- end
+
+    # ... and see listings based on the search term
+    within '.search-results' do
+      assert_text 'Mastiff'
+      assert_text 'Bullmastiff'
+    end
+  end
 end

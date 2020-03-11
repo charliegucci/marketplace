@@ -1,11 +1,1366 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+Listing_1:
+  id: 104
+  breeder_prefix: Mang Kiko
+  breed_id: 2461
+  description: This is my dog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:19.215541000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:19.215541000 Z
+    zone: *2
+    time: *3
+  user_id: 31
 
-one:
-  breeder_prefix: MyString
-  breed: one
-  description: MyText
+Listing_2:
+  id: 105
+  breeder_prefix: Stiedemann, Grant and Mayer
+  breed_id: 2500
+  description: photo booth vinyl before they sold out wolf Williamsburg thundercats
+    McSweeney's brunch leggings Banksy fap fanny pack cred artisan dreamcatcher sartorial
+    Carles Portland Rerry Richardson Pitchfork whatever DIY letterpress tattooed Wayfarers
+    VHS trust fund freegan gluten-free sustainable echo park viral locavore put a
+    bird on it squid PBR chambray beard 8-bit jean shorts party ethical readymade
+    Four Loko mlkshk bicycle rights moon gentrify hoodie Cosby Sweater yr biodiesel
+    cardigan single-origin coffee blog mixtape butcher irony aesthetic food truck
+    Wes Anderson vice twee helvetica keffiyeh you probably haven't heard of them raw
+    denim farm-to-table etsy messenger bag craft beer +1 mustache skateboard Shoreditch
+    master cleanse Austin next level art fixie tumblr retro organic quinoa scenester
+    banh mi lo-fi cliche Brooklyn lomo stumptown iPhone keytar synth high life seitan
+    American Apparel tofu Marfa salvia
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:22.165899000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:22.186008000 Z
+    zone: *2
+    time: *3
+  user_id: 31
 
-two:
-  breeder_prefix: MyString
-  breed: two
-  description: MyText
+Listing_3:
+  id: 106
+  breeder_prefix: King Group
+  breed_id: 2495
+  description: viral gluten-free tumblr whatever Carles mustache biodiesel thundercats
+    mixtape fap Banksy mlkshk irony vegan leggings photo booth high life before they
+    sold out quinoa single-origin coffee Marfa Four Loko fanny pack farm-to-table
+    etsy Brooklyn wolf messenger bag art you probably haven't heard of them tattooed
+    freegan iPhone keffiyeh food truck hoodie Wayfarers master cleanse Cosby Sweater
+    8-bit fixie PBR vice readymade echo park next level McSweeney's organic sustainable
+    DIY Austin Pitchfork salvia banh mi lo-fi Wes Anderson aesthetic bicycle rights
+    ethical scenester Rerry Richardson butcher cred beard gentrify jean shorts lomo
+    helvetica cardigan vinyl Williamsburg tofu moon sartorial yr raw denim VHS artisan
+    synth Shoreditch locavore Portland twee keytar dreamcatcher American Apparel craft
+    beer cliche letterpress trust fund +1 blog put a bird on it stumptown chambray
+    skateboard party squid brunch seitan
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:23.717675000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:23.736905000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_4:
+  id: 107
+  breeder_prefix: Ankunding, Lockman and Crist
+  breed_id: 2542
+  description: twee blog scenester photo booth jean shorts Banksy vegan cliche mixtape
+    Cosby Sweater irony DIY fanny pack tofu single-origin coffee before they sold
+    out etsy Portland Williamsburg helvetica tumblr lomo leggings messenger bag high
+    life butcher VHS organic chambray cred gentrify skateboard letterpress Pitchfork
+    keytar keffiyeh artisan biodiesel raw denim farm-to-table trust fund retro Brooklyn
+    vice iPhone Wayfarers moon master cleanse salvia stumptown party sustainable viral
+    vinyl +1 mlkshk bicycle rights squid you probably haven't heard of them quinoa
+    mustache locavore next level Rerry Richardson freegan Marfa craft beer sartorial
+    put a bird on it Shoreditch synth seitan yr cardigan Austin food truck hoodie
+    8-bit lo-fi aesthetic Carles Wes Anderson PBR wolf banh mi ethical tattooed readymade
+    McSweeney's beard whatever Four Loko fap fixie dreamcatcher echo park thundercats
+    gluten-free American Apparel brunch
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:25.433094000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:25.457069000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_5:
+  id: 108
+  breeder_prefix: Gutmann-Kuphal
+  breed_id: 2596
+  description: McSweeney's dreamcatcher Marfa before they sold out keytar Shoreditch
+    farm-to-table iPhone photo booth squid +1 trust fund Rerry Richardson brunch tofu
+    Pitchfork PBR wolf fanny pack messenger bag mixtape cardigan aesthetic skateboard
+    readymade Brooklyn Four Loko ethical gentrify freegan fixie tattooed food truck
+    DIY locavore seitan party mustache biodiesel whatever lomo etsy Wayfarers Wes
+    Anderson master cleanse artisan tumblr viral twee stumptown banh mi cliche scenester
+    vegan quinoa single-origin coffee gluten-free blog bicycle rights moon raw denim
+    craft beer American Apparel organic jean shorts hoodie put a bird on it lo-fi
+    salvia vinyl Banksy cred Austin synth vice next level Cosby Sweater sartorial
+    leggings Portland beard art helvetica VHS fap Carles mlkshk butcher 8-bit letterpress
+    Williamsburg high life retro irony yr you probably haven't heard of them thundercats
+    sustainable keffiyeh echo park
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:26.647230000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:26.666146000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_6:
+  id: 109
+  breeder_prefix: Ryan and Sons
+  breed_id: 2506
+  description: Austin etsy cred tattooed photo booth mlkshk leggings high life fap
+    viral DIY moon beard mustache quinoa 8-bit lomo stumptown dreamcatcher sartorial
+    twee Portland biodiesel echo park next level Marfa ethical gentrify scenester
+    thundercats Shoreditch VHS mixtape butcher Wayfarers synth Wes Anderson you probably
+    haven't heard of them Cosby Sweater brunch cliche Williamsburg iPhone PBR salvia
+    messenger bag tofu organic fanny pack jean shorts cardigan raw denim wolf keytar
+    farm-to-table seitan sustainable American Apparel tumblr put a bird on it skateboard
+    bicycle rights squid fixie aesthetic whatever helvetica lo-fi locavore craft beer
+    artisan Four Loko party banh mi readymade gluten-free Pitchfork single-origin
+    coffee irony yr food truck master cleanse vegan McSweeney's Brooklyn vinyl chambray
+    Rerry Richardson retro Banksy letterpress Carles trust fund blog before they sold
+    out freegan keffiyeh vice +1 hoodie
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:28.569721000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:28.586342000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_7:
+  id: 110
+  breeder_prefix: Ryan Group
+  breed_id: 2523
+  description: PBR mlkshk aesthetic freegan +1 photo booth irony Portland tattooed
+    ethical farm-to-table Carles Brooklyn retro moon salvia fixie trust fund blog
+    American Apparel scenester twee Austin McSweeney's next level chambray yr master
+    cleanse single-origin coffee mixtape messenger bag readymade food truck DIY Four
+    Loko squid Rerry Richardson vegan VHS dreamcatcher gentrify high life lomo leggings
+    vinyl mustache craft beer biodiesel brunch tumblr quinoa thundercats raw denim
+    banh mi viral gluten-free keffiyeh party beard skateboard 8-bit tofu Marfa fap
+    hoodie synth letterpress vice keytar stumptown Cosby Sweater sustainable helvetica
+    organic Pitchfork whatever seitan fanny pack artisan Wayfarers put a bird on it
+    locavore Shoreditch bicycle rights cliche art echo park cred before they sold
+    out sartorial etsy Williamsburg butcher you probably haven't heard of them lo-fi
+    jean shorts iPhone wolf cardigan Banksy
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:30.037559000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:30.079749000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_8:
+  id: 111
+  breeder_prefix: Romaguera and Sons
+  breed_id: 2550
+  description: twee locavore sartorial salvia organic art fap cliche leggings vegan
+    VHS McSweeney's echo park hoodie sustainable cardigan banh mi iPhone tofu whatever
+    Rerry Richardson butcher vinyl lomo +1 mlkshk lo-fi brunch retro Brooklyn Shoreditch
+    craft beer yr high life chambray single-origin coffee quinoa jean shorts biodiesel
+    thundercats moon before they sold out Portland mustache farm-to-table bicycle
+    rights dreamcatcher ethical etsy photo booth Wayfarers artisan mixtape Austin
+    stumptown squid wolf gentrify Four Loko skateboard Marfa helvetica Banksy keytar
+    put a bird on it vice American Apparel food truck keffiyeh cred irony Pitchfork
+    8-bit Williamsburg raw denim fanny pack gluten-free synth freegan scenester PBR
+    aesthetic tumblr fixie master cleanse viral DIY messenger bag seitan Wes Anderson
+    readymade trust fund you probably haven't heard of them beard party next level
+    Carles letterpress Cosby Sweater blog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:33.006177000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:33.058255000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_9:
+  id: 112
+  breeder_prefix: Kris-Lakin
+  breed_id: 2483
+  description: cred photo booth brunch Banksy Rerry Richardson viral lomo gentrify
+    vinyl American Apparel Four Loko VHS mixtape keytar tofu keffiyeh Portland food
+    truck tattooed organic Shoreditch next level dreamcatcher moon locavore synth
+    leggings Wes Anderson chambray readymade yr craft beer hoodie blog party skateboard
+    fanny pack ethical high life farm-to-table PBR gluten-free trust fund quinoa sustainable
+    butcher McSweeney's helvetica stumptown jean shorts irony Austin Marfa echo park
+    fap thundercats bicycle rights vegan Brooklyn iPhone +1 mlkshk scenester tumblr
+    retro vice mustache single-origin coffee fixie squid salvia beard twee put a bird
+    on it etsy lo-fi banh mi you probably haven't heard of them DIY Carles Williamsburg
+    art freegan raw denim cliche cardigan sartorial whatever artisan wolf aesthetic
+    messenger bag Cosby Sweater letterpress before they sold out biodiesel seitan
+    master cleanse 8-bit Pitchfork
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:34.248099000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:34.306920000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_10:
+  id: 113
+  breeder_prefix: Keeling, Tremblay and Gleichner
+  breed_id: 2615
+  description: yr +1 scenester mustache master cleanse fap lo-fi hoodie craft beer
+    messenger bag Rerry Richardson McSweeney's Banksy cliche whatever echo park Williamsburg
+    vegan aesthetic sustainable art retro artisan VHS dreamcatcher Portland skateboard
+    freegan banh mi PBR iPhone cred butcher blog Cosby Sweater vinyl mlkshk bicycle
+    rights viral food truck 8-bit before they sold out biodiesel squid American Apparel
+    tumblr vice brunch Carles organic beard thundercats readymade jean shorts chambray
+    seitan Wayfarers moon salvia letterpress stumptown high life Pitchfork helvetica
+    gluten-free Shoreditch single-origin coffee tofu leggings photo booth next level
+    trust fund keffiyeh lomo DIY fixie mixtape put a bird on it irony wolf sartorial
+    keytar twee Austin fanny pack tattooed etsy ethical you probably haven't heard
+    of them Wes Anderson locavore Marfa gentrify party farm-to-table Brooklyn cardigan
+    raw denim quinoa Four Loko
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:36.476322000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:36.493082000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_11:
+  id: 114
+  breeder_prefix: Hickle-Borer
+  breed_id: 2570
+  description: cardigan brunch Brooklyn tofu American Apparel lomo aesthetic fap vinyl
+    beard 8-bit freegan yr Banksy salvia before they sold out butcher single-origin
+    coffee Pitchfork skateboard hoodie synth mixtape Wayfarers seitan etsy scenester
+    raw denim Marfa party thundercats bicycle rights Williamsburg sustainable ethical
+    +1 gentrify wolf next level tattooed high life DIY locavore Wes Anderson biodiesel
+    PBR chambray photo booth keffiyeh VHS art McSweeney's Carles organic whatever
+    cliche gluten-free blog Cosby Sweater vegan mustache master cleanse retro cred
+    craft beer helvetica tumblr artisan moon Four Loko put a bird on it iPhone letterpress
+    mlkshk keytar dreamcatcher sartorial fanny pack squid Portland Shoreditch irony
+    echo park viral stumptown lo-fi you probably haven't heard of them farm-to-table
+    trust fund food truck Austin twee Rerry Richardson readymade quinoa banh mi messenger
+    bag jean shorts vice fixie
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:38.122633000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:38.143609000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_12:
+  id: 115
+  breeder_prefix: Gutkowski-Hilpert
+  breed_id: 2620
+  description: helvetica vinyl letterpress mixtape mustache locavore yr cred art single-origin
+    coffee Carles DIY vice thundercats fanny pack aesthetic tattooed Four Loko salvia
+    VHS synth put a bird on it fap gentrify Rerry Richardson Williamsburg squid keffiyeh
+    raw denim master cleanse dreamcatcher viral Portland Pitchfork retro high life
+    vegan craft beer brunch gluten-free moon jean shorts party before they sold out
+    iPhone etsy stumptown PBR Brooklyn artisan freegan chambray fixie McSweeney's
+    tofu 8-bit lomo American Apparel Wes Anderson whatever photo booth organic ethical
+    hoodie sartorial irony skateboard lo-fi cliche seitan Banksy Shoreditch tumblr
+    twee food truck readymade wolf farm-to-table beard +1 echo park biodiesel sustainable
+    next level bicycle rights Austin quinoa mlkshk blog butcher messenger bag banh
+    mi you probably haven't heard of them Cosby Sweater scenester Wayfarers cardigan
+    keytar leggings trust fund
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:39.374079000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:39.428983000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_13:
+  id: 116
+  breeder_prefix: VonRueden-Bruen
+  breed_id: 2563
+  description: Williamsburg sartorial lomo vice single-origin coffee raw denim lo-fi
+    iPhone banh mi ethical jean shorts keytar biodiesel farm-to-table American Apparel
+    cred scenester VHS fanny pack beard tumblr chambray Rerry Richardson messenger
+    bag DIY blog squid Pitchfork craft beer +1 Marfa Brooklyn Wayfarers twee aesthetic
+    dreamcatcher synth mustache gluten-free food truck Banksy bicycle rights wolf
+    trust fund whatever etsy mixtape Carles retro sustainable leggings salvia next
+    level cardigan tattooed PBR skateboard Wes Anderson vegan mlkshk photo booth you
+    probably haven't heard of them butcher yr fap Four Loko Austin before they sold
+    out fixie irony cliche tofu Shoreditch locavore vinyl brunch high life put a bird
+    on it moon viral Cosby Sweater artisan keffiyeh stumptown 8-bit readymade letterpress
+    gentrify organic seitan Portland art McSweeney's echo park quinoa freegan hoodie
+    thundercats party master cleanse
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:41.007016000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:41.061091000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_14:
+  id: 117
+  breeder_prefix: Murray-Ernser
+  breed_id: 2606
+  description: cred gluten-free salvia thundercats synth Carles Portland fap put a
+    bird on it freegan echo park 8-bit farm-to-table lomo art artisan high life chambray
+    keytar readymade food truck squid ethical etsy blog +1 helvetica Williamsburg
+    American Apparel butcher single-origin coffee viral mlkshk jean shorts scenester
+    Brooklyn you probably haven't heard of them locavore retro moon sartorial aesthetic
+    yr gentrify letterpress fanny pack quinoa lo-fi Cosby Sweater keffiyeh twee craft
+    beer Marfa bicycle rights vinyl DIY hoodie mustache brunch biodiesel skateboard
+    leggings messenger bag whatever tumblr PBR cardigan Banksy tofu vegan beard organic
+    Pitchfork Wayfarers wolf trust fund sustainable iPhone banh mi irony VHS dreamcatcher
+    vice Austin tattooed next level cliche photo booth master cleanse Four Loko Rerry
+    Richardson before they sold out mixtape Shoreditch raw denim seitan Wes Anderson
+    stumptown fixie McSweeney's
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:42.420938000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:42.444202000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_15:
+  id: 118
+  breeder_prefix: Frami Group
+  breed_id: 2605
+  description: synth stumptown high life craft beer before they sold out aesthetic
+    whatever wolf Wes Anderson mustache blog messenger bag fanny pack yr next level
+    lo-fi hoodie banh mi Shoreditch food truck keytar cardigan PBR freegan VHS jean
+    shorts beard art +1 raw denim sustainable scenester DIY put a bird on it party
+    vinyl mixtape moon Pitchfork leggings readymade McSweeney's skateboard Brooklyn
+    keffiyeh sartorial salvia photo booth viral vegan Williamsburg helvetica ethical
+    Portland farm-to-table lomo letterpress bicycle rights quinoa Wayfarers you probably
+    haven't heard of them 8-bit twee brunch vice squid iPhone cred cliche single-origin
+    coffee retro irony thundercats Banksy biodiesel chambray seitan dreamcatcher etsy
+    gluten-free Carles butcher Cosby Sweater Rerry Richardson Four Loko master cleanse
+    American Apparel gentrify tumblr echo park fap organic fixie artisan Marfa mlkshk
+    tofu locavore trust fund Austin
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:43.751162000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:43.775381000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_16:
+  id: 119
+  breeder_prefix: Russel-Dare
+  breed_id: 2564
+  description: iPhone cliche Portland squid stumptown farm-to-table Williamsburg retro
+    seitan bicycle rights quinoa Brooklyn art Wayfarers gluten-free salvia Four Loko
+    scenester 8-bit chambray vegan banh mi helvetica tofu etsy skateboard fap messenger
+    bag Austin echo park craft beer before they sold out mlkshk Cosby Sweater aesthetic
+    jean shorts mixtape DIY high life cred VHS brunch mustache raw denim Carles Banksy
+    next level vinyl biodiesel moon American Apparel Wes Anderson cardigan whatever
+    leggings dreamcatcher thundercats single-origin coffee Pitchfork fanny pack tattooed
+    McSweeney's irony food truck master cleanse lo-fi party ethical artisan viral
+    +1 locavore synth lomo freegan beard gentrify PBR Marfa sustainable wolf you probably
+    haven't heard of them Rerry Richardson trust fund organic twee sartorial tumblr
+    hoodie readymade Shoreditch butcher yr fixie keytar photo booth vice put a bird
+    on it blog keffiyeh
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:45.350382000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:45.383127000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_17:
+  id: 120
+  breeder_prefix: Pfeffer, Stamm and Schultz
+  breed_id: 2546
+  description: sartorial quinoa fap gluten-free dreamcatcher iPhone you probably haven't
+    heard of them put a bird on it American Apparel synth high life art squid McSweeney's
+    mixtape messenger bag tattooed Rerry Richardson banh mi mustache raw denim stumptown
+    cardigan brunch 8-bit leggings beard party craft beer fanny pack mlkshk Williamsburg
+    vinyl whatever wolf etsy thundercats bicycle rights aesthetic single-origin coffee
+    yr food truck gentrify +1 blog photo booth Shoreditch Banksy fixie Four Loko biodiesel
+    Wes Anderson DIY jean shorts cliche chambray echo park scenester twee vegan VHS
+    irony Wayfarers master cleanse PBR next level readymade salvia freegan lomo Brooklyn
+    tumblr skateboard Austin before they sold out artisan Portland sustainable vice
+    Pitchfork letterpress seitan lo-fi butcher hoodie Marfa locavore moon Carles cred
+    viral organic ethical helvetica Cosby Sweater trust fund keffiyeh farm-to-table
+    retro tofu
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:47.004957000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:47.070497000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_18:
+  id: 121
+  breeder_prefix: Kuhn LLC
+  breed_id: 2575
+  description: next level salvia Four Loko high life seitan squid vinyl put a bird
+    on it Wes Anderson mustache yr gluten-free tattooed chambray mlkshk banh mi brunch
+    lomo twee aesthetic food truck PBR irony Cosby Sweater retro craft beer photo
+    booth before they sold out scenester etsy whatever Portland Carles beard dreamcatcher
+    hoodie stumptown jean shorts tumblr 8-bit thundercats McSweeney's party butcher
+    locavore you probably haven't heard of them single-origin coffee keytar American
+    Apparel viral tofu readymade vice cred sartorial fanny pack messenger bag wolf
+    Rerry Richardson organic biodiesel Marfa VHS blog fap synth bicycle rights freegan
+    Austin Wayfarers Pitchfork cliche iPhone +1 leggings cardigan farm-to-table master
+    cleanse Williamsburg mixtape Shoreditch lo-fi keffiyeh sustainable fixie ethical
+    quinoa art vegan gentrify skateboard helvetica echo park DIY Brooklyn letterpress
+    Banksy moon raw denim artisan
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:48.393986000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:48.412159000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_19:
+  id: 122
+  breeder_prefix: Dickens-Bins
+  breed_id: 2591
+  description: salvia freegan cliche gluten-free retro fanny pack lomo thundercats
+    beard high life blog raw denim put a bird on it craft beer letterpress sartorial
+    tumblr stumptown DIY locavore iPhone brunch master cleanse Brooklyn VHS dreamcatcher
+    leggings etsy bicycle rights ethical Portland vinyl butcher Austin organic Wayfarers
+    keffiyeh twee wolf fap single-origin coffee photo booth cred American Apparel
+    biodiesel echo park lo-fi Marfa Wes Anderson +1 Banksy tofu synth irony next level
+    fixie quinoa trust fund yr 8-bit gentrify scenester Rerry Richardson PBR McSweeney's
+    Cosby Sweater mixtape tattooed vice art helvetica messenger bag aesthetic banh
+    mi chambray artisan mlkshk vegan viral keytar jean shorts whatever skateboard
+    mustache squid Pitchfork before they sold out party Shoreditch cardigan hoodie
+    sustainable you probably haven't heard of them Williamsburg food truck Carles
+    farm-to-table readymade seitan Four Loko
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:50.195229000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:50.223664000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_20:
+  id: 123
+  breeder_prefix: Runolfsson, Sanford and Fay
+  breed_id: 2575
+  description: lo-fi wolf cred VHS fixie iPhone single-origin coffee moon you probably
+    haven't heard of them bicycle rights sustainable synth cliche raw denim freegan
+    sartorial artisan twee 8-bit organic brunch Portland mlkshk biodiesel leggings
+    retro banh mi lomo cardigan tumblr aesthetic hoodie farm-to-table etsy Marfa photo
+    booth Four Loko food truck Carles Cosby Sweater helvetica keytar fanny pack Wes
+    Anderson skateboard Williamsburg irony put a bird on it Rerry Richardson messenger
+    bag craft beer fap keffiyeh squid +1 salvia master cleanse party Banksy locavore
+    tofu vice Brooklyn seitan American Apparel Austin Wayfarers butcher blog stumptown
+    letterpress scenester Shoreditch high life gluten-free trust fund DIY Pitchfork
+    tattooed gentrify thundercats vinyl beard PBR mixtape dreamcatcher art next level
+    readymade yr mustache jean shorts ethical echo park viral McSweeney's quinoa vegan
+    before they sold out chambray
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:51.705228000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:51.728680000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_21:
+  id: 124
+  breeder_prefix: Quitzon, Tillman and Torphy
+  breed_id: 2528
+  description: lo-fi Pitchfork craft beer scenester beard etsy food truck locavore
+    cliche twee cardigan vice Austin helvetica Brooklyn sustainable 8-bit readymade
+    tumblr sartorial VHS mlkshk bicycle rights cred irony letterpress tofu photo booth
+    DIY seitan master cleanse put a bird on it leggings Rerry Richardson art banh
+    mi salvia jean shorts keytar biodiesel artisan mixtape next level PBR synth aesthetic
+    wolf Banksy fixie hoodie Wayfarers retro Cosby Sweater Wes Anderson fanny pack
+    Williamsburg thundercats iPhone brunch raw denim Marfa party you probably haven't
+    heard of them keffiyeh +1 skateboard freegan lomo stumptown echo park chambray
+    squid organic farm-to-table tattooed McSweeney's gentrify ethical quinoa fap dreamcatcher
+    viral vegan moon mustache before they sold out butcher single-origin coffee high
+    life Four Loko American Apparel messenger bag Shoreditch yr trust fund vinyl whatever
+    gluten-free blog Carles
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:53.113297000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:53.134482000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_22:
+  id: 125
+  breeder_prefix: Senger Group
+  breed_id: 2490
+  description: party master cleanse DIY food truck vinyl art stumptown whatever yr
+    freegan leggings retro mlkshk cred readymade trust fund butcher next level letterpress
+    VHS etsy bicycle rights tumblr lomo cliche messenger bag ethical high life squid
+    Four Loko gentrify McSweeney's echo park skateboard locavore farm-to-table fanny
+    pack photo booth Rerry Richardson vice tattooed Carles banh mi single-origin coffee
+    brunch Portland moon American Apparel beard dreamcatcher Shoreditch fap twee tofu
+    organic +1 irony biodiesel helvetica viral keffiyeh PBR salvia wolf Wayfarers
+    mustache 8-bit Marfa lo-fi craft beer hoodie Cosby Sweater Brooklyn synth sartorial
+    cardigan mixtape sustainable jean shorts Austin Pitchfork quinoa chambray Banksy
+    put a bird on it Wes Anderson you probably haven't heard of them iPhone thundercats
+    fixie Williamsburg scenester aesthetic blog raw denim artisan keytar vegan seitan
+    gluten-free
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:54.358667000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:54.499531000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_23:
+  id: 126
+  breeder_prefix: Pagac-Goodwin
+  breed_id: 2520
+  description: ethical Brooklyn gentrify VHS lo-fi synth scenester skateboard Cosby
+    Sweater trust fund sustainable cred salvia +1 irony tattooed mlkshk cardigan echo
+    park letterpress DIY dreamcatcher Marfa butcher next level Four Loko jean shorts
+    Portland etsy brunch gluten-free craft beer Williamsburg McSweeney's readymade
+    locavore fap cliche viral leggings 8-bit stumptown beard sartorial banh mi high
+    life lomo vegan wolf squid Pitchfork Austin farm-to-table tumblr Wes Anderson
+    seitan moon put a bird on it biodiesel before they sold out hoodie artisan PBR
+    tofu photo booth American Apparel Wayfarers aesthetic vinyl Carles Shoreditch
+    retro whatever mixtape thundercats Banksy quinoa party you probably haven't heard
+    of them single-origin coffee fanny pack organic freegan iPhone mustache keytar
+    keffiyeh raw denim fixie helvetica Rerry Richardson bicycle rights food truck
+    yr art chambray vice blog messenger bag master cleanse
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:56.137619000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:56.155393000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_24:
+  id: 127
+  breeder_prefix: Bergstrom, Green and Mann
+  breed_id: 2587
+  description: readymade tofu quinoa vegan skateboard retro salvia PBR fixie Shoreditch
+    cardigan wolf biodiesel whatever etsy twee Williamsburg VHS Wes Anderson DIY farm-to-table
+    Rerry Richardson aesthetic leggings lomo locavore thundercats chambray letterpress
+    yr moon trust fund messenger bag +1 put a bird on it raw denim dreamcatcher helvetica
+    tattooed scenester bicycle rights ethical sustainable organic beard echo park
+    synth cliche hoodie mustache craft beer gluten-free before they sold out mlkshk
+    art fanny pack freegan viral Four Loko seitan cred artisan gentrify vice next
+    level keytar Portland banh mi mixtape tumblr food truck Banksy photo booth Marfa
+    Brooklyn jean shorts 8-bit butcher blog Carles irony sartorial squid keffiyeh
+    party Wayfarers Austin vinyl single-origin coffee Cosby Sweater Pitchfork you
+    probably haven't heard of them stumptown McSweeney's brunch high life lo-fi American
+    Apparel fap iPhone
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:57.253416000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:57.277629000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_25:
+  id: 128
+  breeder_prefix: Shields, Hickle and Brekke
+  breed_id: 2598
+  description: American Apparel letterpress next level biodiesel messenger bag thundercats
+    jean shorts food truck Four Loko helvetica bicycle rights organic cardigan cliche
+    Brooklyn Wes Anderson mlkshk brunch chambray Austin photo booth before they sold
+    out craft beer mixtape vinyl Williamsburg Portland single-origin coffee lomo Wayfarers
+    irony skateboard DIY freegan beard high life quinoa fixie butcher VHS stumptown
+    party master cleanse fap tofu put a bird on it yr mustache artisan you probably
+    haven't heard of them echo park McSweeney's synth retro salvia lo-fi Rerry Richardson
+    Carles trust fund sustainable viral sartorial readymade locavore Cosby Sweater
+    whatever twee PBR Pitchfork fanny pack farm-to-table leggings gentrify hoodie
+    squid art tumblr ethical wolf cred dreamcatcher aesthetic iPhone tattooed moon
+    Shoreditch etsy Banksy keffiyeh 8-bit seitan blog raw denim Marfa vice scenester
+    banh mi vegan gluten-free keytar
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:58.524210000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:58.543512000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_26:
+  id: 129
+  breeder_prefix: Schimmel LLC
+  breed_id: 2523
+  description: cardigan moon organic sustainable salvia readymade craft beer mlkshk
+    fanny pack beard stumptown irony tumblr hoodie vegan Brooklyn viral letterpress
+    Cosby Sweater aesthetic seitan keffiyeh next level echo park squid thundercats
+    fap photo booth put a bird on it cliche food truck 8-bit before they sold out
+    art Pitchfork synth lo-fi Rerry Richardson party vice bicycle rights raw denim
+    VHS whatever biodiesel Wayfarers farm-to-table quinoa +1 vinyl helvetica sartorial
+    American Apparel Shoreditch skateboard trust fund Williamsburg Marfa banh mi brunch
+    dreamcatcher single-origin coffee butcher Portland Wes Anderson twee fixie tofu
+    freegan artisan mixtape jean shorts McSweeney's tattooed keytar Four Loko master
+    cleanse lomo etsy PBR iPhone you probably haven't heard of them mustache blog
+    high life chambray gluten-free Austin Carles retro yr DIY scenester messenger
+    bag gentrify ethical leggings wolf Banksy cred
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:59.780353000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:59.801319000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_27:
+  id: 130
+  breeder_prefix: Bashirian, Parker and Gerhold
+  breed_id: 2483
+  description: bicycle rights seitan gluten-free before they sold out echo park Four
+    Loko Austin brunch freegan Carles aesthetic stumptown single-origin coffee Marfa
+    Rerry Richardson blog Cosby Sweater iPhone squid next level cardigan photo booth
+    jean shorts dreamcatcher etsy wolf chambray beard letterpress vegan farm-to-table
+    cred sustainable artisan butcher Wayfarers fanny pack 8-bit yr keffiyeh Wes Anderson
+    vinyl quinoa sartorial gentrify PBR readymade retro art lomo tumblr hoodie Williamsburg
+    DIY mlkshk biodiesel Portland ethical Pitchfork irony craft beer Shoreditch banh
+    mi tofu viral American Apparel whatever Brooklyn raw denim organic Banksy helvetica
+    skateboard you probably haven't heard of them locavore McSweeney's leggings fap
+    food truck mustache high life +1 scenester mixtape fixie twee VHS lo-fi keytar
+    messenger bag trust fund master cleanse tattooed thundercats cliche put a bird
+    on it vice salvia party moon
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:01.040958000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:01.080893000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_28:
+  id: 131
+  breeder_prefix: Feest, Conn and Strosin
+  breed_id: 2489
+  description: Wes Anderson freegan tumblr photo booth irony fanny pack locavore salvia
+    retro master cleanse DIY cardigan party moon readymade butcher fixie cliche trust
+    fund vinyl skateboard letterpress leggings gluten-free ethical tofu aesthetic
+    you probably haven't heard of them yr artisan mustache iPhone etsy fap hoodie
+    sustainable wolf Pitchfork craft beer +1 vice chambray whatever tattooed Williamsburg
+    mixtape keffiyeh Austin blog Carles helvetica bicycle rights PBR lomo lo-fi sartorial
+    jean shorts dreamcatcher cred mlkshk put a bird on it vegan seitan next level
+    stumptown scenester raw denim messenger bag synth brunch Marfa Rerry Richardson
+    organic gentrify VHS Four Loko art Cosby Sweater biodiesel Wayfarers twee squid
+    banh mi farm-to-table single-origin coffee high life before they sold out quinoa
+    Portland Shoreditch Banksy keytar McSweeney's echo park food truck American Apparel
+    8-bit thundercats Brooklyn viral
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:02.577481000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:02.606177000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_29:
+  id: 132
+  breeder_prefix: Keebler-McGlynn
+  breed_id: 2539
+  description: next level you probably haven't heard of them mustache vinyl Portland
+    Rerry Richardson stumptown freegan trust fund Austin Marfa synth bicycle rights
+    Wes Anderson fanny pack viral squid keffiyeh helvetica Shoreditch salvia Cosby
+    Sweater single-origin coffee brunch cred art skateboard fixie gluten-free organic
+    Banksy chambray locavore put a bird on it 8-bit twee echo park etsy Williamsburg
+    cardigan Wayfarers craft beer Four Loko Brooklyn biodiesel Carles blog moon cliche
+    yr beard lomo party master cleanse vegan scenester wolf whatever letterpress farm-to-table
+    irony lo-fi aesthetic food truck raw denim iPhone Pitchfork gentrify tattooed
+    keytar mlkshk banh mi VHS +1 McSweeney's messenger bag thundercats butcher jean
+    shorts seitan sustainable quinoa American Apparel before they sold out tofu high
+    life tumblr mixtape photo booth hoodie PBR retro ethical vice readymade artisan
+    DIY fap sartorial leggings
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:03.875771000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:03.900473000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_30:
+  id: 133
+  breeder_prefix: Mosciski-Kub
+  breed_id: 2485
+  description: viral messenger bag irony food truck lo-fi biodiesel party freegan
+    fixie chambray raw denim brunch keytar butcher moon readymade tattooed aesthetic
+    fap VHS iPhone yr high life locavore craft beer mixtape tumblr 8-bit Marfa artisan
+    hoodie leggings mlkshk McSweeney's beard before they sold out scenester Four Loko
+    next level Shoreditch Banksy skateboard banh mi Williamsburg cardigan Pitchfork
+    American Apparel wolf blog photo booth jean shorts Rerry Richardson sartorial
+    thundercats cliche quinoa vegan art whatever +1 master cleanse ethical PBR Wes
+    Anderson tofu seitan vinyl helvetica farm-to-table you probably haven't heard
+    of them cred twee synth Cosby Sweater retro Portland echo park letterpress etsy
+    trust fund Wayfarers lomo vice keffiyeh Brooklyn fanny pack gluten-free gentrify
+    stumptown Austin Carles dreamcatcher DIY sustainable squid salvia put a bird on
+    it organic bicycle rights mustache
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:05.337870000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:05.360283000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_31:
+  id: 134
+  breeder_prefix: Rowe Inc
+  breed_id: 2606
+  description: skateboard vice cliche mlkshk art etsy food truck twee put a bird on
+    it master cleanse PBR whatever viral next level Wayfarers seitan Four Loko squid
+    wolf dreamcatcher blog readymade vegan Banksy iPhone letterpress Austin locavore
+    before they sold out leggings Pitchfork keytar photo booth DIY farm-to-table Shoreditch
+    retro butcher tumblr Carles gluten-free aesthetic VHS cardigan keffiyeh high life
+    party jean shorts Rerry Richardson single-origin coffee you probably haven't heard
+    of them hoodie freegan tofu Wes Anderson lomo craft beer mustache salvia vinyl
+    brunch irony quinoa ethical stumptown American Apparel raw denim +1 beard fanny
+    pack moon fixie thundercats sustainable trust fund McSweeney's organic chambray
+    banh mi fap tattooed Marfa messenger bag yr biodiesel echo park Cosby Sweater
+    gentrify helvetica Williamsburg scenester Portland cred synth sartorial 8-bit
+    bicycle rights mixtape Brooklyn artisan
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:06.794622000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:06.815033000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_32:
+  id: 135
+  breeder_prefix: Nader Inc
+  breed_id: 2617
+  description: freegan vegan letterpress tattooed cliche scenester squid tumblr thundercats
+    Cosby Sweater Shoreditch irony moon wolf banh mi readymade artisan PBR photo booth
+    party Wes Anderson hoodie gentrify Portland trust fund sustainable tofu next level
+    mustache leggings messenger bag vice aesthetic ethical before they sold out Wayfarers
+    yr jean shorts Rerry Richardson twee iPhone lo-fi Banksy retro Carles cred fanny
+    pack blog synth Marfa organic craft beer McSweeney's fixie keytar art mixtape
+    keffiyeh Brooklyn vinyl lomo Williamsburg fap etsy whatever dreamcatcher seitan
+    single-origin coffee VHS Austin helvetica echo park +1 stumptown salvia farm-to-table
+    cardigan raw denim bicycle rights gluten-free quinoa brunch mlkshk butcher high
+    life put a bird on it chambray 8-bit American Apparel viral Four Loko locavore
+    beard food truck sartorial biodiesel skateboard master cleanse Pitchfork you probably
+    haven't heard of them
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:08.484179000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:08.501348000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_33:
+  id: 136
+  breeder_prefix: Cruickshank-Haley
+  breed_id: 2605
+  description: whatever viral thundercats fixie biodiesel DIY jean shorts PBR Brooklyn
+    cardigan banh mi lomo gluten-free lo-fi brunch trust fund yr echo park party locavore
+    chambray Banksy scenester vice Four Loko Marfa Williamsburg bicycle rights Pitchfork
+    tofu 8-bit etsy craft beer moon cred put a bird on it raw denim American Apparel
+    readymade ethical leggings stumptown sartorial Portland Austin art McSweeney's
+    artisan tumblr keffiyeh helvetica skateboard twee aesthetic iPhone mixtape Carles
+    farm-to-table vegan sustainable mustache irony keytar seitan blog gentrify retro
+    single-origin coffee organic letterpress master cleanse quinoa Cosby Sweater +1
+    tattooed vinyl you probably haven't heard of them Shoreditch VHS Rerry Richardson
+    freegan hoodie squid next level high life butcher synth wolf messenger bag cliche
+    mlkshk fanny pack photo booth Wayfarers food truck dreamcatcher beard salvia before
+    they sold out Wes Anderson
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:10.055151000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:10.069341000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_34:
+  id: 137
+  breeder_prefix: Buckridge and Sons
+  breed_id: 2556
+  description: seitan DIY squid raw denim letterpress PBR trust fund Four Loko you
+    probably haven't heard of them Portland high life fanny pack Banksy dreamcatcher
+    art vegan keytar quinoa fixie mixtape Cosby Sweater moon 8-bit Austin single-origin
+    coffee master cleanse viral wolf put a bird on it retro farm-to-table leggings
+    readymade organic tumblr party butcher Wes Anderson salvia etsy chambray VHS messenger
+    bag next level yr sustainable bicycle rights cardigan gentrify lomo biodiesel
+    sartorial echo park Pitchfork skateboard stumptown craft beer Brooklyn Marfa American
+    Apparel scenester Carles tattooed Wayfarers aesthetic mustache vinyl twee freegan
+    lo-fi thundercats helvetica synth Rerry Richardson keffiyeh food truck cred hoodie
+    McSweeney's banh mi brunch artisan blog vice beard jean shorts Williamsburg Shoreditch
+    fap locavore mlkshk irony photo booth gluten-free +1 whatever before they sold
+    out cliche ethical tofu
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:11.864021000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:11.910401000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_35:
+  id: 138
+  breeder_prefix: Collins-Schoen
+  breed_id: 2498
+  description: McSweeney's fixie brunch echo park Four Loko scenester fanny pack gentrify
+    craft beer iPhone next level organic seitan whatever American Apparel messenger
+    bag Marfa dreamcatcher synth Rerry Richardson Cosby Sweater squid Pitchfork jean
+    shorts master cleanse high life single-origin coffee blog artisan sustainable
+    sartorial leggings Banksy PBR trust fund helvetica before they sold out moon 8-bit
+    put a bird on it mustache farm-to-table you probably haven't heard of them thundercats
+    yr Wayfarers twee Williamsburg Brooklyn lo-fi readymade tattooed freegan etsy
+    bicycle rights biodiesel tumblr keytar wolf beard Carles DIY Shoreditch skateboard
+    irony photo booth letterpress +1 locavore party gluten-free raw denim chambray
+    ethical viral mixtape cardigan vinyl mlkshk cliche art food truck hoodie VHS vegan
+    Wes Anderson aesthetic Portland quinoa vice fap lomo tofu Austin retro stumptown
+    butcher keffiyeh salvia banh mi
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:13.433897000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:13.459304000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_36:
+  id: 139
+  breeder_prefix: Kuvalis, Willms and Schinner
+  breed_id: 2571
+  description: Rerry Richardson iPhone keffiyeh readymade VHS fanny pack gluten-free
+    craft beer freegan vice 8-bit put a bird on it Cosby Sweater dreamcatcher salvia
+    trust fund seitan helvetica locavore gentrify keytar Banksy bicycle rights Marfa
+    organic butcher Portland Brooklyn tumblr chambray +1 PBR vegan leggings Carles
+    Pitchfork before they sold out cardigan squid ethical sustainable cred echo park
+    tofu twee Williamsburg Four Loko party farm-to-table high life mlkshk photo booth
+    messenger bag Wes Anderson viral whatever stumptown raw denim synth letterpress
+    wolf sartorial lomo Wayfarers hoodie jean shorts tattooed master cleanse retro
+    skateboard aesthetic scenester artisan next level fixie banh mi irony mustache
+    vinyl yr beard single-origin coffee Austin art food truck brunch cliche fap mixtape
+    thundercats biodiesel lo-fi etsy moon quinoa you probably haven't heard of them
+    blog Shoreditch McSweeney's American Apparel
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:16.134201000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:16.151198000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_37:
+  id: 140
+  breeder_prefix: Welch-Douglas
+  breed_id: 2493
+  description: American Apparel photo booth Brooklyn lo-fi butcher Banksy Wes Anderson
+    next level raw denim fap salvia brunch irony cred gentrify biodiesel quinoa twee
+    Portland organic artisan Marfa Shoreditch Wayfarers wolf etsy fixie helvetica
+    cardigan put a bird on it skateboard squid viral before they sold out craft beer
+    lomo art stumptown moon mixtape mlkshk cliche tumblr tattooed thundercats seitan
+    freegan Carles Pitchfork sustainable tofu chambray Four Loko blog vice bicycle
+    rights readymade food truck leggings sartorial vinyl aesthetic VHS yr whatever
+    Cosby Sweater farm-to-table trust fund Austin Williamsburg synth messenger bag
+    +1 DIY locavore iPhone banh mi single-origin coffee echo park PBR hoodie master
+    cleanse gluten-free 8-bit jean shorts dreamcatcher vegan fanny pack letterpress
+    ethical Rerry Richardson keytar beard retro you probably haven't heard of them
+    party mustache scenester keffiyeh high life
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:17.663696000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:17.701123000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_38:
+  id: 141
+  breeder_prefix: Padberg, Stamm and Conn
+  breed_id: 2561
+  description: artisan Rerry Richardson fap leggings wolf chambray before they sold
+    out banh mi mlkshk keffiyeh Cosby Sweater stumptown skateboard McSweeney's craft
+    beer art tumblr butcher moon Wayfarers vinyl retro messenger bag organic viral
+    master cleanse gluten-free biodiesel blog Four Loko whatever mustache freegan
+    irony iPhone fixie high life jean shorts echo park helvetica photo booth PBR lo-fi
+    quinoa next level Carles beard trust fund DIY sustainable +1 American Apparel
+    cardigan hoodie tofu Austin party brunch vice 8-bit tattooed Shoreditch cred single-origin
+    coffee scenester put a bird on it Wes Anderson synth salvia aesthetic VHS etsy
+    lomo vegan Marfa food truck locavore thundercats you probably haven't heard of
+    them bicycle rights mixtape Pitchfork seitan sartorial Williamsburg farm-to-table
+    gentrify fanny pack Banksy yr twee Brooklyn Portland readymade dreamcatcher squid
+    ethical keytar letterpress raw denim
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:19.016788000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:19.034281000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_39:
+  id: 142
+  breeder_prefix: Swaniawski-Lemke
+  breed_id: 2534
+  description: keytar cardigan ethical beard DIY Rerry Richardson banh mi leggings
+    Banksy food truck master cleanse sustainable trust fund squid Wayfarers you probably
+    haven't heard of them American Apparel put a bird on it viral gluten-free etsy
+    stumptown vice Cosby Sweater helvetica Four Loko yr tattooed blog party messenger
+    bag moon organic vinyl bicycle rights irony art before they sold out whatever
+    mixtape butcher VHS Marfa cred Brooklyn skateboard wolf twee PBR tumblr readymade
+    vegan hoodie +1 salvia biodiesel lomo next level artisan locavore aesthetic farm-to-table
+    letterpress fap fanny pack iPhone dreamcatcher high life keffiyeh gentrify seitan
+    synth echo park quinoa 8-bit Carles Austin Williamsburg craft beer McSweeney's
+    photo booth raw denim thundercats cliche retro mlkshk Portland chambray fixie
+    scenester lo-fi freegan sartorial tofu Wes Anderson brunch single-origin coffee
+    Shoreditch Pitchfork jean shorts
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:20.259351000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:20.282927000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_40:
+  id: 143
+  breeder_prefix: Kshlerin, Jerde and Nienow
+  breed_id: 2506
+  description: art letterpress Pitchfork farm-to-table skateboard trust fund artisan
+    photo booth readymade leggings DIY vinyl wolf Four Loko next level moon 8-bit
+    viral Williamsburg keytar party single-origin coffee master cleanse Marfa tumblr
+    aesthetic Cosby Sweater salvia Wes Anderson Shoreditch cardigan you probably haven't
+    heard of them whatever helvetica tattooed fap vice bicycle rights gentrify sartorial
+    Austin put a bird on it PBR cred Rerry Richardson McSweeney's fixie cliche yr
+    beard food truck Carles jean shorts hoodie dreamcatcher quinoa blog iPhone freegan
+    squid before they sold out brunch etsy chambray butcher retro vegan synth organic
+    seitan lo-fi fanny pack Portland biodiesel +1 gluten-free locavore mlkshk stumptown
+    tofu messenger bag irony raw denim banh mi mustache echo park mixtape thundercats
+    high life Banksy craft beer keffiyeh Wayfarers Brooklyn lomo VHS ethical sustainable
+    twee scenester
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:21.484809000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:21.501601000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_41:
+  id: 144
+  breeder_prefix: Johnston Group
+  breed_id: 2500
+  description: squid Wes Anderson salvia raw denim tofu freegan Cosby Sweater Four
+    Loko readymade fanny pack fap thundercats cred keffiyeh moon 8-bit beard Portland
+    bicycle rights VHS echo park Brooklyn PBR gluten-free art etsy you probably haven't
+    heard of them tattooed skateboard whatever Shoreditch hoodie Williamsburg next
+    level McSweeney's vinyl viral wolf single-origin coffee keytar craft beer locavore
+    helvetica farm-to-table food truck +1 mustache iPhone party dreamcatcher Pitchfork
+    messenger bag Carles gentrify Banksy retro brunch seitan master cleanse letterpress
+    twee biodiesel butcher mixtape Wayfarers Austin vegan sartorial put a bird on
+    it fixie American Apparel mlkshk yr cardigan photo booth synth blog tumblr banh
+    mi stumptown vice irony chambray aesthetic Rerry Richardson lomo Marfa trust fund
+    artisan scenester lo-fi high life DIY before they sold out leggings ethical organic
+    jean shorts cliche quinoa
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:22.600941000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:22.627974000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_42:
+  id: 145
+  breeder_prefix: Gutkowski, Predovic and Considine
+  breed_id: 2477
+  description: trust fund vegan Cosby Sweater 8-bit readymade messenger bag Marfa
+    vinyl twee cred Banksy Austin fanny pack high life etsy banh mi Carles gluten-free
+    hoodie biodiesel Pitchfork Williamsburg American Apparel photo booth art chambray
+    Portland wolf DIY helvetica cliche PBR locavore scenester Wes Anderson retro Shoreditch
+    before they sold out next level echo park lomo sustainable artisan viral butcher
+    tumblr irony +1 gentrify salvia synth beard brunch thundercats fixie vice jean
+    shorts yr quinoa squid leggings whatever Four Loko letterpress Brooklyn farm-to-table
+    Wayfarers blog keffiyeh seitan stumptown mixtape skateboard you probably haven't
+    heard of them party moon sartorial mlkshk craft beer freegan put a bird on it
+    iPhone master cleanse aesthetic bicycle rights cardigan single-origin coffee fap
+    Rerry Richardson organic mustache keytar ethical tattooed VHS tofu McSweeney's
+    lo-fi food truck raw denim
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:23.870563000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:23.904557000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_43:
+  id: 146
+  breeder_prefix: Wehner Inc
+  breed_id: 2614
+  description: quinoa sustainable Wes Anderson party fixie banh mi moon tofu Brooklyn
+    blog McSweeney's chambray brunch locavore farm-to-table DIY mlkshk echo park lo-fi
+    salvia you probably haven't heard of them keffiyeh vinyl iPhone viral hoodie cliche
+    keytar Cosby Sweater Rerry Richardson ethical Williamsburg yr mixtape PBR Shoreditch
+    wolf biodiesel high life twee leggings single-origin coffee irony synth retro
+    aesthetic VHS helvetica freegan art scenester artisan Portland squid trust fund
+    vice jean shorts mustache next level cred skateboard messenger bag Banksy fanny
+    pack whatever tumblr Marfa beard craft beer seitan +1 put a bird on it gentrify
+    Austin cardigan butcher Wayfarers master cleanse etsy stumptown sartorial vegan
+    gluten-free lomo readymade 8-bit letterpress Pitchfork thundercats bicycle rights
+    raw denim organic Four Loko American Apparel before they sold out Carles fap tattooed
+    photo booth dreamcatcher
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:25.368618000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:25.384799000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_44:
+  id: 147
+  breeder_prefix: Harris, D'Amore and West
+  breed_id: 2518
+  description: chambray mixtape tattooed messenger bag McSweeney's put a bird on it
+    jean shorts blog Portland +1 farm-to-table vinyl iPhone lomo twee thundercats
+    keffiyeh wolf seitan beard gluten-free sartorial food truck skateboard butcher
+    quinoa party Marfa gentrify lo-fi before they sold out hoodie salvia fap VHS DIY
+    master cleanse Four Loko raw denim vice vegan ethical squid whatever etsy trust
+    fund next level readymade PBR biodiesel yr mlkshk locavore Pitchfork fixie cliche
+    mustache Brooklyn cred retro 8-bit moon stumptown American Apparel single-origin
+    coffee art leggings organic tumblr Carles fanny pack Austin craft beer irony aesthetic
+    Shoreditch artisan photo booth banh mi Banksy brunch dreamcatcher scenester synth
+    Rerry Richardson viral you probably haven't heard of them echo park Williamsburg
+    high life cardigan Wes Anderson keytar helvetica Cosby Sweater letterpress Wayfarers
+    freegan bicycle rights tofu
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:26.619578000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:26.636343000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_45:
+  id: 148
+  breeder_prefix: Abernathy and Sons
+  breed_id: 2588
+  description: next level Brooklyn tattooed moon Williamsburg sustainable gentrify
+    American Apparel mustache butcher vinyl Shoreditch photo booth party blog single-origin
+    coffee Portland mixtape organic locavore brunch etsy craft beer master cleanse
+    vice aesthetic dreamcatcher artisan Rerry Richardson retro messenger bag squid
+    irony Carles lomo Banksy +1 bicycle rights Wayfarers you probably haven't heard
+    of them scenester put a bird on it jean shorts gluten-free lo-fi vegan Austin
+    trust fund high life before they sold out tofu echo park biodiesel banh mi keffiyeh
+    quinoa raw denim skateboard salvia DIY Pitchfork McSweeney's leggings iPhone tumblr
+    fanny pack wolf mlkshk Wes Anderson chambray keytar freegan stumptown cred ethical
+    fap thundercats letterpress viral art Four Loko sartorial twee yr farm-to-table
+    readymade fixie VHS whatever Marfa seitan PBR synth cardigan 8-bit cliche hoodie
+    beard Cosby Sweater food truck
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:28.232404000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:28.250343000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_46:
+  id: 149
+  breeder_prefix: Hane, Waelchi and Pfannerstill
+  breed_id: 2608
+  description: salvia chambray beard messenger bag PBR ethical gluten-free locavore
+    raw denim vinyl party Carles blog you probably haven't heard of them Portland
+    whatever viral aesthetic VHS stumptown seitan put a bird on it scenester brunch
+    echo park wolf gentrify squid vegan fap readymade sustainable tattooed biodiesel
+    retro artisan mixtape before they sold out quinoa cardigan bicycle rights McSweeney's
+    freegan Brooklyn hoodie Williamsburg Wes Anderson tofu keffiyeh Wayfarers Rerry
+    Richardson butcher leggings organic cliche mlkshk Four Loko food truck jean shorts
+    skateboard synth banh mi farm-to-table yr Cosby Sweater high life lo-fi Banksy
+    thundercats Austin craft beer mustache tumblr DIY iPhone +1 keytar sartorial moon
+    art American Apparel Marfa trust fund cred letterpress photo booth next level
+    8-bit etsy fanny pack master cleanse irony lomo fixie single-origin coffee helvetica
+    Shoreditch vice twee Pitchfork
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:29.259076000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:29.278041000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_47:
+  id: 150
+  breeder_prefix: Ferry-Raynor
+  breed_id: 2608
+  description: quinoa cred banh mi wolf Banksy Wayfarers brunch biodiesel Cosby Sweater
+    Marfa tattooed cardigan scenester Brooklyn PBR art chambray organic single-origin
+    coffee Williamsburg yr mlkshk Carles keffiyeh seitan freegan McSweeney's high
+    life tofu etsy twee sustainable Rerry Richardson Shoreditch Austin vinyl blog
+    synth salvia fanny pack photo booth keytar +1 iPhone bicycle rights vegan next
+    level vice before they sold out squid gluten-free sartorial thundercats Wes Anderson
+    8-bit food truck viral butcher craft beer readymade dreamcatcher messenger bag
+    leggings you probably haven't heard of them retro fixie ethical tumblr Pitchfork
+    mixtape farm-to-table lomo skateboard raw denim Four Loko cliche gentrify moon
+    artisan hoodie whatever American Apparel DIY jean shorts beard mustache VHS echo
+    park stumptown locavore irony helvetica lo-fi put a bird on it Portland aesthetic
+    party master cleanse letterpress trust fund
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:30.502604000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:30.528584000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_48:
+  id: 151
+  breeder_prefix: Will-McClure
+  breed_id: 2514
+  description: readymade lo-fi hoodie photo booth thundercats irony Carles mixtape
+    Brooklyn Banksy biodiesel chambray etsy artisan master cleanse twee freegan ethical
+    fixie cardigan DIY banh mi you probably haven't heard of them sartorial Pitchfork
+    sustainable vinyl synth butcher iPhone fap trust fund retro aesthetic beard tofu
+    locavore gentrify 8-bit quinoa put a bird on it salvia squid brunch scenester
+    Four Loko moon craft beer raw denim American Apparel keytar farm-to-table stumptown
+    before they sold out cred tattooed vegan jean shorts Marfa Rerry Richardson bicycle
+    rights organic blog helvetica messenger bag next level seitan Austin mlkshk cliche
+    Wes Anderson skateboard leggings echo park tumblr Shoreditch single-origin coffee
+    Wayfarers Cosby Sweater whatever party Portland VHS fanny pack art yr PBR mustache
+    +1 high life Williamsburg wolf McSweeney's viral food truck keffiyeh lomo letterpress
+    dreamcatcher gluten-free
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:32.034204000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:32.058750000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_49:
+  id: 152
+  breeder_prefix: VonRueden-Hickle
+  breed_id: 2518
+  description: put a bird on it lo-fi biodiesel mustache thundercats tattooed sartorial
+    photo booth chambray iPhone farm-to-table cred +1 jean shorts Banksy beard artisan
+    8-bit lomo VHS PBR mlkshk party whatever fanny pack Austin you probably haven't
+    heard of them etsy stumptown keffiyeh DIY quinoa squid art hoodie vegan next level
+    trust fund tumblr craft beer sustainable echo park wolf messenger bag leggings
+    cliche mixtape tofu Brooklyn salvia bicycle rights butcher single-origin coffee
+    organic Pitchfork moon Portland vice yr McSweeney's Carles brunch locavore viral
+    retro food truck Wayfarers Shoreditch ethical raw denim fap Rerry Richardson Wes
+    Anderson gentrify gluten-free fixie Williamsburg scenester blog freegan before
+    they sold out banh mi Cosby Sweater helvetica keytar aesthetic vinyl American
+    Apparel irony cardigan Four Loko readymade synth high life seitan Marfa skateboard
+    letterpress twee master cleanse
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:33.289303000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:33.306041000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_50:
+  id: 153
+  breeder_prefix: Runolfsdottir and Sons
+  breed_id: 2501
+  description: high life dreamcatcher Austin blog mixtape Four Loko beard cliche helvetica
+    locavore DIY banh mi echo park moon photo booth whatever +1 synth cardigan Pitchfork
+    food truck you probably haven't heard of them wolf aesthetic keytar Shoreditch
+    tumblr ethical Carles irony messenger bag raw denim craft beer biodiesel organic
+    McSweeney's art fap etsy keffiyeh leggings retro tofu PBR lomo chambray jean shorts
+    farm-to-table Cosby Sweater mlkshk squid hoodie Wayfarers skateboard stumptown
+    thundercats seitan Banksy Portland freegan Marfa twee Brooklyn lo-fi tattooed
+    vegan master cleanse readymade viral Rerry Richardson VHS brunch cred gentrify
+    American Apparel gluten-free Williamsburg vinyl next level vice put a bird on
+    it Wes Anderson trust fund iPhone sartorial fanny pack mustache single-origin
+    coffee yr quinoa sustainable 8-bit butcher before they sold out bicycle rights
+    fixie letterpress salvia scenester artisan
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:35.277013000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:35.324148000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+
+Listing_51:
+  id: 154
+  breeder_prefix: Hartmann, Funk and Bartell
+  breed_id: 2534
+  description: cred thundercats Marfa put a bird on it photo booth beard banh mi cardigan
+    cliche Banksy lo-fi Carles synth Rerry Richardson helvetica dreamcatcher fanny
+    pack fap sustainable retro echo park next level raw denim iPhone vice ethical
+    letterpress mlkshk biodiesel McSweeney's Shoreditch aesthetic organic Wes Anderson
+    scenester master cleanse 8-bit chambray twee food truck keytar yr hoodie bicycle
+    rights seitan fixie American Apparel vegan mustache Williamsburg Pitchfork party
+    skateboard wolf trust fund before they sold out single-origin coffee artisan locavore
+    mixtape whatever gluten-free +1 leggings Wayfarers messenger bag Austin vinyl
+    butcher irony sartorial Brooklyn high life tumblr readymade viral jean shorts
+    squid tofu you probably haven't heard of them quinoa Portland craft beer etsy
+    gentrify art brunch DIY farm-to-table blog freegan Four Loko lomo moon salvia
+    tattooed stumptown PBR keffiyeh VHS
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:32:38.239818000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:32:38.281117000 Z
+    zone: *2
+    time: *3
+  user_id: 31
+

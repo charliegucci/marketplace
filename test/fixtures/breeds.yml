@@ -1,7 +1,2132 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+Breed_1:
+  id: 2461
+  name: Affenpinscher
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.175737000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.175737000 Z
+    zone: *2
+    time: *3
 
-one:
-  name: MyString
+Breed_2:
+  id: 2462
+  name: Afghan Hound
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.179313000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.179313000 Z
+    zone: *2
+    time: *3
 
-two:
-  name: MyString
+Breed_3:
+  id: 2463
+  name: Airedale Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.183495000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.183495000 Z
+    zone: *2
+    time: *3
+
+Breed_4:
+  id: 2464
+  name: Akita
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.189598000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.189598000 Z
+    zone: *2
+    time: *3
+
+Breed_5:
+  id: 2465
+  name: Alaskan Malamute
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.199439000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.199439000 Z
+    zone: *2
+    time: *3
+
+Breed_6:
+  id: 2466
+  name: Standard American Eskimo Dog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.218899000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.218899000 Z
+    zone: *2
+    time: *3
+
+Breed_7:
+  id: 2467
+  name: Miniature American Eskimo Dog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.224114000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.224114000 Z
+    zone: *2
+    time: *3
+
+Breed_8:
+  id: 2468
+  name: Toy American Eskimo Dog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.230780000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.230780000 Z
+    zone: *2
+    time: *3
+
+Breed_9:
+  id: 2469
+  name: American Foxhound
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.236423000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.236423000 Z
+    zone: *2
+    time: *3
+
+Breed_10:
+  id: 2470
+  name: American Staffordshire Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.241504000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.241504000 Z
+    zone: *2
+    time: *3
+
+Breed_11:
+  id: 2471
+  name: American Water Spaniel
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.245027000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.245027000 Z
+    zone: *2
+    time: *3
+
+Breed_12:
+  id: 2472
+  name: Anatolian Shepherd Dog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.267309000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.267309000 Z
+    zone: *2
+    time: *3
+
+Breed_13:
+  id: 2473
+  name: Australian Cattle Dog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.273656000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.273656000 Z
+    zone: *2
+    time: *3
+
+Breed_14:
+  id: 2474
+  name: Australian Shepherd
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.277499000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.277499000 Z
+    zone: *2
+    time: *3
+
+Breed_15:
+  id: 2475
+  name: Australian Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.283216000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.283216000 Z
+    zone: *2
+    time: *3
+
+Breed_16:
+  id: 2476
+  name: Basenji
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.286271000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.286271000 Z
+    zone: *2
+    time: *3
+
+Breed_17:
+  id: 2477
+  name: Basset Hound
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.290017000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.290017000 Z
+    zone: *2
+    time: *3
+
+Breed_18:
+  id: 2478
+  name: Beagle
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.293396000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.293396000 Z
+    zone: *2
+    time: *3
+
+Breed_19:
+  id: 2479
+  name: Bearded Collie
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.299908000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.299908000 Z
+    zone: *2
+    time: *3
+
+Breed_20:
+  id: 2480
+  name: Beauceron
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.305326000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.305326000 Z
+    zone: *2
+    time: *3
+
+Breed_21:
+  id: 2481
+  name: Bedlington Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.311139000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.311139000 Z
+    zone: *2
+    time: *3
+
+Breed_22:
+  id: 2482
+  name: Belgian Malinois
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.314610000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.314610000 Z
+    zone: *2
+    time: *3
+
+Breed_23:
+  id: 2483
+  name: Belgian Sheepdog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.318163000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.318163000 Z
+    zone: *2
+    time: *3
+
+Breed_24:
+  id: 2484
+  name: Belgian Tervuren
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.322076000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.322076000 Z
+    zone: *2
+    time: *3
+
+Breed_25:
+  id: 2485
+  name: Bernese Mountain Dog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.325881000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.325881000 Z
+    zone: *2
+    time: *3
+
+Breed_26:
+  id: 2486
+  name: Bichon Frise
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.330870000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.330870000 Z
+    zone: *2
+    time: *3
+
+Breed_27:
+  id: 2487
+  name: Black and Tan Coonhound
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.336192000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.336192000 Z
+    zone: *2
+    time: *3
+
+Breed_28:
+  id: 2488
+  name: Black Russian Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.339800000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.339800000 Z
+    zone: *2
+    time: *3
+
+Breed_29:
+  id: 2489
+  name: Bloodhound
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.344349000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.344349000 Z
+    zone: *2
+    time: *3
+
+Breed_30:
+  id: 2490
+  name: Border Collie
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.348315000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.348315000 Z
+    zone: *2
+    time: *3
+
+Breed_31:
+  id: 2491
+  name: Border Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.351585000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.351585000 Z
+    zone: *2
+    time: *3
+
+Breed_32:
+  id: 2492
+  name: Borzoi
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.354976000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.354976000 Z
+    zone: *2
+    time: *3
+
+Breed_33:
+  id: 2493
+  name: Boston Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.358282000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.358282000 Z
+    zone: *2
+    time: *3
+
+Breed_34:
+  id: 2494
+  name: Bouvier des Flandres
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.361523000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.361523000 Z
+    zone: *2
+    time: *3
+
+Breed_35:
+  id: 2495
+  name: Boxer
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.370150000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.370150000 Z
+    zone: *2
+    time: *3
+
+Breed_36:
+  id: 2496
+  name: Briard
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.379836000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.379836000 Z
+    zone: *2
+    time: *3
+
+Breed_37:
+  id: 2497
+  name: Brittany
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.384120000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.384120000 Z
+    zone: *2
+    time: *3
+
+Breed_38:
+  id: 2498
+  name: Brussels Griffon
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.388375000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.388375000 Z
+    zone: *2
+    time: *3
+
+Breed_39:
+  id: 2499
+  name: Bulldog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.392012000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.392012000 Z
+    zone: *2
+    time: *3
+
+Breed_40:
+  id: 2500
+  name: Bullmastiff
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.394934000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.394934000 Z
+    zone: *2
+    time: *3
+
+Breed_41:
+  id: 2501
+  name: Bull Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.398190000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.398190000 Z
+    zone: *2
+    time: *3
+
+Breed_42:
+  id: 2502
+  name: Cairn Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.402462000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.402462000 Z
+    zone: *2
+    time: *3
+
+Breed_43:
+  id: 2503
+  name: Canaan Dog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.409361000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.409361000 Z
+    zone: *2
+    time: *3
+
+Breed_44:
+  id: 2504
+  name: Cardigan Welsh Corgi
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.413643000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.413643000 Z
+    zone: *2
+    time: *3
+
+Breed_45:
+  id: 2505
+  name: Cavalier King Charles Spaniel
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.417636000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.417636000 Z
+    zone: *2
+    time: *3
+
+Breed_46:
+  id: 2506
+  name: Chesapeake Bay Retriever
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.420869000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.420869000 Z
+    zone: *2
+    time: *3
+
+Breed_47:
+  id: 2507
+  name: Chihuahua
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.424211000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.424211000 Z
+    zone: *2
+    time: *3
+
+Breed_48:
+  id: 2508
+  name: Chinese Crested
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.428602000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.428602000 Z
+    zone: *2
+    time: *3
+
+Breed_49:
+  id: 2509
+  name: Chinese Shar-Pei
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.433796000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.433796000 Z
+    zone: *2
+    time: *3
+
+Breed_50:
+  id: 2510
+  name: Chow Chow
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.438377000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.438377000 Z
+    zone: *2
+    time: *3
+
+Breed_51:
+  id: 2511
+  name: Clumber Spaniel
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.442970000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.442970000 Z
+    zone: *2
+    time: *3
+
+Breed_52:
+  id: 2512
+  name: Cocker Spaniel
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.451335000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.451335000 Z
+    zone: *2
+    time: *3
+
+Breed_53:
+  id: 2513
+  name: Collie
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.454809000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.454809000 Z
+    zone: *2
+    time: *3
+
+Breed_54:
+  id: 2514
+  name: Curly-Coated Retriever
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.458148000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.458148000 Z
+    zone: *2
+    time: *3
+
+Breed_55:
+  id: 2515
+  name: Dachshund
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.463095000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.463095000 Z
+    zone: *2
+    time: *3
+
+Breed_56:
+  id: 2516
+  name: Dalmatian
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.471418000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.471418000 Z
+    zone: *2
+    time: *3
+
+Breed_57:
+  id: 2517
+  name: Dandie Dinmont Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.476727000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.476727000 Z
+    zone: *2
+    time: *3
+
+Breed_58:
+  id: 2518
+  name: Doberman Pinscher
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.481217000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.481217000 Z
+    zone: *2
+    time: *3
+
+Breed_59:
+  id: 2519
+  name: Dogue de Bordeaux
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.485264000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.485264000 Z
+    zone: *2
+    time: *3
+
+Breed_60:
+  id: 2520
+  name: English Cocker Spaniel
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.488916000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.488916000 Z
+    zone: *2
+    time: *3
+
+Breed_61:
+  id: 2521
+  name: English Foxhound
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.493867000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.493867000 Z
+    zone: *2
+    time: *3
+
+Breed_62:
+  id: 2522
+  name: English Setter
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.497474000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.497474000 Z
+    zone: *2
+    time: *3
+
+Breed_63:
+  id: 2523
+  name: English Springer Spaniel
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.501212000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.501212000 Z
+    zone: *2
+    time: *3
+
+Breed_64:
+  id: 2524
+  name: English Toy Spaniel
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.505819000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.505819000 Z
+    zone: *2
+    time: *3
+
+Breed_65:
+  id: 2525
+  name: Field Spaniel
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.512477000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.512477000 Z
+    zone: *2
+    time: *3
+
+Breed_66:
+  id: 2526
+  name: Finnish Spitz
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.516438000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.516438000 Z
+    zone: *2
+    time: *3
+
+Breed_67:
+  id: 2527
+  name: Flat-Coated Retriever
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.520225000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.520225000 Z
+    zone: *2
+    time: *3
+
+Breed_68:
+  id: 2528
+  name: French Bulldog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.523703000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.523703000 Z
+    zone: *2
+    time: *3
+
+Breed_69:
+  id: 2529
+  name: German Pinscher
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.529444000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.529444000 Z
+    zone: *2
+    time: *3
+
+Breed_70:
+  id: 2530
+  name: German Shepherd Dog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.540066000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.540066000 Z
+    zone: *2
+    time: *3
+
+Breed_71:
+  id: 2531
+  name: German Shorthaired Pointer
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.547368000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.547368000 Z
+    zone: *2
+    time: *3
+
+Breed_72:
+  id: 2532
+  name: German Wirehaired Pointer
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.552540000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.552540000 Z
+    zone: *2
+    time: *3
+
+Breed_73:
+  id: 2533
+  name: Giant Schnauzer
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.556275000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.556275000 Z
+    zone: *2
+    time: *3
+
+Breed_74:
+  id: 2534
+  name: Glen of Imaal Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.562020000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.562020000 Z
+    zone: *2
+    time: *3
+
+Breed_75:
+  id: 2535
+  name: Golden Retriever
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.566245000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.566245000 Z
+    zone: *2
+    time: *3
+
+Breed_76:
+  id: 2536
+  name: Gordon Setter
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.573752000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.573752000 Z
+    zone: *2
+    time: *3
+
+Breed_77:
+  id: 2537
+  name: Great Dane
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.579649000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.579649000 Z
+    zone: *2
+    time: *3
+
+Breed_78:
+  id: 2538
+  name: Greater Swiss Mountain Dog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.584002000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.584002000 Z
+    zone: *2
+    time: *3
+
+Breed_79:
+  id: 2539
+  name: Great Pyrenees
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.589024000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.589024000 Z
+    zone: *2
+    time: *3
+
+Breed_80:
+  id: 2540
+  name: Greyhound
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.593946000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.593946000 Z
+    zone: *2
+    time: *3
+
+Breed_81:
+  id: 2541
+  name: Harrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.598188000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.598188000 Z
+    zone: *2
+    time: *3
+
+Breed_82:
+  id: 2542
+  name: Havanese
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.602462000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.602462000 Z
+    zone: *2
+    time: *3
+
+Breed_83:
+  id: 2543
+  name: Ibizan Hound
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.615274000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.615274000 Z
+    zone: *2
+    time: *3
+
+Breed_84:
+  id: 2544
+  name: Irish Setter
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.625057000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.625057000 Z
+    zone: *2
+    time: *3
+
+Breed_85:
+  id: 2545
+  name: Irish Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.631047000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.631047000 Z
+    zone: *2
+    time: *3
+
+Breed_86:
+  id: 2546
+  name: Irish Water Spaniel
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.637174000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.637174000 Z
+    zone: *2
+    time: *3
+
+Breed_87:
+  id: 2547
+  name: Irish Wolfhound
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.645026000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.645026000 Z
+    zone: *2
+    time: *3
+
+Breed_88:
+  id: 2548
+  name: Italian Greyhound
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.649764000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.649764000 Z
+    zone: *2
+    time: *3
+
+Breed_89:
+  id: 2549
+  name: Jack Russell Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.653253000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.653253000 Z
+    zone: *2
+    time: *3
+
+Breed_90:
+  id: 2550
+  name: Japanese Chin
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.656476000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.656476000 Z
+    zone: *2
+    time: *3
+
+Breed_91:
+  id: 2551
+  name: Keeshond
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.659339000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.659339000 Z
+    zone: *2
+    time: *3
+
+Breed_92:
+  id: 2552
+  name: Kerry Blue Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.662471000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.662471000 Z
+    zone: *2
+    time: *3
+
+Breed_93:
+  id: 2553
+  name: Komondor
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.665878000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.665878000 Z
+    zone: *2
+    time: *3
+
+Breed_94:
+  id: 2554
+  name: Kuvasz
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.672069000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.672069000 Z
+    zone: *2
+    time: *3
+
+Breed_95:
+  id: 2555
+  name: Labrador Retriever
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.677647000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.677647000 Z
+    zone: *2
+    time: *3
+
+Breed_96:
+  id: 2556
+  name: Lakeland Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.681849000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.681849000 Z
+    zone: *2
+    time: *3
+
+Breed_97:
+  id: 2557
+  name: Lhasa Apso
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.686252000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.686252000 Z
+    zone: *2
+    time: *3
+
+Breed_98:
+  id: 2558
+  name: Lowchen
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.689459000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.689459000 Z
+    zone: *2
+    time: *3
+
+Breed_99:
+  id: 2559
+  name: Maltese
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.692563000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.692563000 Z
+    zone: *2
+    time: *3
+
+Breed_100:
+  id: 2560
+  name: Standard Manchester Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.696415000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.696415000 Z
+    zone: *2
+    time: *3
+
+Breed_101:
+  id: 2561
+  name: Mastiff
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.699766000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.699766000 Z
+    zone: *2
+    time: *3
+
+Breed_102:
+  id: 2562
+  name: Miniature Bull Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.711547000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.711547000 Z
+    zone: *2
+    time: *3
+
+Breed_103:
+  id: 2563
+  name: Miniature Pinscher
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.718082000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.718082000 Z
+    zone: *2
+    time: *3
+
+Breed_104:
+  id: 2564
+  name: Miniature Poodle
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.724660000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.724660000 Z
+    zone: *2
+    time: *3
+
+Breed_105:
+  id: 2565
+  name: Miniature Schnauzer
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.729813000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.729813000 Z
+    zone: *2
+    time: *3
+
+Breed_106:
+  id: 2566
+  name: Neapolitan Mastiff
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.733046000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.733046000 Z
+    zone: *2
+    time: *3
+
+Breed_107:
+  id: 2567
+  name: Newfoundland
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.736718000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.736718000 Z
+    zone: *2
+    time: *3
+
+Breed_108:
+  id: 2568
+  name: Norfolk Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.740247000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.740247000 Z
+    zone: *2
+    time: *3
+
+Breed_109:
+  id: 2569
+  name: Norwegian Elkhound
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.744674000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.744674000 Z
+    zone: *2
+    time: *3
+
+Breed_110:
+  id: 2570
+  name: Norwich Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.751119000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.751119000 Z
+    zone: *2
+    time: *3
+
+Breed_111:
+  id: 2571
+  name: Nova Scotia Duck Tolling Retriever
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.756309000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.756309000 Z
+    zone: *2
+    time: *3
+
+Breed_112:
+  id: 2572
+  name: Old English Sheepdog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.761464000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.761464000 Z
+    zone: *2
+    time: *3
+
+Breed_113:
+  id: 2573
+  name: Otterhound
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.764513000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.764513000 Z
+    zone: *2
+    time: *3
+
+Breed_114:
+  id: 2574
+  name: Papillon
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.769812000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.769812000 Z
+    zone: *2
+    time: *3
+
+Breed_115:
+  id: 2575
+  name: Parson Russell Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.776970000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.776970000 Z
+    zone: *2
+    time: *3
+
+Breed_116:
+  id: 2576
+  name: Pekingese
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.789003000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.789003000 Z
+    zone: *2
+    time: *3
+
+Breed_117:
+  id: 2577
+  name: Pembroke Welsh Corgi
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.792972000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.792972000 Z
+    zone: *2
+    time: *3
+
+Breed_118:
+  id: 2578
+  name: Petit Basset Griffon Vendeen
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.796734000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.796734000 Z
+    zone: *2
+    time: *3
+
+Breed_119:
+  id: 2579
+  name: Pharaoh Hound
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.800626000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.800626000 Z
+    zone: *2
+    time: *3
+
+Breed_120:
+  id: 2580
+  name: Plott
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.804712000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.804712000 Z
+    zone: *2
+    time: *3
+
+Breed_121:
+  id: 2581
+  name: Pointer
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.811376000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.811376000 Z
+    zone: *2
+    time: *3
+
+Breed_122:
+  id: 2582
+  name: Polish Lowland Sheepdog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.815701000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.815701000 Z
+    zone: *2
+    time: *3
+
+Breed_123:
+  id: 2583
+  name: Pomeranian
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.819964000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.819964000 Z
+    zone: *2
+    time: *3
+
+Breed_124:
+  id: 2584
+  name: Portuguese Water Dog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.823536000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.823536000 Z
+    zone: *2
+    time: *3
+
+Breed_125:
+  id: 2585
+  name: Pug
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.826958000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.826958000 Z
+    zone: *2
+    time: *3
+
+Breed_126:
+  id: 2586
+  name: Puli
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.831509000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.831509000 Z
+    zone: *2
+    time: *3
+
+Breed_127:
+  id: 2587
+  name: Rhodesian Ridgeback
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.836212000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.836212000 Z
+    zone: *2
+    time: *3
+
+Breed_128:
+  id: 2588
+  name: Rottweiler
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.846265000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.846265000 Z
+    zone: *2
+    time: *3
+
+Breed_129:
+  id: 2589
+  name: Saint Bernard
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.911102000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.911102000 Z
+    zone: *2
+    time: *3
+
+Breed_130:
+  id: 2590
+  name: Saluki
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.916177000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.916177000 Z
+    zone: *2
+    time: *3
+
+Breed_131:
+  id: 2591
+  name: Samoyed
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.920483000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.920483000 Z
+    zone: *2
+    time: *3
+
+Breed_132:
+  id: 2592
+  name: Schipperke
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.925233000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.925233000 Z
+    zone: *2
+    time: *3
+
+Breed_133:
+  id: 2593
+  name: Scottish Deerhound
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.929559000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.929559000 Z
+    zone: *2
+    time: *3
+
+Breed_134:
+  id: 2594
+  name: Scottish Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.933148000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.933148000 Z
+    zone: *2
+    time: *3
+
+Breed_135:
+  id: 2595
+  name: Sealyham Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.936322000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.936322000 Z
+    zone: *2
+    time: *3
+
+Breed_136:
+  id: 2596
+  name: Shetland Sheepdog
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.939591000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.939591000 Z
+    zone: *2
+    time: *3
+
+Breed_137:
+  id: 2597
+  name: Shiba Inu
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.943683000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.943683000 Z
+    zone: *2
+    time: *3
+
+Breed_138:
+  id: 2598
+  name: Shih Tzu
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.950650000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.950650000 Z
+    zone: *2
+    time: *3
+
+Breed_139:
+  id: 2599
+  name: Siberian Husky
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.962208000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.962208000 Z
+    zone: *2
+    time: *3
+
+Breed_140:
+  id: 2600
+  name: Silky Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.965869000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.965869000 Z
+    zone: *2
+    time: *3
+
+Breed_141:
+  id: 2601
+  name: Skye Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.970753000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.970753000 Z
+    zone: *2
+    time: *3
+
+Breed_142:
+  id: 2602
+  name: Smooth Fox Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.991883000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.991883000 Z
+    zone: *2
+    time: *3
+
+Breed_143:
+  id: 2603
+  name: Soft Coated Wheaten Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.995197000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.995197000 Z
+    zone: *2
+    time: *3
+
+Breed_144:
+  id: 2604
+  name: Spinone Italiano
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:12.998736000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:12.998736000 Z
+    zone: *2
+    time: *3
+
+Breed_145:
+  id: 2605
+  name: Staffordshire Bull Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.002475000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.002475000 Z
+    zone: *2
+    time: *3
+
+Breed_146:
+  id: 2606
+  name: Standard Poodle
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.005284000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.005284000 Z
+    zone: *2
+    time: *3
+
+Breed_147:
+  id: 2607
+  name: Standard Schnauzer
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.010358000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.010358000 Z
+    zone: *2
+    time: *3
+
+Breed_148:
+  id: 2608
+  name: Sussex Spaniel
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.014215000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.014215000 Z
+    zone: *2
+    time: *3
+
+Breed_149:
+  id: 2609
+  name: Swedish Vallhund
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.019761000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.019761000 Z
+    zone: *2
+    time: *3
+
+Breed_150:
+  id: 2610
+  name: Tibetan Mastiff
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.024781000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.024781000 Z
+    zone: *2
+    time: *3
+
+Breed_151:
+  id: 2611
+  name: Tibetan Spaniel
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.030210000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.030210000 Z
+    zone: *2
+    time: *3
+
+Breed_152:
+  id: 2612
+  name: Tibetan Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.035437000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.035437000 Z
+    zone: *2
+    time: *3
+
+Breed_153:
+  id: 2613
+  name: Toy Fox Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.038653000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.038653000 Z
+    zone: *2
+    time: *3
+
+Breed_154:
+  id: 2614
+  name: Toy Manchester Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.042174000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.042174000 Z
+    zone: *2
+    time: *3
+
+Breed_155:
+  id: 2615
+  name: Toy Poodle
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.047198000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.047198000 Z
+    zone: *2
+    time: *3
+
+Breed_156:
+  id: 2616
+  name: Vizsla
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.057685000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.057685000 Z
+    zone: *2
+    time: *3
+
+Breed_157:
+  id: 2617
+  name: Weimaraner
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.060864000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.060864000 Z
+    zone: *2
+    time: *3
+
+Breed_158:
+  id: 2618
+  name: Welsh Springer Spaniel
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.064142000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.064142000 Z
+    zone: *2
+    time: *3
+
+Breed_159:
+  id: 2619
+  name: Welsh Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.068378000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.068378000 Z
+    zone: *2
+    time: *3
+
+Breed_160:
+  id: 2620
+  name: West Highland White Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.072239000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.072239000 Z
+    zone: *2
+    time: *3
+
+Breed_161:
+  id: 2621
+  name: Whippet
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.078342000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.078342000 Z
+    zone: *2
+    time: *3
+
+Breed_162:
+  id: 2622
+  name: Wire Fox Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.081832000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.081832000 Z
+    zone: *2
+    time: *3
+
+Breed_163:
+  id: 2623
+  name: Wirehaired Pointing Griffon
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.085735000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.085735000 Z
+    zone: *2
+    time: *3
+
+Breed_164:
+  id: 2624
+  name: Yorkshire Terrier
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-10 09:31:13.089419000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-10 09:31:13.089419000 Z
+    zone: *2
+    time: *3
+

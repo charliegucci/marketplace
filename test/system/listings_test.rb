@@ -61,4 +61,6 @@ class ListingsTest < ApplicationSystemTestCase
 
     assert_text 'Message was successfully sent'
   end
+  # I was able to go to homepage, type "mastiff" click search, look for any matching, click on the contact seller button,
+  # fill in the form and send message and able to check if email went thru.
 end

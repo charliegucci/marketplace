@@ -27,7 +27,6 @@ class MembershipController < ApplicationController
     payment_id= params[:data][:object][:payment_intent]
     payment = Stripe::PaymentIntent.retrieve(payment_id)
     user_id = payment.metadata.user_id
-    
     user = User.find(user_id)
     user.update_attributes(stripe_payment_id: payment_id)
     user.application_status = 'completed'

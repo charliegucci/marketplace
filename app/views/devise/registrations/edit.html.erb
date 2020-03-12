@@ -55,7 +55,7 @@
             </div>
             <div class="field">
               <%= f.label :breeder_supply_number, 'Breeder Supply Number' %><br />
-              <%= f.text_field :breeder_supply_number, maxlength:10, placeholder:'e.g. 1234567890', autofocus: true %>
+              <%= f.text_field :breeder_supply_number, maxlength:5, placeholder:'e.g. 12345', autofocus: true %>
             </div>
             <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
             <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>

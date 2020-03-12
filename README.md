@@ -166,7 +166,7 @@ The user stories I have created involves three key consumer roles: admin, buyer 
 
 ## ERD
 
-![sitemap](docs/ERD.png) <br/>
+![sitemap](docs/erd_original.png) <br/>
 
 ## High-level components
 
@@ -194,8 +194,6 @@ The following Ruby on Rails gems were also implemented in the application:
 | Pagy         | is the ultimate pagination gem that outperforms the others in each and every benchmark and comparison. We used it to create the apps pagination. https://github.com/ddnexus/pagy                                                                                                                                                     |
 | Bulma        | is a free, open source CSS framework based on Flexbox and used by more than 200,000 developers. We used it to style the HTML layout. https://bulma.io/                                                                                                                                                                               |
 | Pry          | An IRB alternative and runtime developer console. We used this as an debugging tool. https://rubygems.org/gems/pry                                                                                                                                                                                                                   |
-| Faraday      | is an HTTP client library that provides a common interface over many adapters (such as Net::HTTP) and embraces the concept of Rack middleware when processing the request/response cycle. We used this to fetch images from Dog Api. https://lostisland.github.io/faraday/                                                           |
-| Ffaker       | We used this to generate random data in seeding the database. https://github.com/ffaker/ffaker                                                                                                                                                                                                                                       |
 
 ## Active record associations
 
@@ -239,4 +237,31 @@ Buyer Message has many to one (belongs_to) relation with Listing which means Lis
 
 ## Database relations and Database schema
 
+![sitemap](docs/erd.png) <br/>
+
+This database schema is the implemented design of the application. All tables were been normalized by:
+
+- adding user_id as a Foreign key to Listings table.
+- adding breed_id as a Foreign key to Listings table.
+- adding listing_id as a Foreign key to Buyer_Message table.
+
+Database Relation: <br/>
+
+- User Model has many Listings
+- Breed Model has many Listings
+- Listing Model belongs to Breed and User
+- Listing Model has many Buyer::Messages
+- Buyer::Message Model belongs to Listing
+
 ## Ways task were allocated and tracked
+
+![sitemap](docs/trello1.png) <br/>
+![sitemap](docs/trello2.png) <br/>
+![sitemap](docs/trello3.png) <br/>
+![sitemap](docs/trello4.png) <br/>
+![sitemap](docs/trello5.png) <br/>
+![sitemap](docs/trello6.png) <br/>
+![sitemap](docs/trello7.png) <br/>
+![sitemap](docs/trello8.png) <br/>
+![sitemap](docs/trello9.png) <br/>
+![sitemap](docs/trello10.png) <br/>

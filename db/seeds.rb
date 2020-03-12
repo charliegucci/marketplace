@@ -8,6 +8,7 @@
 
 # 3rd-party APIs offering sample images can sometimes return 500 errors.
 # If this happens, this method opens the url one more time.
+
 def open_with_retry(url)
   open(url)
 rescue OpenURI::HTTPError => e
@@ -216,7 +217,7 @@ user = User.create(
   suburb: 'Park Ridge',
   state: 'Queensland',
   postcode: '4125',
-  breeder_supply_number: '0123456789',
+  breeder_supply_number: '12345',
 )
 attach_avatar_to_user(user)
 

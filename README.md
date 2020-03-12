@@ -237,7 +237,7 @@ Buyer Message has many to one (belongs_to) relation with Listing which means Lis
 
 ## Database relations and Database schema
 
-![sitemap](docs/erd.png) <br/>
+![sitemap](docs/ERD.png) <br/>
 
 This database schema is the implemented design of the application. All tables were been normalized by:
 

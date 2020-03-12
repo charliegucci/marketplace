@@ -40,7 +40,7 @@ The application was created for the sole purpose of promoting the pure bred pedi
 | Dog | Pure Bred Pedigree Dog | Cross Breeds |
 | :------- | :------------------------: | :-------------- |
 | |Both parents are of the same breed.| A Dog resulting from the deliberate mating of two unrelated breed types.|
-|| The breed is recognised by the Australian National Kennel Council (ANKC) or one of its Affiliates.| A Dog resulting from an accidental or intentional mating of two different breed types.|
+|| The breed is recognised by the Australian National Kennel Council (ANKC) or one of its Affiliates.| A Dog resulting from an accidental or unintentional mating of two different breed types.|
 || The dog's breeders are registered to breed puppies.| A Dog resulting from the mating of one pedigree or pure bred parent and one cross bred or designer bred dog.|
 || The parents of any puppies are registered with the ANKC or one of its affiliates to be bred from | A Cross Breed dog has not been bred by a registered breeder|
 || It has a pedigree showing at least 3 generations of parentage |A Cross Breed dog is not pure bred or pedigree.| <br/>
@@ -55,7 +55,7 @@ Disadvantages of Cross breeds are the following: <br>
 
 According to Australian Companion Animal Council, Australia has one of the highest rates of dog ownership in the world, despite a small decline in recent years. About 2.8 million households have at least one dog. Figures on cross breed dogs are not centralised but research estimates sales of cross bred dogs surpassed pure bred pedigree.<br/>
 
-Adding a dog to the family is a huge step because it involves 10 to 15 years of commitment and the final choice betwenn a pedigree dog or a designer dog is up to you.<br/>
+Adding a dog to the family is a huge step because it involves 10 to 15 years of commitment and the final choice between a pedigree dog or a cross breed dog is up to you.<br/>
 
 In this app, we aim to:<br/>
 

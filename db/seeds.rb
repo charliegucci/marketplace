@@ -9,6 +9,7 @@
 # 3rd-party APIs offering sample images can sometimes return 500 errors.
 # If this happens, this method opens the url one more time.
 
+
 def open_with_retry(url)
   open(url)
 rescue OpenURI::HTTPError => e

@@ -1,4 +1,6 @@
 class ListingPolicy < ApplicationPolicy
+  
+  #defines the authorization in the listing controller
   def index?
     user.seller? && user.completed? 
   end

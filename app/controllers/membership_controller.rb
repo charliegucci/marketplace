@@ -1,7 +1,10 @@
 class MembershipController < ApplicationController
+  # devise helper for authentication
   skip_before_action :verify_authenticity_token, only: [:webhook]
   before_action :authenticate_user!
   skip_before_action :authenticate_user!, only: [:webhook]
+  
+  # creates user and session for stripe
   def new
     @user = current_user
     @session = Stripe::Checkout::Session.create(
@@ -23,7 +26,8 @@ class MembershipController < ApplicationController
    )
  end
 
-  def webhook
+  # saves data for user to check if payment went thru and change user application status to completed
+ def webhook
     payment_id= params[:data][:object][:payment_intent]
     payment = Stripe::PaymentIntent.retrieve(payment_id)
     user_id = payment.metadata.user_id

@@ -1,21 +1,25 @@
 class ListingsController < ApplicationController
-  before_action :authenticate_user!
+  # devise helper to authenticate first
+  before_action :authenticate_user! 
 
+  # list the listings
   def index
     @pagy, @listings = pagy(Listing.where(user: current_user))
-    authorize(@listings)
+    authorize(@listings) # pundit authorization
     @user = current_user
   end
 
+  # define new listing
   def new
     @listing = Listing.new
-    authorize(@listing)
+    authorize(@listing) # pundit authorization
   end
 
+  # creates new listing
   def create
     @listing = Listing.new(listing_params.merge(user: current_user))
-    authorize(@listing)
-
+    authorize(@listing) # pundit authorization
+# checked if save
     respond_to do |format|
       if @listing.save
         format.html { redirect_to @listing, notice: 'Listing was successfully created.' }
@@ -28,19 +32,22 @@ class ListingsController < ApplicationController
     end
   end
 
+  # edit listing
   def edit
     @listing = Listing.find_by(id: params[:id])
-    authorize(@listing)
+    authorize(@listing) # pundit authorization
   end
 
+  # show listing
   def show
     @listing = Listing.find_by(id: params[:id])
-    authorize(@listing)
+    authorize(@listing) # pundit authorization
   end
 
+  # delete listing
   def destroy
     @listing = Listing.find_by(id: params[:id])
-    authorize(@listing)
+    authorize(@listing) # pundit authorization
 
     @listing.destroy
     respond_to do |format|
@@ -48,9 +55,10 @@ class ListingsController < ApplicationController
     end
   end
 
+  # updates listing
   def update
     @listing = Listing.find_by(id: params[:id])
-    authorize(@listing)
+    authorize(@listing) # pundit authorization
 
     respond_to do |format|
       if @listing.update(listing_params)
@@ -63,7 +71,7 @@ class ListingsController < ApplicationController
   end
 
   protected
-
+# sanitized params
   def listing_params
     params.require(:listing).permit(:description, :breed_id, :breeder_prefix, :picture)
   end

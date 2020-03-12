@@ -10,6 +10,7 @@ class User < ApplicationRecord
 
   has_one_attached :avatar
 
+  # validates the role of the user
   ROLE = %w(guest seller admin)
   validates :role, inclusion: {
     in: ROLE,
@@ -49,6 +50,7 @@ class User < ApplicationRecord
     application_status == 'completed'
   end
   
+  # callbacks for users after changing or updating corresponding values
   after_save :after_approve_steps, if: Proc.new { |user| !user.seller? && user.approved? }
   after_save :after_reject_steps, if: Proc.new { |user| user.guest? && user.rejected? }
   after_save :after_complete_steps, if: Proc.new { |user| user.seller? && user.completed? }
@@ -66,10 +68,12 @@ class User < ApplicationRecord
     send_confirm_payment_email
   end
 
+  # Action Mailer method to send email
   def send_confirm_payment_email
     UserMailer.with(user: self).send_confirm_payment_email.deliver_now
   end
 
+  # Action Mailer method to send email
   def send_approval_email
     UserMailer.with(user: self).seller_approval_email.deliver_now
   end
@@ -78,16 +82,9 @@ class User < ApplicationRecord
     update_attributes(role: 'seller')
   end
   
+  # Action Mailer method to send email
   def send_rejection_email
     UserMailer.with(user: self).seller_rejection_email.deliver_now
-  end
-
-  def contact_seller_email(listing_id)
-    listing = Listing.find(listing_id)
-    recipient = listing.user
-    breed = listing.breed
-    UserMailer.with(user: self, listing: listing, recipient: recipient, breed: breed).contact_seller_email.deliver_now
-    
   end
 
   def guest?

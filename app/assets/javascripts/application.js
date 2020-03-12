@@ -15,6 +15,8 @@
 //= require activestorage
 //= require_tree .
 
+
+// script for the notification
 $(document).ready(function () {
   setTimeout(function () {
     $('#wrapper').fadeOut("slow", function () {

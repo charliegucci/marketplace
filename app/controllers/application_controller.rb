@@ -1,14 +1,19 @@
 class ApplicationController < ActionController::Base
-  include Pundit
-  include Pagy::Backend
+  include Pundit #authorization gem
+  include Pagy::Backend #pagination gem
 
-  default_form_builder BulmaFormBuilder
-  before_action :configure_permitted_parameters, if: :devise_controller?
+  # bulma css form builder
+  default_form_builder BulmaFormBuilder 
+  
+  # callback action to check configure_permitted_parameters for devise controller and permits
+  before_action :configure_permitted_parameters, if: :devise_controller? 
 
+  # devise helper to check authorization unless define in public controller
   after_action :verify_authorized, unless: :public_controller?
 
   protected
 
+  # devise method to route user to particular path 
   def after_sign_in_path_for(resource)
     if current_user.seller? && current_user.approved?
         membership_path
@@ -19,10 +24,12 @@ class ApplicationController < ActionController::Base
     end    
   end
 
+  # defines public controller
   def public_controller?
     devise_controller? || whitelisted_controllers.include?(self.class)
   end
 
+  # list of controllers who doesnt need  authentication
   def whitelisted_controllers
     [
       HomeController,
@@ -32,6 +39,7 @@ class ApplicationController < ActionController::Base
     ]
   end
 
+  # allows params to be pass
   def configure_permitted_parameters
     devise_parameter_sanitizer.permit(:sign_up, keys: [:name, :street_number_name, :suburb, :state, :avatar])
     devise_parameter_sanitizer.permit(:account_update, keys: [:name, :street_number_name, :suburb,

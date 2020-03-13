@@ -30,7 +30,7 @@ gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'pundit', '~> 2.1'
 
 # Rails Admin Dashboard
-gem 'administrate', '~> 0.12.0'
+gem 'administrate', '~> 0.13.0'
 # Get ActiveStorage attachments to work with administrate gem
 gem 'administrate-field-active_storage', '0.1.8'
 

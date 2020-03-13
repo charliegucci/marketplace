@@ -247,6 +247,7 @@ admin = User.create(
   state: 'Queensland',
   postcode: '4125',
   breeder_supply_number: '12345',
+  application_status: 'completed',
 )
 attach_avatar_to_user(admin)
 

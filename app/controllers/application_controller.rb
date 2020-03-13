@@ -1,7 +1,8 @@
 class ApplicationController < ActionController::Base
   include Pundit #authorization gem
   include Pagy::Backend #pagination gem
-
+  
+  rescue_from Pundit::NotAuthorizedError, with: :user_not_authorized
   # bulma css form builder
   default_form_builder BulmaFormBuilder 
   
@@ -44,6 +45,13 @@ class ApplicationController < ActionController::Base
     devise_parameter_sanitizer.permit(:sign_up, keys: [:name, :street_number_name, :suburb, :state, :avatar])
     devise_parameter_sanitizer.permit(:account_update, keys: [:name, :street_number_name, :suburb,
       :postcode, :breeder_supply_number, :state, :avatar])
+  end
+  
+  private
+
+  def user_not_authorized
+    flash[:alert] = "You are not authorized to perform this action."
+    redirect_to(request.referrer || root_path)
   end
 end
 
